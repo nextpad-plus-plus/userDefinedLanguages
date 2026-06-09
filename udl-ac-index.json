@@ -1,8 +1,8 @@
 {
  "name": "nextpad-udl-ac-index",
  "version": 1,
- "generated": "2026-06-09T15:57:26Z",
- "count": 1299,
+ "generated": "2026-06-09T16:09:25Z",
+ "count": 1369,
  "languages": [
   {
    "id": "sublime_LilyPond_common_note_drum_mode_elements",
@@ -227,6 +227,38 @@
      "bytes": 21391,
      "entries": 508,
      "source": "notepad++"
+    },
+    {
+     "file": "autoCompletion/ABAP.xml",
+     "sha256": "1cd137be3a2d3fc5e7e2f715f2263c16742e743efdbf63fa79254192cac438cd",
+     "bytes": 21391,
+     "entries": 508,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_ABAP",
+   "language": "ABAP",
+   "displayName": "ABAP",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/ABAP.xml",
+    "sha256": "65b95ad695cc11c0b806bfff301e0e20656aa87d7a122b140fb1be7a0165e671",
+    "bytes": 4646
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/ABAP.xml",
+     "sha256": "1cd137be3a2d3fc5e7e2f715f2263c16742e743efdbf63fa79254192cac438cd",
+     "bytes": 21391,
+     "entries": 508,
+     "source": "notepad++"
     }
    ],
    "sample": null,
@@ -437,6 +469,28 @@
      "bytes": 56563,
      "entries": 1172,
      "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "builtin_ac_actionscript",
+   "language": "actionscript",
+   "displayName": "ActionScript",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/actionscript.xml",
+     "sha256": "0ece58221295c2965346b81d63ca1b6167ab47d1d8ba3fef377c9beded607491",
+     "bytes": 21513,
+     "entries": 658,
+     "source": "notepad++",
+     "builtin": true
     }
    ],
    "sample": null,
@@ -956,6 +1010,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_AMPscript",
+   "language": "AMPscript",
+   "displayName": "AMPscript",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/AMPscript.xml",
+    "sha256": "44e3d4aa0e5466927657b86be0d2ead77b5e29c7eb5b2078aa948f6f2eac8afd",
+    "bytes": 6377
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/AMPscript.xml",
+     "sha256": "8abe9468f7afd2d34d41e0e0d5c61d04ec568384c682903dfa38e6bb7d3a633b",
+     "bytes": 7668,
+     "entries": 149,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_AMPscript_Syntax_Highlighter_HTML",
    "language": "AMPscript Syntax Highlighter (HTML)",
    "displayName": "AMPscript Syntax Highlighter (HTML)",
@@ -1255,6 +1334,31 @@
     "file": "UDLs/Apache2_by_IsaacSalgueiro_ThemeZenBurn.xml",
     "sha256": "aea9519faa992f0370f94a0df70841d36ad1bffe21f62c961938201f92bca579",
     "bytes": 20502
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Apache.xml",
+     "sha256": "1c6fc5278f26f0589d4268dc9b7690a3bc1b2cf8268fc577eef0fe6fdfa8f827",
+     "bytes": 24824,
+     "entries": 510,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Apache",
+   "language": "Apache",
+   "displayName": "Apache",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Apache.xml",
+    "sha256": "1c25bebee28ba174f3440b64512ccb396e4e1b6b3dc6f18e36d14522606c91dd",
+    "bytes": 6553
    },
    "autoComplete": [
     {
@@ -1975,6 +2079,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_AutoHotkey",
+   "language": "AutoHotkey",
+   "displayName": "AutoHotkey",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/AutoHotkey.xml",
+    "sha256": "645875eacecec3e91d71b773f41c75f5e32f76a6760193c6b7f25feb6a3d1b21",
+    "bytes": 12644
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Autohotkey.xml",
+     "sha256": "65b502621c45b59adf33b503da7c66ac71a3a3695d2b40d77f298fd7bda68dfd",
+     "bytes": 19333,
+     "entries": 423,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "AutoHotKey_V2.udl",
    "language": "AutoHotkey V2",
    "displayName": "AutoHotKey V2",
@@ -2078,6 +2207,31 @@
     "file": "UDLs/AutoLISPforAutoCAD_MichaelPuckett.xml",
     "sha256": "b3dad64bb1bdd35fedb4e05c3d0365315d79f5cc5c99fe3ff0c8946d98ff7dce",
     "bytes": 7437
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/AutoLISP.xml",
+     "sha256": "6b4d6ffccc147a2e6d2aa141990f3975e3f036d5aeb4179a250ce058848b1ba1",
+     "bytes": 12763,
+     "entries": 295,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_AutoLISP",
+   "language": "AutoLISP",
+   "displayName": "AutoLISP",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/AutoLISP.xml",
+    "sha256": "9c120996e5a1416ef9b5973187d5ce70b5d58931971ebe94ff4d4a758f877a50",
+    "bytes": 8197
    },
    "autoComplete": [
     {
@@ -2243,6 +2397,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_AWK",
+   "language": "AWK",
+   "displayName": "AWK",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/AWK.xml",
+    "sha256": "2fdb104df0f56678bfa00c6d1ba48eafb01674d87bc0507a5dba8fe1a02f91b7",
+    "bytes": 4513
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/awk.xml",
+     "sha256": "114e67e40e2d4f594c1bb10f1e9092125477f34507973e31518ce8b15162d386",
+     "bytes": 2957,
+     "entries": 54,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "aya.udl",
    "language": "aya",
    "displayName": "Aya",
@@ -2319,6 +2498,28 @@
    "functionList": null
   },
   {
+   "id": "builtin_ac_baanc",
+   "language": "baanc",
+   "displayName": "BaanC",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/BaanC.xml",
+     "sha256": "d408ed3caef21ebb64fb29d633e9ce5069454c1a792a09e2e24f83595d2743be",
+     "bytes": 18483,
+     "entries": 536,
+     "source": "notepad++",
+     "builtin": true
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Ballerina",
    "language": "Ballerina",
    "displayName": "Ballerina",
@@ -2351,6 +2552,28 @@
      "bytes": 642,
      "entries": 8,
      "source": "sublime"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "builtin_ac_batch",
+   "language": "batch",
+   "displayName": "Batch",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/batch.xml",
+     "sha256": "c4025268b36bb02b2d25e5144d360f69cfc7dddcb3ac98cd2d588393b5cbd30d",
+     "bytes": 3777,
+     "entries": 131,
+     "source": "notepad++",
+     "builtin": true
     }
    ],
    "sample": null,
@@ -3056,12 +3279,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_c",
+   "id": "builtin_ac_c",
    "language": "c",
    "displayName": "C",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -4015,6 +4238,32 @@
    "functionList": null
   },
   {
+   "id": "sublime_COBOL",
+   "language": "COBOL",
+   "displayName": "COBOL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/COBOL.xml",
+    "sha256": "917fcdc684908c0edd00257594d280098be70e1d05a9c3c24f6ebbb76cbd8549",
+    "bytes": 11950
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/cobol.xml",
+     "sha256": "7690e1bbe3ee5d55b993ebc1f41df35f5bf1b7aac7c6b6152a6f1112cb9a6773",
+     "bytes": 47436,
+     "entries": 807,
+     "source": "notepad++",
+     "builtin": true
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Cobra",
    "language": "Cobra",
    "displayName": "Cobra",
@@ -4178,6 +4427,39 @@
     "file": "UDLs/CoffeeScript_by-blakmatrix.xml",
     "sha256": "84059548a4229cbc6c55fe0f1c729ca0f4a75058db5d5b22b35f3b19df0d8310",
     "bytes": 6223
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/coffee.xml",
+     "sha256": "4dc5389cc699ceeaa7b020349faada9687fb215e80bc3a6d81e97d8b4b994efc",
+     "bytes": 1503,
+     "entries": 49,
+     "source": "notepad++",
+     "builtin": true
+    },
+    {
+     "file": "autoCompletion-Sublime/coffeescript.xml",
+     "sha256": "4b1de2341f9457c04daea9ee04fb682fcc69e9acce5157dc6f76f6e4f849f53d",
+     "bytes": 3841,
+     "entries": 94,
+     "source": "sublime"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_CoffeeScript",
+   "language": "CoffeeScript",
+   "displayName": "CoffeeScript",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/CoffeeScript.xml",
+    "sha256": "f3fa86a99c36dbdb1132c23af06da75e4080128a68c402bd4f84d4431bb1953b",
+    "bytes": 7898
    },
    "autoComplete": [
     {
@@ -4572,12 +4854,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_cpp",
+   "id": "builtin_ac_cpp",
    "language": "cpp",
    "displayName": "C++",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -4686,12 +4968,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_cs",
+   "id": "builtin_ac_cs",
    "language": "cs",
    "displayName": "C#",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -4751,6 +5033,31 @@
     "file": "UDLs/csound_byNikitaMozziconin.xml",
     "sha256": "f823e84699c50a9cd83c02998ba942f033973b0ecefe942bbb49956ce231c266",
     "bytes": 15102
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/csound.xml",
+     "sha256": "602d291dd692c8bf10d3ecf9b9af56f39a9d0db564d329888fb8751536152513",
+     "bytes": 49578,
+     "entries": 1210,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Csound",
+   "language": "Csound",
+   "displayName": "Csound",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Csound.xml",
+    "sha256": "2c46787ae6f4b73de973981e307db7492b7fdb36e202be25d8d99b7e47d658b4",
+    "bytes": 16143
    },
    "autoComplete": [
     {
@@ -4967,6 +5274,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_CUE_Sheet",
+   "language": "CUE Sheet",
+   "displayName": "CUE Sheet",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/CUE Sheet.xml",
+    "sha256": "84c5b3c07aec44cc550579c5b39da505edd86e5f7f9cd1295710bcb32115a413",
+    "bytes": 4189
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Cue Sheet.xml",
+     "sha256": "c5786cab6a555fae120fc84f2a6d322d8a77d96c9fca12b63be4e1b989e0ed9f",
+     "bytes": 2000,
+     "entries": 27,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Cuneiform",
    "language": "Cuneiform",
    "displayName": "Cuneiform",
@@ -5089,6 +5421,31 @@
    }
   },
   {
+   "id": "sublime_Cython",
+   "language": "Cython",
+   "displayName": "Cython",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Cython.xml",
+    "sha256": "f02035b14f1d9e3c5ddd4836e2261cf3483b37f5bf32aa0b4456d4263ed6f90f",
+    "bytes": 4429
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Cython.xml",
+     "sha256": "f2ed8767c9466665b3bb622a6ddf665a49d0d72406c13dbe3ad8ddb4b61c2b74",
+     "bytes": 11013,
+     "entries": 246,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_D2",
    "language": "D2",
    "displayName": "D2",
@@ -5168,6 +5525,31 @@
     "file": "UDLs/Dart_by_thiagovscoelho.xml",
     "sha256": "20f7597cd14d8007169e945fea209fb1ad67b5166021b6c2e660fdbf2d59fb4d",
     "bytes": 5702
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Dart.xml",
+     "sha256": "fc954fbc875995a000155ac5c572bff80a4148032ba32f9a7d4e3dca624395a0",
+     "bytes": 3255,
+     "entries": 61,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Dart",
+   "language": "Dart",
+   "displayName": "Dart",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Dart.xml",
+    "sha256": "7e271c6918d8c0e2962381a438cc36ef9abffb16a0208a2a89b61a259ca5877f",
+    "bytes": 4348
    },
    "autoComplete": [
     {
@@ -6757,6 +7139,31 @@
   },
   {
    "id": "sublime_F",
+   "language": "F#",
+   "displayName": "F#",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/F#.xml",
+    "sha256": "ca59f200e32067ff78608d628eb37a81bf01319384b3e64aefcb7df1a25e67bf",
+    "bytes": 4515
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/F#.xml",
+     "sha256": "ee3f4cb269dac20c25e1e10c2ad00320a919d6a9fcb7cc0203213601c4cfe4a4",
+     "bytes": 5171,
+     "entries": 111,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_F",
    "language": "F*",
    "displayName": "F*",
    "source": "sublime",
@@ -7266,6 +7673,13 @@
      "bytes": 5132,
      "entries": 179,
      "source": "notepad++"
+    },
+    {
+     "file": "autoCompletion/fobagraph.xml",
+     "sha256": "83a8adbd6ad784e31f3c554d7ac9b506bffc66ece586c65e62cff94abb7c65c0",
+     "bytes": 5132,
+     "entries": 179,
+     "source": "notepad++"
     }
    ],
    "sample": "UDL-samples/Fobagraph_Script_by_HelloWorldFR.bia",
@@ -7617,6 +8031,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_GameMonkey",
+   "language": "GameMonkey",
+   "displayName": "GameMonkey",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/GameMonkey.xml",
+    "sha256": "1b8f186c1ab681f0ce906b36b678df7f2fc773bf4b04935452f93fb139fd7215",
+    "bytes": 4722
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/GameMonkey.xml",
+     "sha256": "00a0511893d2dcf27c8bcf2b74db5c041cfcc0f05441e24cb4279c0b0e490fe8",
+     "bytes": 4130,
+     "entries": 74,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_gamY",
    "language": "gamY",
    "displayName": "gamY",
@@ -7788,6 +8227,28 @@
      "bytes": 27928,
      "entries": 429,
      "source": "sublime"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "builtin_ac_gdscript",
+   "language": "gdscript",
+   "displayName": "GDScript",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/gdscript.xml",
+     "sha256": "6b0955260345c49a52d8bd35f1a6cfb98f7048894eababcce38eeded00ef630d",
+     "bytes": 73064,
+     "entries": 838,
+     "source": "notepad++",
+     "builtin": true
     }
    ],
    "sample": null,
@@ -8294,6 +8755,31 @@
     "file": "UDLs/Gnuplot_byJohanWild.xml",
     "sha256": "d0edf543bd9990a0a225c0f64940f348ec680bd6c799c7ef8d5ed73233dab0c6",
     "bytes": 6878
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Gnuplot.xml",
+     "sha256": "2204fbd2b18876956c1f6e944d8612ada0b24f081d3d2740db21c38a563b4383",
+     "bytes": 9374,
+     "entries": 217,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_gnuplot",
+   "language": "gnuplot",
+   "displayName": "gnuplot",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/gnuplot.xml",
+    "sha256": "8512b2ede8f910e167b23bc709fcf222c309b277ae9d00800b07ce10fae41301",
+    "bytes": 5542
    },
    "autoComplete": [
     {
@@ -9170,6 +9656,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_HLSL",
+   "language": "HLSL",
+   "displayName": "HLSL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/HLSL.xml",
+    "sha256": "cfad8c2cc818bbc47f7676f83230a8c9498aadc6a8d77825c5f8d68628a32aa0",
+    "bytes": 6531
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/HLSL.xml",
+     "sha256": "5321febc4a1bc744a756bf661e87dd29b6358f05b76e38161418ff7dc7a0b575",
+     "bytes": 15213,
+     "entries": 348,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_HOCON",
    "language": "HOCON",
    "displayName": "HOCON",
@@ -9215,6 +9726,23 @@
     "file": "UDLs/HQL_byAkeelUdar.xml",
     "sha256": "55c015e553782a80bc5498c4d60514c74a23337e69a0442d8ebfc36e8bd6eb9b",
     "bytes": 8005
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_HQL",
+   "language": "HQL",
+   "displayName": "HQL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/HQL.xml",
+    "sha256": "799920cbcc8d941ee9b28c8300e428d59eacd62d8159ae936a1a23ade41baeac",
+    "bytes": 4985
    },
    "autoComplete": [],
    "sample": null,
@@ -9288,12 +9816,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_html",
+   "id": "builtin_ac_html",
    "language": "html",
    "displayName": "HTML",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -9647,6 +10175,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_iCalendar",
+   "language": "iCalendar",
+   "displayName": "iCalendar",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/iCalendar.xml",
+    "sha256": "e8f7849b513725dcb54cde8c5d1a8bde65dfe1f5b95211a7868f0b4f70c9bbde",
+    "bytes": 4629
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/icalendar.xml",
+     "sha256": "500427470a32bd0797f4c2ec38ff602b8c9d8d7d42fb5833a2d185b2c2a5f3ef",
+     "bytes": 3627,
+     "entries": 67,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "IceBreak-RPG_byNielsLiisberg",
    "language": "IceBreak",
    "displayName": "IceBreak RPG",
@@ -9806,6 +10359,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_IDL",
+   "language": "IDL",
+   "displayName": "IDL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/IDL.xml",
+    "sha256": "fca566ab749433153a66d30b14bc1f51c70aad96e1376a9cf65dd377383ab36b",
+    "bytes": 6222
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/IDL.xml",
+     "sha256": "fcb503ca468c5540e7154d6bb9ca2644aa4fe932609f0000c11eaffdea8a4ac5",
+     "bytes": 2006,
+     "entries": 28,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "Oracle-UCL-iDoc_byArnoudKoot",
    "language": "idoc",
    "displayName": "Oracle Web Content (formerly Stellent)",
@@ -9817,6 +10395,31 @@
     "file": "UDLs/Oracle-UCL-iDoc_byArnoudKoot.xml",
     "sha256": "037caff1ad3ceeb35b9b1a647848fd6f909f8883d8dfc2fbb3b2b15b2cae2c95",
     "bytes": 79150
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/idoc.xml",
+     "sha256": "d0af0e765db8dc4d3bde5e1a3428ca22af6596a0368d03cc38019e50576aceb2",
+     "bytes": 98678,
+     "entries": 2054,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Idoc",
+   "language": "Idoc",
+   "displayName": "Idoc",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Idoc.xml",
+    "sha256": "8e4426b65e60246075c39cb9e449798f812210565cbd4063ff1547e2e8c3cad9",
+    "bytes": 8944
    },
    "autoComplete": [
     {
@@ -10378,6 +10981,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_Jai",
+   "language": "Jai",
+   "displayName": "Jai",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Jai.xml",
+    "sha256": "b4f1e910ff76880ee11acb22cd090e99f7bbd96b0f3a339fc5a04d394ebc8087",
+    "bytes": 4347
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/jai.xml",
+     "sha256": "0f719b28ef3325e681fd2c72e95b21894af2b36016ab6c4d33bc98a05b947751",
+     "bytes": 1812,
+     "entries": 23,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Jam",
    "language": "Jam",
    "displayName": "Jam",
@@ -10412,12 +11040,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_java",
+   "id": "builtin_ac_java",
    "language": "java",
    "displayName": "Java",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -10568,12 +11196,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_javascript.js",
+   "id": "builtin_ac_javascript.js",
    "language": "javascript.js",
    "displayName": "JavaScript",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -10650,6 +11278,31 @@
     "file": "UDLs/JCL_byThomasAglassinger.xml",
     "sha256": "8afa98ed69622cdbde9251d3f5480cde8824131e2fe169c647d89cd5c9e6baff",
     "bytes": 6172
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/JCL.xml",
+     "sha256": "a18e4f11395b15ae853356ab94dd3abcd91aecbb70829f7d9a2b1b175440eaa8",
+     "bytes": 1922,
+     "entries": 26,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_jcl",
+   "language": "jcl",
+   "displayName": "jcl",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/jcl.xml",
+    "sha256": "2ccbba40713896195cad4faa3f341ade7dc156cca5448d40b9bc703eec87202e",
+    "bytes": 4761
    },
    "autoComplete": [
     {
@@ -11274,6 +11927,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_KIXtart",
+   "language": "KIXtart",
+   "displayName": "KIXtart",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/KIXtart.xml",
+    "sha256": "d27f6374173dc6807706b96bec4395ce2d7fac683097e307c5f8a39625f40f46",
+    "bytes": 5947
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/KixTart.xml",
+     "sha256": "4ea86cb6324cc1cd1e8c96da99688377605a1503892867c4bc81d62a9b173a49",
+     "bytes": 5299,
+     "entries": 112,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "Klipper-GCODE-Dark-by-Iron3eagle",
    "language": "Klipper GCODE Dark",
    "displayName": "Klipper GCODE Dark",
@@ -11629,6 +12307,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_Lean",
+   "language": "Lean",
+   "displayName": "Lean",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Lean.xml",
+    "sha256": "30851512bdf7df89e893a2a1c4547561e0f7aacc054b36d0dab289505d6093dd",
+    "bytes": 8765
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Lean.xml",
+     "sha256": "9103e94187a9b5862df7443bbeffd1d6c93d445068b917daa8da69c7b073be30",
+     "bytes": 8406,
+     "entries": 189,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_LeekScript",
    "language": "LeekScript",
    "displayName": "LeekScript",
@@ -11713,6 +12416,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_Less",
+   "language": "Less",
+   "displayName": "Less",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Less.xml",
+    "sha256": "67b965cad84d47d5b6f6117c05b25029db455dc696d6638306a5c22aea6b024a",
+    "bytes": 4155
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/LESS.xml",
+     "sha256": "95652291b10fe66641dc14d5a0fd8b6cfa750e2281d0292d7c89c5b58bab9a28",
+     "bytes": 19769,
+     "entries": 417,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_LFE",
    "language": "LFE",
    "displayName": "LFE",
@@ -11775,6 +12503,31 @@
     "file": "UDLs/LilyPond_byMarSoft.xml",
     "sha256": "162c325c0ff0cf5e926b1d42ee13fe0bd5bcc419ba10293b3f0b2fd503db5e94",
     "bytes": 40429
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/LilyPond.xml",
+     "sha256": "f0ff0b35b221af75ae58de1393c672b980cdb9edfcc0287b48a14f2ddb882c14",
+     "bytes": 117330,
+     "entries": 2547,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_LilyPond",
+   "language": "LilyPond",
+   "displayName": "LilyPond",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/LilyPond.xml",
+    "sha256": "a9c66f2576d124d43dcbcb56779b812d1fdd4439330913409b3d5bff61bafd0d",
+    "bytes": 5494
    },
    "autoComplete": [
     {
@@ -11895,6 +12648,28 @@
     "bytes": 4160
    },
    "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "builtin_ac_lisp",
+   "language": "lisp",
+   "displayName": "Lisp",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/lisp.xml",
+     "sha256": "7dee0ce72cf218da91221c2be184bd22ba16b120396aa1f209583fc9f62fd8bf",
+     "bytes": 17231,
+     "entries": 504,
+     "source": "notepad++",
+     "builtin": true
+    }
+   ],
    "sample": null,
    "functionList": null
   },
@@ -12264,12 +13039,44 @@
    }
   },
   {
-   "id": "sublime_ac_lua",
+   "id": "sublime_LSL",
+   "language": "LSL",
+   "displayName": "LSL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/LSL.xml",
+    "sha256": "f12b2c22511f4c5874ce90ac6f31f9bbb9d5878a79b1d2bbfc79c737935c47ad",
+    "bytes": 8326
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/LSL.xml",
+     "sha256": "ff6339841363419ed87d0c2b0a4fab73d3b27b4d619db4dbb3b7289b09b25299",
+     "bytes": 233245,
+     "entries": 1303,
+     "source": "notepad++"
+    },
+    {
+     "file": "autoCompletion-Sublime/LSL.xml",
+     "sha256": "f415e7e01d47f6995f14d2a4c61981357f5e3d3d96243afe3dabede0e7bcf062",
+     "bytes": 38691,
+     "entries": 837,
+     "source": "sublime"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "builtin_ac_lua",
    "language": "lua",
    "displayName": "Lua",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -12533,6 +13340,23 @@
     "file": "UDLs/Maniascript_byMagnetiK.xml",
     "sha256": "ce8b37d558701356f213b6b9b13e083e73e1d12a21322eaf80ddf59c03ae8cee",
     "bytes": 6549
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_ManiaScript",
+   "language": "ManiaScript",
+   "displayName": "ManiaScript",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/ManiaScript.xml",
+    "sha256": "2313d1d62a22617836963131a0a5e1aff847ce43bde77f15c98bf38968e1e377",
+    "bytes": 7020
    },
    "autoComplete": [],
    "sample": null,
@@ -12915,6 +13739,31 @@
     "file": "UDLs/Mercury_byAnatolySova.xml",
     "sha256": "fb099110dab2150cc1d5305a7afc15a15b4c49be920db82fd1f0615a47fd4668",
     "bytes": 5516
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Mercury.xml",
+     "sha256": "1a31f7d77f3f5435a21e662b24ef37f9b92974f7f52d80770c63c4a4e6e6b45b",
+     "bytes": 3591,
+     "entries": 65,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Mercury",
+   "language": "Mercury",
+   "displayName": "Mercury",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Mercury.xml",
+    "sha256": "299d2eb02023b579c619843c3210b666da5fb37000a556ac08a646941bde5603",
+    "bytes": 4155
    },
    "autoComplete": [
     {
@@ -13810,6 +14659,23 @@
    "functionList": null
   },
   {
+   "id": "sublime_MQL4",
+   "language": "MQL4",
+   "displayName": "MQL4",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/MQL4.xml",
+    "sha256": "c23137146c297837d311658f6b078abe3faaa09c409522ff1760c2d0c0355353",
+    "bytes": 4538
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "mql5_by_andydoc.udl",
    "language": "mql5",
    "displayName": "mql5",
@@ -13821,6 +14687,23 @@
     "file": "UDLs/mql5_by_andydoc.udl.xml",
     "sha256": "661edf5e36f9b088aa5ad070ad4ea5f82c0fba6d486986b13c77b2bf95f34fbf",
     "bytes": 35084
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_MQL5",
+   "language": "MQL5",
+   "displayName": "MQL5",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/MQL5.xml",
+    "sha256": "0c473261376c7ec1991721a56aed425b16ab00e941dc95f44f7669952f608da9",
+    "bytes": 44659
    },
    "autoComplete": [],
    "sample": null,
@@ -13980,6 +14863,31 @@
     "file": "UDLs/Mumps_byMarcoMedeiros.xml",
     "sha256": "cd1b72207e45e80585f5b1670906be4add7d2420f1af99922cebecd5523ee68b",
     "bytes": 6757
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Mumps.xml",
+     "sha256": "9ffca9f3870b98e6986f7ef18eb69e39a3dd232c3d6355396ad59f289fa2e763",
+     "bytes": 4029,
+     "entries": 85,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_MUMPS",
+   "language": "MUMPS",
+   "displayName": "MUMPS",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/MUMPS.xml",
+    "sha256": "eaaf582f8d5a69eec093017fa6a01f6821223479c9413627a2b478b8f9c73cd9",
+    "bytes": 5946
    },
    "autoComplete": [
     {
@@ -14407,6 +15315,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_nesC",
+   "language": "nesC",
+   "displayName": "nesC",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/nesC.xml",
+    "sha256": "f869f04bb714d0e47a1fb950bd1bdf0a3309137f1ea097db7e5002e6155b3bcc",
+    "bytes": 4406
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/nesC.xml",
+     "sha256": "5b37013cbbfe7bdb8b4f4fb7cf3d8b4a3c883fb57484b6213ea08941aa62e725",
+     "bytes": 2209,
+     "entries": 33,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "nessus-compliance-checks_by_amurren",
    "language": "nessus_compliance_checks",
    "displayName": "nessus-compliance-checks",
@@ -14549,6 +15482,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_NetLogo",
+   "language": "NetLogo",
+   "displayName": "NetLogo",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/NetLogo.xml",
+    "sha256": "0583be607d06c3563c96f3c1a25c4ee6dbbe139822883d079769641be5d8213d",
+    "bytes": 4241
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/NetLogo.xml",
+     "sha256": "c9dc774040df1b8b62392c9cd828ba3d5bd2da27bb0ef1f1bfa083dee4e6ad4c",
+     "bytes": 24255,
+     "entries": 536,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Neuron",
    "language": "Neuron",
    "displayName": "Neuron",
@@ -14636,6 +15594,23 @@
     "file": "UDLs/nginx-config_byDarrenSlatten.xml",
     "sha256": "d08b93244a38b93a8c8eaf626c3d7790348d451b1726d1ec8bbeb54a128f399b",
     "bytes": 10897
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_nginx",
+   "language": "nginx",
+   "displayName": "nginx",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/nginx.xml",
+    "sha256": "f2d92b6c0c558f1f2614da0a1f23344a3d6debeae0a64bc50b925cf31797498e",
+    "bytes": 4283
    },
    "autoComplete": [],
    "sample": null,
@@ -15285,6 +16260,31 @@
     "file": "UDLs/Odin_2024_12.xml",
     "sha256": "1f777905a4da71a1df0ad90a73eefac94d649f3358dfec9b1253d157c9430154",
     "bytes": 5872
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Odin.xml",
+     "sha256": "782d33aa92aec55d394a2cb880e222296da51953ce6784f98a768ebd6bfdd928",
+     "bytes": 5622,
+     "entries": 121,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Odin",
+   "language": "Odin",
+   "displayName": "Odin",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Odin.xml",
+    "sha256": "47bce1ae5fdec805d2c2bf832a49c814fbacb719564f84bde8efdf1b7381dc65",
+    "bytes": 4689
    },
    "autoComplete": [
     {
@@ -16414,12 +17414,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_perl",
+   "id": "builtin_ac_perl",
    "language": "perl",
    "displayName": "Perl",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -16749,6 +17749,31 @@
     "file": "UDLs/PL1_by_GaborMarkon.xml",
     "sha256": "1fa2e2423d6a613683c126b38d2883bf85eb1957a9e7cd4e52a8e16c1e051f0d",
     "bytes": 5350
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/PL1.xml",
+     "sha256": "892b4d3ef7c454b59c9b9d95ad047c6fefc5d1c93f2fb35147b5a4af0c4cdd3a",
+     "bytes": 3623,
+     "entries": 71,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_PL1",
+   "language": "PL1",
+   "displayName": "PL1",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/PL1.xml",
+    "sha256": "8c3d63aaae1ba11eed6f25d8d10a31aac6b6fee0469ca3a1d946c52a49e4e8da",
+    "bytes": 4879
    },
    "autoComplete": [
     {
@@ -17186,6 +18211,39 @@
     "file": "UDLs/Powershell_by-jongalloway.xml",
     "sha256": "8c574de7e19ea91a5ac55930042844de27bfd0a3e5df4e9ebc7454437804658d",
     "bytes": 20786
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/powershell.xml",
+     "sha256": "6123e3294ccfc27143361426eb5874e8efae8a31b26e0078776daf82cf74d8b0",
+     "bytes": 88004,
+     "entries": 1973,
+     "source": "notepad++",
+     "builtin": true
+    },
+    {
+     "file": "autoCompletion/PowerShell.xml",
+     "sha256": "65b273fed7677eade91c7eadcdef0dbecff761ffeeb9b5ceb86d3b7b8e347e39",
+     "bytes": 29236,
+     "entries": 476,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_PowerShell",
+   "language": "PowerShell",
+   "displayName": "PowerShell",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/PowerShell.xml",
+    "sha256": "b0c9252b5673287c9cd535fc51361775ebdf5d2131279674d3a30cb09dc05f4d",
+    "bytes": 5168
    },
    "autoComplete": [
     {
@@ -18059,6 +19117,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_QML",
+   "language": "QML",
+   "displayName": "QML",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/QML.xml",
+    "sha256": "55b80344a279f22ed1e94045bc5f009d8ea1f4da4190aa149ef59cdc6ccd75a8",
+    "bytes": 10429
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/QML.xml",
+     "sha256": "e458ea23a46d0259bc241e69dea5fc9e1dd81d0ceba59cb31f5a0749822a3d1a",
+     "bytes": 20121,
+     "entries": 444,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_qsharp",
    "language": "qsharp",
    "displayName": "qsharp",
@@ -18372,6 +19455,28 @@
    "functionList": null
   },
   {
+   "id": "builtin_ac_rc",
+   "language": "rc",
+   "displayName": "Resource file",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/rc.xml",
+     "sha256": "cd8750aaaa3b70d9e9ce22232b8ac5f5c4e1e13c4261894a1d8e32c22ae8657e",
+     "bytes": 1635,
+     "entries": 50,
+     "source": "notepad++",
+     "builtin": true
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Reach",
    "language": "Reach",
    "displayName": "Reach",
@@ -18417,6 +19522,31 @@
     "file": "UDLs/Rebol_byMasaruYamabashi.xml",
     "sha256": "6e37a9974e8ac1deb6721c9dcbd8fc934ac0e32c83e7ca4eae158c0a24bf0229",
     "bytes": 8206
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Rebol.xml",
+     "sha256": "fdd3e18ce6254d2607f780c71d94bd45039295fb3b4a230a6ce1bfe5ce3f4fa7",
+     "bytes": 14775,
+     "entries": 348,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Rebol",
+   "language": "Rebol",
+   "displayName": "Rebol",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Rebol.xml",
+    "sha256": "27ed4fee57382325e7f4a37c99e538de54d0360d162842e199911cef78c87e77",
+    "bytes": 4236
    },
    "autoComplete": [
     {
@@ -18628,6 +19758,13 @@
      "bytes": 4809,
      "entries": 101,
      "source": "notepad++"
+    },
+    {
+     "file": "autoCompletion/REXX.xml",
+     "sha256": "9b011c163c36d827bdaf894248287c051856137ac5de138e1f03dbf7c4022c8a",
+     "bytes": 4809,
+     "entries": 101,
+     "source": "notepad++"
     }
    ],
    "sample": null,
@@ -18645,6 +19782,31 @@
     "file": "UDLs/REXX_TSOE_byMadan.xml",
     "sha256": "7dc7283cc41613c853386dd8afc9d756518b1f2a8ef5aff8209c48cec0154ce9",
     "bytes": 5905
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/REXX.xml",
+     "sha256": "9b011c163c36d827bdaf894248287c051856137ac5de138e1f03dbf7c4022c8a",
+     "bytes": 4809,
+     "entries": 101,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_REXX",
+   "language": "REXX",
+   "displayName": "REXX",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/REXX.xml",
+    "sha256": "e0b98b75e1a6d3688bb9b3b194b308945fb4f6b156e4350fd1ae860ccd4339ba",
+    "bytes": 4199
    },
    "autoComplete": [
     {
@@ -19106,6 +20268,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_RSL",
+   "language": "RSL",
+   "displayName": "RSL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/RSL.xml",
+    "sha256": "228035ee1bd41c6d77ec169f181c711370c26c549f0980833e28a02eac706de1",
+    "bytes": 4538
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/RSL.xml",
+     "sha256": "61ba4f9e99e865047262b7eae4d2ab0d7505d628743337c78bd75ba4c45228e3",
+     "bytes": 50379,
+     "entries": 116,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_RSpec",
    "language": "RSpec",
    "displayName": "RSpec",
@@ -19244,6 +20431,28 @@
      "bytes": 3561,
      "entries": 67,
      "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "builtin_ac_rust",
+   "language": "rust",
+   "displayName": "Rust",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/rust.xml",
+     "sha256": "44f81f0c74a3732f388f4433beca95e595a5df8e4b0b16c939dc644d431a0291",
+     "bytes": 5756,
+     "entries": 110,
+     "source": "notepad++",
+     "builtin": true
     }
    ],
    "sample": null,
@@ -19480,6 +20689,39 @@
     "file": "UDLs/SAS_byCathLawrence.xml",
     "sha256": "1ade27877d5ee7864116f2c60eb109a577c08943724e43e143e542d47952ea0a",
     "bytes": 11659
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/sas.xml",
+     "sha256": "eca2cbf40f377fba22db93d48e7856d4fbee9c24908655bb7d971a5906cbe5d1",
+     "bytes": 21497,
+     "entries": 709,
+     "source": "notepad++",
+     "builtin": true
+    },
+    {
+     "file": "autoCompletion/SAS.xml",
+     "sha256": "1c3804a12ed157882f1834358cd39fd6eea58a7950c6d10aa7596e19a0128bb6",
+     "bytes": 28945,
+     "entries": 716,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_SAS",
+   "language": "SAS",
+   "displayName": "SAS",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/SAS.xml",
+    "sha256": "ef03d1b54c39132dfd0f3dd2af2498fc842d6550bf61c280b19c9330a14e81cd",
+    "bytes": 4183
    },
    "autoComplete": [
     {
@@ -19835,6 +21077,23 @@
    "functionList": null
   },
   {
+   "id": "sublime_Scilab",
+   "language": "Scilab",
+   "displayName": "Scilab",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Scilab.xml",
+    "sha256": "f0aa44eb97993b464208287a60a6426a3cf5d7fcedc20a9fb496db202c18820a",
+    "bytes": 4231
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "Siemens-SCL_byTizianoSartini",
    "language": "SCL",
    "displayName": "Siemens SCL (definition and autocompletion)",
@@ -20074,6 +21333,31 @@
     "file": "UDLs/ShadeLab_by-redcool007.xml",
     "sha256": "55780ffe4118c5c87f04e9e80b64a0c95cc841869ae7d90dbd0417abb5224aff",
     "bytes": 21992
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/ShaderLab.xml",
+     "sha256": "74f1a219f7b04b143eee6fe4a4b9415338a001a44fe9ff99f346f97e069e6654",
+     "bytes": 11045,
+     "entries": 244,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_ShaderLab",
+   "language": "ShaderLab",
+   "displayName": "ShaderLab",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/ShaderLab.xml",
+    "sha256": "1a963577dfe002e10167d0f0263d1412efe7a1bf708229f5a53ce4d07c0b3b70",
+    "bytes": 5278
    },
    "autoComplete": [
     {
@@ -20484,6 +21768,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_SLAX",
+   "language": "SLAX",
+   "displayName": "SLAX",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/SLAX.xml",
+    "sha256": "b0c1c20a80183ad3c840a71aa3020d25113f93d3812afc8819c3fee58882ee43",
+    "bytes": 4257
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/SLAX.xml",
+     "sha256": "88ca1486f0a3ae4709a3db09d4958ccc9b51b2112fdcd00bf9c5e383d0578b88",
+     "bytes": 1005,
+     "entries": 2,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_Sleet",
    "language": "Sleet",
    "displayName": "Sleet",
@@ -20563,6 +21872,31 @@
     "file": "UDLs/Smali_byJasi2169.xml",
     "sha256": "dc6d08877ca300c5450dc5dac408aa7df48eb07ff73fd715e1615894b6a6ed27",
     "bytes": 9393
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Smali.xml",
+     "sha256": "b7f670c04e9176e67591ccd7496ebe5e51ad0a3f1cb9c4de3d279be3e4270020",
+     "bytes": 15838,
+     "entries": 356,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Smali",
+   "language": "Smali",
+   "displayName": "Smali",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Smali.xml",
+    "sha256": "7964ebe36d0b1dd3f812337df3d4374181585f0da3f88fc5b19a9ae230618229",
+    "bytes": 4142
    },
    "autoComplete": [
     {
@@ -20689,6 +22023,31 @@
     "file": "UDLs/Smarty_byHelge-deVries.xml",
     "sha256": "e6e28f7f14b712eec6397cf62662c1d0006f303b911f1f5abfeb44a94f4a3723",
     "bytes": 7031
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Smarty.xml",
+     "sha256": "b7527906578cdd244d6cecee594a7a2f238de0a308aa15cc5cf924b6263a7cdc",
+     "bytes": 7992,
+     "entries": 174,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Smarty",
+   "language": "Smarty",
+   "displayName": "Smarty",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Smarty.xml",
+    "sha256": "39ae3b8a50af19d3cfde800bf75448670cb1be723779aaa17f6994f2cc6e30f2",
+    "bytes": 4405
    },
    "autoComplete": [
     {
@@ -21019,6 +22378,31 @@
     "file": "UDLs/SPARQL-v1p1_byFranckMichel.xml",
     "sha256": "646520ab96370cd24c7c35856df6d42e48a52c3e202a52ce2f15c13472c8f14b",
     "bytes": 6453
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/SPARQL.xml",
+     "sha256": "a43f7618cf0ef907d1f8e722a47fc96de8aa305a1ec2ed2cf16ef3f09d3a846a",
+     "bytes": 4852,
+     "entries": 101,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_SPARQL",
+   "language": "SPARQL",
+   "displayName": "SPARQL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/SPARQL.xml",
+    "sha256": "589e7b871fed4242eb77c5f808389d716fd321a12929964e211118eba5dd6976",
+    "bytes": 4756
    },
    "autoComplete": [
     {
@@ -22220,6 +23604,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_SystemVerilog",
+   "language": "SystemVerilog",
+   "displayName": "SystemVerilog",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/SystemVerilog.xml",
+    "sha256": "682c94f0a7d58d4bc37cd7e8c97bceb9d542996140618db32b4379a772796250",
+    "bytes": 5215
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/SystemVerilog.xml",
+     "sha256": "0566aa996ada54bfa214a08550d1474433be5d1c322c2b2b04d0c40819737dcf",
+     "bytes": 15059,
+     "entries": 348,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "SystemVerilog1_byKapilPatel",
    "language": "SystemVerilog",
    "displayName": "System Verilog 1",
@@ -22603,6 +24012,28 @@
    "functionList": null
   },
   {
+   "id": "builtin_ac_tex",
+   "language": "tex",
+   "displayName": "TeX",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/tex.xml",
+     "sha256": "c916f03b9dea3d64019907120d7d4efc925e86189327bcbb89969c57934e2c23",
+     "bytes": 67864,
+     "entries": 2127,
+     "source": "notepad++",
+     "builtin": true
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "TexCnc_by-fixus971",
    "language": "TexCnc",
    "displayName": "TexCnc",
@@ -22924,6 +24355,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_TOML",
+   "language": "TOML",
+   "displayName": "TOML",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/TOML.xml",
+    "sha256": "4960d13ba7b6470dd11f1c820f86078cfd8cf95797e9f54af9fc63f7e299e7e4",
+    "bytes": 4146
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/TOML.xml",
+     "sha256": "7c139932945f3515640d925b7d7a2d5870ed1ca26e0bdd1e8069d7c305224579",
+     "bytes": 1832,
+     "entries": 24,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "TOML_byTimendum",
    "language": "TOML",
    "displayName": "TOML",
@@ -22992,6 +24448,31 @@
      "bytes": 620,
      "entries": 12,
      "source": "sublime"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_TSQL",
+   "language": "TSQL",
+   "displayName": "TSQL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/TSQL.xml",
+    "sha256": "a38da81cf19f92b52725e7ad9f1e6481129abe49664e7694f29477450795d380",
+    "bytes": 8508
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/tsql.xml",
+     "sha256": "2e678c0b4ab5b62748ee6646bf32b4fdc2c32344541548a83c16e581c29cfbba",
+     "bytes": 20478,
+     "entries": 472,
+     "source": "notepad++"
     }
    ],
    "sample": null,
@@ -23112,6 +24593,31 @@
     "bytes": 4414
    },
    "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Turtle",
+   "language": "Turtle",
+   "displayName": "Turtle",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Turtle.xml",
+    "sha256": "00b5aed76036426f4f74ce5edeb89a22a4c514c67542fe3f4768f800dbbd1dee",
+    "bytes": 4142
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Turtle.xml",
+     "sha256": "8c7a1dfeb2a2f194980ebd0000f7e9d5052ae7f1fd4bebca223434f45eba823b",
+     "bytes": 1431,
+     "entries": 13,
+     "source": "notepad++"
+    }
+   ],
    "sample": null,
    "functionList": null
   },
@@ -23263,6 +24769,46 @@
     "bytes": 4154
    },
    "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_TypeScript",
+   "language": "TypeScript",
+   "displayName": "TypeScript",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/TypeScript.xml",
+    "sha256": "3ba7ce2678a0efeafb2f624801fa8e806c9f5cc9709ae220831d42bb38fda749",
+    "bytes": 4774
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/typescript.xml",
+     "sha256": "a09f978aeba209e18cd424d98c8bafb6165777e3992eb09e5e7e0a26bded4410",
+     "bytes": 2417,
+     "entries": 67,
+     "source": "notepad++",
+     "builtin": true
+    },
+    {
+     "file": "autoCompletion/TypeScript.xml",
+     "sha256": "d553a5fc81885f8237a7d62be920675a5e49fcd5eabbb0016cbbe91542e92639",
+     "bytes": 3304,
+     "entries": 61,
+     "source": "notepad++"
+    },
+    {
+     "file": "autoCompletion-Sublime/typescript.xml",
+     "sha256": "7efa800e4be57826346609f601234709aefd2c7a25d461a347964c724c15141d",
+     "bytes": 2126,
+     "entries": 23,
+     "source": "sublime"
+    }
+   ],
    "sample": null,
    "functionList": null
   },
@@ -23723,6 +25269,28 @@
    "functionList": null
   },
   {
+   "id": "builtin_ac_vb",
+   "language": "vb",
+   "displayName": "Visual Basic",
+   "source": "notepad++",
+   "author": "",
+   "description": "Built-in Notepad++ language.",
+   "version": "",
+   "udl": null,
+   "autoComplete": [
+    {
+     "file": "autoCompletion-stock/vb.xml",
+     "sha256": "53104b87f91458aac8c6709b74a7cd5f0367fc6f2280b98aaa495a59e1788551",
+     "bytes": 17190,
+     "entries": 487,
+     "source": "notepad++",
+     "builtin": true
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "sublime_VBScript",
    "language": "VBScript",
    "displayName": "VBScript",
@@ -23793,6 +25361,23 @@
     "file": "UDLs-Sublime/Veeam B&R Logs.xml",
     "sha256": "4a8ee44d8c2e0c17976a63ee9df6f75e97579bab2351687f25d2982dbc01f861",
     "bytes": 5430
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Velocity",
+   "language": "Velocity",
+   "displayName": "Velocity",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Velocity.xml",
+    "sha256": "a642d1581061e81a6b6f9aa0ab798b45cfe8c09dabfe404dc8b426894302edf7",
+    "bytes": 4148
    },
    "autoComplete": [],
    "sample": null,
@@ -24394,6 +25979,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_WebFocus",
+   "language": "WebFocus",
+   "displayName": "WebFocus",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/WebFocus.xml",
+    "sha256": "794f8487feac4b1c4af62464160212433984efd6fdb32402d184d2ec775a4586",
+    "bytes": 4281
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/WebFOCUS.xml",
+     "sha256": "0f555e1fcd33518ca32a62dfcb3399c7d9cb8621908bb545e44a54724b6416c4",
+     "bytes": 6421,
+     "entries": 143,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "WebFOCUS_by-thomas-aglassinger",
    "language": "WebFOCUS",
    "displayName": "WebFOCUS",
@@ -24739,6 +26349,31 @@
    "functionList": null
   },
   {
+   "id": "sublime_XC",
+   "language": "XC",
+   "displayName": "XC",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/XC.xml",
+    "sha256": "3261d64ed531a4d23dbefac0445465afe4768352dd13ae05af71e4d00cf37630",
+    "bytes": 4618
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/XC.xml",
+     "sha256": "b0035a789bf9e6553b9ce93b76615e94817310866b4251eadab089a2a1272ee5",
+     "bytes": 4540,
+     "entries": 93,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "XMOS-xCORE-XC_by-johned02",
    "language": "XC",
    "displayName": "XMOS xCORE XC Programming Language",
@@ -24806,12 +26441,12 @@
    "functionList": null
   },
   {
-   "id": "sublime_ac_xml",
+   "id": "builtin_ac_xml",
    "language": "xml",
    "displayName": "XML",
    "source": "notepad++",
    "author": "",
-   "description": "Autocompletion imported from Sublime Text.",
+   "description": "Built-in Notepad++ language.",
    "version": "",
    "udl": null,
    "autoComplete": [
@@ -24972,6 +26607,31 @@
    },
    "autoComplete": [],
    "sample": "UDL-samples/yang_by-gribok.yang",
+   "functionList": null
+  },
+  {
+   "id": "sublime_YARA",
+   "language": "YARA",
+   "displayName": "YARA",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/YARA.xml",
+    "sha256": "79ce98c65bcadfee9b4f34db05a51c1181064704017a22b800d75689caa0f2dd",
+    "bytes": 4331
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/YARA.xml",
+     "sha256": "5db92b2fac78d45ca54e28485b971aee87dc68a0018522fa1c0b952f09f90841",
+     "bytes": 2217,
+     "entries": 33,
+     "source": "notepad++"
+    }
+   ],
+   "sample": null,
    "functionList": null
   },
   {
@@ -25153,6 +26813,23 @@
    "functionList": null
   },
   {
+   "id": "sublime_ZenScript",
+   "language": "ZenScript",
+   "displayName": "ZenScript",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/ZenScript.xml",
+    "sha256": "e7803f488126a29e3a079a65ca166c7c6bbe0119d62ca7dd9a062414d125338f",
+    "bytes": 4611
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
    "id": "zenscript",
    "language": "ZenScript",
    "displayName": "ZenScript",
@@ -25181,6 +26858,31 @@
     "bytes": 4653
    },
    "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_Zig",
+   "language": "Zig",
+   "displayName": "Zig",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/Zig.xml",
+    "sha256": "bf0323e908544731d58a9cc0fc42925edf38185efb746205c6a169e6bcab9067",
+    "bytes": 4403
+   },
+   "autoComplete": [
+    {
+     "file": "autoCompletion/Zig.xml",
+     "sha256": "29a5d0103bcfc3f690ad986dbab750a7f01278be2d2bf1958a36609ead178f25",
+     "bytes": 27308,
+     "entries": 700,
+     "source": "notepad++"
+    }
+   ],
    "sample": null,
    "functionList": null
   },
@@ -25272,6 +26974,23 @@
     "file": "UDLs-Sublime/Zon.xml",
     "sha256": "704660b13d7802901f9a06f667c94584db4807e9a2eb5438c640b95c47aa1ccc",
     "bytes": 4579
+   },
+   "autoComplete": [],
+   "sample": null,
+   "functionList": null
+  },
+  {
+   "id": "sublime_ZPL",
+   "language": "ZPL",
+   "displayName": "ZPL",
+   "source": "sublime",
+   "author": "",
+   "description": "Imported from Sublime Text (best-effort UDL).",
+   "version": "",
+   "udl": {
+    "file": "UDLs-Sublime/ZPL.xml",
+    "sha256": "e478aa43d6c456d41efc4b73fe350794ee3263f9ee9e7a4873803deb6c68a24e",
+    "bytes": 4201
    },
    "autoComplete": [],
    "sample": null,
