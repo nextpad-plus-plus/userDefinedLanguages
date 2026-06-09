@@ -56,14 +56,15 @@ def ac_asset(rel, source, author=""):
     return a
 
 def find_in_dir(folder, stem):
-    """Resolve '<folder>/<stem>.xml' case-insensitively; return repo-relative path or None."""
-    exact = os.path.join(folder, stem + ".xml")
-    if os.path.isfile(os.path.join(REPO, exact)):
-        return exact
+    """Resolve '<folder>/<stem>.xml' case-insensitively, ALWAYS returning the real
+    on-disk casing (repo-relative) or None. Returning the real name (not the
+    requested case) is what lets path-based dedup collapse two UDL entries that
+    reference the same AC under different casings (e.g. ABAP.xml vs Abap.xml on a
+    case-insensitive filesystem — they are the same physical file)."""
     want = (stem + ".xml").lower()
     d = os.path.join(REPO, folder)
     if os.path.isdir(d):
-        for n in os.listdir(d):
+        for n in sorted(os.listdir(d)):
             if n.lower() == want:
                 return os.path.join(folder, n)
     return None
@@ -135,17 +136,24 @@ def cross_attach_acs(langs):
             stem = os.path.splitext(os.path.basename(f))[0]
             lang = STOCK_LANG.get(stem.lower(), stem.lower()) if folder == "autoCompletion-stock" else stem
             pool.setdefault(lang.lower(), []).append((os.path.relpath(f, REPO), source, builtin))
+    def keyof(source, builtin, rel):
+        # Case-insensitive on basename: '<lang>.d/' installs are source-prefixed and
+        # the install FS is case-insensitive, so two ACs of the same source+builtin
+        # whose names differ only in case would collide — treat them as one.
+        return (source, bool(builtin), os.path.basename(rel).lower())
     for e in langs:
-        have = set(a.get("file") for a in e["autoComplete"] if a.get("file"))
+        have = set(keyof(a.get("source"), a.get("builtin"), a["file"])
+                   for a in e["autoComplete"] if a.get("file"))
         for rel, source, builtin in pool.get(e["language"].lower(), []):
-            if rel in have:
+            k = keyof(source, builtin, rel)
+            if k in have:
                 continue
             a = ac_asset(rel, source)
             if not a:
                 continue
             if builtin:
                 a["builtin"] = True
-            e["autoComplete"].append(a); have.add(rel)
+            e["autoComplete"].append(a); have.add(k)
         # Notepad++ (built-in, then community) before Sublime, for a readable details pane.
         e["autoComplete"].sort(key=lambda a: (0 if a.get("source") == "notepad++" else 1,
                                               0 if a.get("builtin") else 1))

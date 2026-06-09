@@ -1,7 +1,7 @@
 {
  "name": "nextpad-udl-ac-index",
  "version": 1,
- "generated": "2026-06-09T16:09:25Z",
+ "generated": "2026-06-09T19:42:28Z",
  "count": 1369,
  "languages": [
   {
@@ -221,13 +221,6 @@
     "bytes": 10335
    },
    "autoComplete": [
-    {
-     "file": "autoCompletion/Abap.xml",
-     "sha256": "1cd137be3a2d3fc5e7e2f715f2263c16742e743efdbf63fa79254192cac438cd",
-     "bytes": 21391,
-     "entries": 508,
-     "source": "notepad++"
-    },
     {
      "file": "autoCompletion/ABAP.xml",
      "sha256": "1cd137be3a2d3fc5e7e2f715f2263c16742e743efdbf63fa79254192cac438cd",
@@ -7667,13 +7660,6 @@
     "bytes": 6223
    },
    "autoComplete": [
-    {
-     "file": "autoCompletion/Fobagraph.xml",
-     "sha256": "83a8adbd6ad784e31f3c554d7ac9b506bffc66ece586c65e62cff94abb7c65c0",
-     "bytes": 5132,
-     "entries": 179,
-     "source": "notepad++"
-    },
     {
      "file": "autoCompletion/fobagraph.xml",
      "sha256": "83a8adbd6ad784e31f3c554d7ac9b506bffc66ece586c65e62cff94abb7c65c0",
@@ -19752,13 +19738,6 @@
     "bytes": 17795
    },
    "autoComplete": [
-    {
-     "file": "autoCompletion/Rexx.xml",
-     "sha256": "9b011c163c36d827bdaf894248287c051856137ac5de138e1f03dbf7c4022c8a",
-     "bytes": 4809,
-     "entries": 101,
-     "source": "notepad++"
-    },
     {
      "file": "autoCompletion/REXX.xml",
      "sha256": "9b011c163c36d827bdaf894248287c051856137ac5de138e1f03dbf7c4022c8a",
