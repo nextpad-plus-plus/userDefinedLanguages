@@ -154,9 +154,51 @@ def cross_attach_acs(langs):
             if builtin:
                 a["builtin"] = True
             e["autoComplete"].append(a); have.add(k)
-        # Notepad++ (built-in, then community) before Sublime, for a readable details pane.
-        e["autoComplete"].sort(key=lambda a: (0 if a.get("source") == "notepad++" else 1,
-                                              0 if a.get("builtin") else 1))
+        _sort_acs(e)
+
+def _ac_key(a):
+    """Identity of an AC for dedup: (source, builtin, lowercased basename)."""
+    return (a.get("source"), bool(a.get("builtin")),
+            os.path.basename(a.get("file", "") or a.get("url", "")).lower())
+
+def _sort_acs(e):
+    # Notepad++ (built-in, then community) before Sublime, for a readable details pane.
+    e["autoComplete"].sort(key=lambda a: (0 if a.get("source") == "notepad++" else 1,
+                                          0 if a.get("builtin") else 1))
+
+# AC-equivalent language groups: every member inherits the UNION of all members'
+# ACs. Keys are the catalog 'language' (= <UserLang name>), matched case-insensitively.
+# The trailing comment is the human display name. Add groups here to "link" dialects.
+AC_ALIAS_GROUPS = [
+    ["GLSL", "GLSL 1.50 Core"],     # GLSL  ⇄  GLSL 3.3
+    ["LSL", "Second Life LSL"],     # LSL   ⇄  Second Life LSL
+]
+
+def apply_ac_aliases(langs):
+    """For each alias group, pool every member's ACs and attach the union to all
+    members (deduped). Lets dialects share AC files (e.g. Second Life LSL inherits
+    LSL's two ACs). Purely catalog-side: the ACs install into each member's own
+    '<language>.d/' so the runtime — which keys on the document's <UserLang name> —
+    finds them without any host change."""
+    n_groups = 0
+    for group in AC_ALIAS_GROUPS:
+        members_lc = set(g.lower() for g in group)
+        member_entries = [e for e in langs if e["language"].lower() in members_lc]
+        if len(member_entries) < 2:
+            continue
+        pooled = {}                                  # _ac_key → asset dict
+        for e in member_entries:
+            for a in e["autoComplete"]:
+                pooled.setdefault(_ac_key(a), a)
+        for e in member_entries:
+            have = set(_ac_key(a) for a in e["autoComplete"])
+            for k, a in pooled.items():
+                if k in have:
+                    continue
+                e["autoComplete"].append(dict(a)); have.add(k)
+            _sort_acs(e)
+        n_groups += 1
+    return n_groups
 
 STOCK_LANG = {"javascript": "javascript.js", "coffee": "coffeescript", "baanc": "baanc"}
 STOCK_CAPTION = {
@@ -243,6 +285,7 @@ def main():
     add_sublime_udl_entries(langs)   # keep every Sublime UDL as its own entry
     add_ac_only_entries(langs)       # built-in / UDL-less languages that have ACs
     cross_attach_acs(langs)          # AC-level 1:N — every UDL of a language gets all its ACs
+    n_alias = apply_ac_aliases(langs)  # share ACs across linked dialects (GLSL/3.3, LSL/SL-LSL)
 
     langs.sort(key=lambda x: (x["language"].lower(), x["id"].lower()))
     index = {
@@ -261,7 +304,7 @@ def main():
     with_ac  = sum(1 for l in langs if l["autoComplete"])
     n_sub = sum(1 for l in langs if l["source"] == "sublime")
     print(f"wrote {out}")
-    print(f"  {len(langs)} languages | {with_udl} with UDL | {with_ac} with AC | {n_sub} sublime | {len(warnings)} warnings")
+    print(f"  {len(langs)} languages | {with_udl} with UDL | {with_ac} with AC | {n_sub} sublime | {n_alias} alias groups | {len(warnings)} warnings")
     for w in warnings[:15]:
         print("  ! " + w)
     if len(warnings) > 15:

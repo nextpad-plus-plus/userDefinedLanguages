@@ -1,7 +1,7 @@
 {
  "name": "nextpad-udl-ac-index",
  "version": 1,
- "generated": "2026-06-09T19:42:28Z",
+ "generated": "2026-06-09T19:52:30Z",
  "count": 1369,
  "languages": [
   {
@@ -8599,7 +8599,15 @@
     "sha256": "601d100bb8968582c2117f6551365b4a74b9a4feec1a91730415e745fbcbfca3",
     "bytes": 6315
    },
-   "autoComplete": [],
+   "autoComplete": [
+    {
+     "file": "autoCompletion/GLSL 1.50 Core.xml",
+     "sha256": "9a5cb55dd68a87471d9c463e0dbd141ac93f9d2a640c0faf8b60fcb2170c0de5",
+     "bytes": 14730,
+     "entries": 327,
+     "source": "notepad++"
+    }
+   ],
    "sample": null,
    "functionList": null
   },
@@ -21211,7 +21219,22 @@
     "sha256": "bf81e733c90e06932e9b3e6471a9b3d3a1ce27ffef13dbaa21d75adeffde9976",
     "bytes": 8119
    },
-   "autoComplete": [],
+   "autoComplete": [
+    {
+     "file": "autoCompletion/LSL.xml",
+     "sha256": "ff6339841363419ed87d0c2b0a4fab73d3b27b4d619db4dbb3b7289b09b25299",
+     "bytes": 233245,
+     "entries": 1303,
+     "source": "notepad++"
+    },
+    {
+     "file": "autoCompletion-Sublime/LSL.xml",
+     "sha256": "f415e7e01d47f6995f14d2a4c61981357f5e3d3d96243afe3dabede0e7bcf062",
+     "bytes": 38691,
+     "entries": 837,
+     "source": "sublime"
+    }
+   ],
    "sample": null,
    "functionList": null
   },
