@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="Tact">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="abs" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="abstract" />
+        <KeyWord name="acceptMessage" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Address" />
+        <KeyWord name="address" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="as" />
+        <KeyWord name="ascii" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="asciiString" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="asm" />
+        <KeyWord name="BasechainAddress" />
+        <KeyWord name="beginCell" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beginComment" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beginString" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beginStringFromBuilder" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beginTailString" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="blockLt" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Bool" />
+        <KeyWord name="bounced" />
+        <KeyWord name="Builder" />
+        <KeyWord name="bytes32" />
+        <KeyWord name="bytes64" />
+        <KeyWord name="cashback" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg0" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="catch" />
+        <KeyWord name="Cell" />
+        <KeyWord name="cell" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="bocBase64String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="checkDataSignature" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="data_Int" />
+                <Param name="signature_Slice" />
+                <Param name="pubkey_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="checkSignature" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="hash_Int" />
+                <Param name="signature_Slice" />
+                <Param name="pubkey_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="codeOf" />
+        <KeyWord name="coins" />
+        <KeyWord name="commit" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="const" />
+        <KeyWord name="constant" />
+        <KeyWord name="context" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="contract" />
+        <KeyWord name="contractAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="StateInit" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="contractAddressExt" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="chain_Int" />
+                <Param name="code_Cell" />
+                <Param name="data_Cell" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="contractBasechainAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="StateInit" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="contractHash" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="code_Cell" />
+                <Param name="data_Cell" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="crc32" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="someString" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ctx" />
+        <KeyWord name="curLt" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="deploy" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg0" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="deployparams" func="yes">
+            <Overload retVal="" descr="deploy(DeployParameters{…})">
+                <Param name="DeployParameters{value: 0, init: initOf SomeContract()}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="divc" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="do" />
+        <KeyWord name="dountil" />
+        <KeyWord name="dump" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="dumpStack" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="else" />
+        <KeyWord name="emit" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="body_Cell" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emptyBasechainAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emptyCell" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emptySlice" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="extends" />
+        <KeyWord name="external" />
+        <KeyWord name="false" />
+        <KeyWord name="forceBasechain" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="address" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="forceWorkchain" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="address" />
+                <Param name="workchain" />
+                <Param name="errorCode" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="foreach" />
+        <KeyWord name="forin" />
+        <KeyWord name="fun" />
+        <KeyWord name="function" />
+        <KeyWord name="gasConsumed" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="get" />
+        <KeyWord name="getComputeFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="gas_used_Int, ${2:is_masterchain_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getConfigParam" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="id_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getForwardFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="cells_Int, ${2:bits_Int" />
+                <Param name="is_masterchain_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getOriginalFwdFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="fwd_fee_Int, ${2:is_masterchain_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getSeed" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getSimpleComputeFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="gas_used_Int, ${2:is_masterchain_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getSimpleForwardFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="cells_Int, ${2:bits_Int" />
+                <Param name="is_masterchain_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getStorageFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="cells_Int, ${2:bits_Int" />
+                <Param name="seconds_Int" />
+                <Param name="is_masterchain_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="if" />
+        <KeyWord name="ifelse" func="yes">
+            <Overload retVal="" descr="if (…) {…} else {…}">
+                <Param name="condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ifelseif" func="yes">
+            <Overload retVal="" descr="if (…) {…} else if (…) {…}">
+                <Param name="condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="impconfig" />
+        <KeyWord name="impcontent" />
+        <KeyWord name="impdeploy" />
+        <KeyWord name="impdns" />
+        <KeyWord name="import" />
+        <KeyWord name="impownable" />
+        <KeyWord name="impstd" />
+        <KeyWord name="impstoppable" />
+        <KeyWord name="in" />
+        <KeyWord name="init" />
+        <KeyWord name="init0" func="yes">
+            <Overload retVal="" descr="empty init()">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="init1" func="yes">
+            <Overload retVal="" descr="init() with 1 param">
+                <Param name="name: type" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="init2" func="yes">
+            <Overload retVal="" descr="init() with 2 params">
+                <Param name="name: type" />
+                <Param name="name: type" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="initOf" />
+        <KeyWord name="inline" />
+        <KeyWord name="inMsg" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Int" />
+        <KeyWord name="int128" />
+        <KeyWord name="int16" />
+        <KeyWord name="int256" />
+        <KeyWord name="int257" />
+        <KeyWord name="int32" />
+        <KeyWord name="int64" />
+        <KeyWord name="int8" />
+        <KeyWord name="interface" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name='"arg1"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="keccak256" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="Slice_or_String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="let" />
+        <KeyWord name="log" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="num_Int" />
+                <Param name="base_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="log2" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="num_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="map" />
+        <KeyWord name="max" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="message" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg0" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="messageparams" func="yes">
+            <Overload retVal="" descr="message(MessageParameters{…})">
+                <Param name="MessageParameters{to: sender(), value: 0}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="min" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="msgparams" func="yes">
+            <Overload retVal="" descr="message(MessageParameters{…})">
+                <Param name="MessageParameters{to: sender(), value: 0}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="muldivc" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+                <Param name="z_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mulShiftRight" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+                <Param name="z_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mulShiftRightCeil" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+                <Param name="z_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mulShiftRightRound" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="x_Int" />
+                <Param name="y_Int" />
+                <Param name="z_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mutates" />
+        <KeyWord name="myAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="myBalance" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="myCode" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="myStorageDue" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="natfunction" func="yes">
+            <Overload retVal="" descr="@name(…) native …(…): …;">
+                <Param name="func" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="native" />
+        <KeyWord name="nativePrepareRandom" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nativeRandom" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nativeRandomInterval" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="max_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nativeRandomize" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="seed_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nativeRandomizeLt" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nativeReserve" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="amount_Int" />
+                <Param name="mode_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="newAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="chain_Int" />
+                <Param name="hash_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="newBasechainAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="hash_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="now" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="null" />
+        <KeyWord name="override" />
+        <KeyWord name="parseStdAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="slice_Slice" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="parseVarAddress" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="slice_Slice" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pow" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="base_Int" />
+                <Param name="exp_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pow2" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="exp_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="random" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="min_Int" />
+                <Param name="max_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="randomInt" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rawSlice" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="someString" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="receive" />
+        <KeyWord name="recv" />
+        <KeyWord name="recvbounced" func="yes">
+            <Overload retVal="" descr="bounced(…) {…}">
+                <Param name="msg: Slice" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="recvext" func="yes">
+            <Overload retVal="" descr="external(…) {…}">
+                <Param name='"..."' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="remaining" />
+        <KeyWord name="repeat" />
+        <KeyWord name="require" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="condition_Bool" />
+                <Param name="error_String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ReserveAddOriginalBalance" />
+        <KeyWord name="ReserveAllExcept" />
+        <KeyWord name="ReserveAtMost" />
+        <KeyWord name="ReserveBounceIfActionFail" />
+        <KeyWord name="ReserveExact" />
+        <KeyWord name="ReserveInvertSign" />
+        <KeyWord name="return" />
+        <KeyWord name="self" />
+        <KeyWord name="self.forward" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg1" />
+                <Param name="null" />
+                <Param name="true" />
+                <Param name="null" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="self.notify" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="null" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="self.reply" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="null" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="self.storageReserve" />
+        <KeyWord name="send" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg0" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SendBounceIfActionFail" />
+        <KeyWord name="SendDefaultMode" />
+        <KeyWord name="SendDestroyIfZero" />
+        <KeyWord name="sender" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SendIgnoreErrors" />
+        <KeyWord name="SendOnlyEstimateFee" />
+        <KeyWord name="SendParameters" />
+        <KeyWord name="sendparams" func="yes">
+            <Overload retVal="" descr="send(SendParameters{…})">
+                <Param name="SendParameters{to: sender(), value: 0}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SendPayFwdFeesSeparately" />
+        <KeyWord name="sendRawMessage" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="msg_Cell" />
+                <Param name="mode_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sendRawMessageReturnForwardFee" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="msg_Cell" />
+                <Param name="mode_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SendRemainingBalance" />
+        <KeyWord name="SendRemainingValue" />
+        <KeyWord name="setGasLimit" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setSeed" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sha256" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="Slice_or_String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sign" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SignedBundle" />
+        <KeyWord name="Slice" />
+        <KeyWord name="slice" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="bocBase64String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sqrt" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="StateInit" />
+        <KeyWord name="StdAddress" />
+        <KeyWord name="String" />
+        <KeyWord name="StringBuilder" />
+        <KeyWord name="struct" />
+        <KeyWord name="TactExitCodeAccessDenied" />
+        <KeyWord name="TactExitCodeConstraintsError" />
+        <KeyWord name="TactExitCodeContractCodeNotFound" />
+        <KeyWord name="TactExitCodeContractStopped" />
+        <KeyWord name="TactExitCodeInvalidArgument" />
+        <KeyWord name="TactExitCodeInvalidIncomingMessage" />
+        <KeyWord name="TactExitCodeInvalidSerializationPrefix" />
+        <KeyWord name="TactExitCodeInvalidStandardAddress" />
+        <KeyWord name="TactExitCodeNotBasechainAddress" />
+        <KeyWord name="TactExitCodeNullReferenceException" />
+        <KeyWord name="throw" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="code_Int" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="throwIf" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="code_Int" />
+                <Param name="condition_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="throwUnless" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="code_Int" />
+                <Param name="condition_Bool" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ton" func="yes">
+            <Overload retVal="" descr="Tact Docs">
+                <Param name="String" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="trait" />
+        <KeyWord name="true" />
+        <KeyWord name="try" />
+        <KeyWord name="trycatch" />
+        <KeyWord name="uint128" />
+        <KeyWord name="uint16" />
+        <KeyWord name="uint256" />
+        <KeyWord name="uint32" />
+        <KeyWord name="uint64" />
+        <KeyWord name="uint8" />
+        <KeyWord name="until" />
+        <KeyWord name="VarAddress" />
+        <KeyWord name="variable" />
+        <KeyWord name="virtual" />
+        <KeyWord name="while" />
+        <KeyWord name="with" />
+    </AutoComplete>
+</NotepadPlus>

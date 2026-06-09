@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="Groovy">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="actionName" />
+        <KeyWord name="addTo" />
+        <KeyWord name="afterDelete" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="afterInsert" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="afterLoad" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="afterUpdate" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="attach()" />
+        <KeyWord name="beforeDelete" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beforeInsert" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beforeLoad" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beforeUpdate" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="beforeValidate" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="belongsTo" />
+        <KeyWord name="bindData" func="yes">
+            <Overload retVal="">
+                <Param name="target" />
+                <Param name="params" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="chain" />
+        <KeyWord name="clearErrors()" />
+        <KeyWord name="constraints" />
+        <KeyWord name="controllerName" />
+        <KeyWord name="count()" />
+        <KeyWord name="countBy" />
+        <KeyWord name="createCriteria()" />
+        <KeyWord name="def afterInterceptor" />
+        <KeyWord name="def beforeInterceptor" />
+        <KeyWord name="delete()" />
+        <KeyWord name="dirtyPropertyNames" />
+        <KeyWord name="discard()" />
+        <KeyWord name="embedded" />
+        <KeyWord name="errors" />
+        <KeyWord name="executeQuery" func="yes">
+            <Overload retVal="">
+                <Param name="query" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="executeUpdate" func="yes">
+            <Overload retVal="">
+                <Param name="query" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="exists" func="yes">
+            <Overload retVal="">
+                <Param name="id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fetchMode" />
+        <KeyWord name="find" func="yes">
+            <Overload retVal="">
+                <Param name="query" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="findAll()" />
+        <KeyWord name="findAll(query)" func="yes">
+            <Overload retVal="">
+                <Param name="query" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="findAllBy" />
+        <KeyWord name="findAllWhere" func="yes">
+            <Overload retVal="">
+                <Param name="property: value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="findBy" />
+        <KeyWord name="findOrCreateBy" />
+        <KeyWord name="findOrCreateWhere" func="yes">
+            <Overload retVal="">
+                <Param name="property: value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="findOrSaveBy" />
+        <KeyWord name="findOrSaveWhere" func="yes">
+            <Overload retVal="">
+                <Param name="property: value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="findWhere" func="yes">
+            <Overload retVal="">
+                <Param name="property: value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="first()" />
+        <KeyWord name="flash" />
+        <KeyWord name="forward" />
+        <KeyWord name="get" func="yes">
+            <Overload retVal="">
+                <Param name="id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getAll()" />
+        <KeyWord name="getPersistentValue" func="yes">
+            <Overload retVal="">
+                <Param name="'property'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="grailsApplication" />
+        <KeyWord name="hasErrors()" />
+        <KeyWord name="hasMany" />
+        <KeyWord name="hasOne" />
+        <KeyWord name="ident()" />
+        <KeyWord name="instanceOf" func="yes">
+            <Overload retVal="">
+                <Param name="Class" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isAttached()" />
+        <KeyWord name="isDirty()" />
+        <KeyWord name="last()" />
+        <KeyWord name="list()" />
+        <KeyWord name="listOrderBy" />
+        <KeyWord name="load" func="yes">
+            <Overload retVal="">
+                <Param name="id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="lock()" />
+        <KeyWord name="mappedBy" />
+        <KeyWord name="mapping" />
+        <KeyWord name="merge()" />
+        <KeyWord name="namedQueries" />
+        <KeyWord name="onLoad" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="params" />
+        <KeyWord name="properties" />
+        <KeyWord name="read" func="yes">
+            <Overload retVal="">
+                <Param name="id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="redirect" />
+        <KeyWord name="refresh()" />
+        <KeyWord name="removeFrom" />
+        <KeyWord name="render" />
+        <KeyWord name="request" />
+        <KeyWord name="response" />
+        <KeyWord name="save()" />
+        <KeyWord name="servletContext" />
+        <KeyWord name="session" />
+        <KeyWord name="static allowedMethods" />
+        <KeyWord name="static defaultAction" />
+        <KeyWord name="static transactional = true" />
+        <KeyWord name="transients" />
+        <KeyWord name="validate()" />
+        <KeyWord name="where" />
+        <KeyWord name="whereAny" />
+        <KeyWord name="withCriteria" />
+        <KeyWord name="withForm" />
+        <KeyWord name="withFormat" />
+        <KeyWord name="withNewSession" />
+        <KeyWord name="withSession" />
+        <KeyWord name="withTransaction" />
+    </AutoComplete>
+</NotepadPlus>

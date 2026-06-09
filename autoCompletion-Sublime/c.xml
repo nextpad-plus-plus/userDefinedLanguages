@@ -1,0 +1,2664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="c">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="abs()" func="yes">
+            <Overload retVal="">
+                <Param name="val" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="actorFace()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="actorFreeze()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="actorNeverZClip()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="actorSay()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="string" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="actorTurnToDirection()" func="yes">
+            <Overload retVal="">
+                <Param name="dir" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="actorUnfreeze()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="adjacent_find" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="advance" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="all_of" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="anim" />
+        <KeyWord name="animateActor()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="anim" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="any_of" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="assign" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="at" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic" />
+        <KeyWord name="atomic_compare_exchange_strong" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_compare_exchange_strong_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_compare_exchange_weak" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_compare_exchange_weak_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_exchange" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_exchange_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_add" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_add_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_and" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_and_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_or" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_or_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_sub" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_sub_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_xor" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_fetch_xor_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_flag" />
+        <KeyWord name="atomic_flag_clear" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_flag_clear_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ATOMIC_FLAG_INIT" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_flag_test_and_set" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_flag_test_and_set_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_init" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_is_lock_free" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_load" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_load_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_signal_fence" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_store" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_store_explicit" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atomic_thread_fence" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ATOMIC_VAR_INIT" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="back" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="back_inserter" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="bad" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="basic_ios" />
+        <KeyWord name="before_begin" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="begin" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="binary_search" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="boolalpha" />
+        <KeyWord name="breakScript()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="breakXTimes()" func="yes">
+            <Overload retVal="">
+                <Param name="X" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="bucket" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="bucket_count" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="bucket_size" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cameraFollowActor()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="capacity" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cbefore_begin" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cbegin" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cend" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cerr" />
+        <KeyWord name="cin" />
+        <KeyWord name="ClassAlwaysClip" />
+        <KeyWord name="ClassIgnoreBoxes" />
+        <KeyWord name="ClassNeverClip" />
+        <KeyWord name="ClassPlayer" />
+        <KeyWord name="ClassUntouchable" />
+        <KeyWord name="ClassXFlip" />
+        <KeyWord name="ClassYFlip" />
+        <KeyWord name="clear" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="clearCharsetMask()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="clog" />
+        <KeyWord name="close" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="copy_backward" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="copy_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="copy_n" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="copyColor()" func="yes">
+            <Overload retVal="">
+                <Param name="src" />
+                <Param name="dst" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="copyfmt" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="count" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="count_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cout" />
+        <KeyWord name="crbegin" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="createBoxMatrix()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="crend" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cursorOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cursorOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cutscene" func="yes">
+            <Overload retVal="">
+                <Param name="/* args */" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="data" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="dec" />
+        <KeyWord name="defaultfloat" />
+        <KeyWord name="delay()" func="yes">
+            <Overload retVal="">
+                <Param name="ticks" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="delayMinutes()" func="yes">
+            <Overload retVal="">
+                <Param name="min" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="delaySeconds()" func="yes">
+            <Overload retVal="">
+                <Param name="sec" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="deleteVerbs()" func="yes">
+            <Overload retVal="">
+                <Param name="fromVerb" />
+                <Param name="toVerb" />
+                <Param name="slot" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="distance" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="doSentence()" func="yes">
+            <Overload retVal="">
+                <Param name="verb" />
+                <Param name="objA" />
+                <Param name="dummy" />
+                <Param name="objB" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="drawBox()" func="yes">
+            <Overload retVal="">
+                <Param name="x1" />
+                <Param name="y1" />
+                <Param name="x2" />
+                <Param name="y2" />
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="drawObject()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="state" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="drawObjectAt()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="eback" />
+        <KeyWord name="egoSay()" func="yes">
+            <Overload retVal="">
+                <Param name="string" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="egptr" />
+        <KeyWord name="emplace" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emplace_after" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emplace_back" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emplace_front" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="emplace_hint" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="empty" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="end" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="endl" />
+        <KeyWord name="ends" />
+        <KeyWord name="enqueueObject()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="w" />
+                <Param name="h" />
+                <Param name="scaleX" />
+                <Param name="scaleY" />
+                <Param name="image" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="eof" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="epptr" />
+        <KeyWord name="equal" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="equal_range" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="erase" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="erase_after" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="event" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="event_callback" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="exceptions" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fadeIn()" func="yes">
+            <Overload retVal="">
+                <Param name="effect" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fadeOut()" func="yes">
+            <Overload retVal="">
+                <Param name="effect" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fail" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="failure" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fill" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fill_n" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="find" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="find_end" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="find_first_of" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="find_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="find_if_not" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="findInventory()" func="yes">
+            <Overload retVal="">
+                <Param name="owner" />
+                <Param name="idx" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fixed" />
+        <KeyWord name="flags" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="flush" />
+        <KeyWord name="fmtflags" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="for_each" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fpos" />
+        <KeyWord name="freezeUnfreeze()" func="yes">
+            <Overload retVal="">
+                <Param name="a" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="front" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="front_inserter" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="gbump" />
+        <KeyWord name="generate" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="generate_n" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="get_allocator" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="get_money" />
+        <KeyWord name="get_time" />
+        <KeyWord name="getActorAnimCounter1()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorAnimVar()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="var" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorAt()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorCostume()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorElevation()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorFrame()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorLayer()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorRoom()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorWalkBox()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorWidth()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getActorXScale()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getBoxFlags()" func="yes">
+            <Overload retVal="">
+                <Param name="box" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getColor()" func="yes">
+            <Overload retVal="">
+                <Param name="r" />
+                <Param name="g" />
+                <Param name="b" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getDateTime()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getDistObjObj()" func="yes">
+            <Overload retVal="">
+                <Param name="objA" />
+                <Param name="objB" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getDistObjPt()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getDistPtPt()" func="yes">
+            <Overload retVal="">
+                <Param name="x1" />
+                <Param name="y1" />
+                <Param name="x2" />
+                <Param name="y2" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getInventoryCount()" func="yes">
+            <Overload retVal="">
+                <Param name="owner" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getKeyState()" func="yes">
+            <Overload retVal="">
+                <Param name="key" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getloc" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectAt()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectDir()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectNewDir()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectOwner()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectState()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectVerbEntrypoint()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="verb" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectX()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getObjectY()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getPixel()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRandomNumber()" func="yes">
+            <Overload retVal="">
+                <Param name="max" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRandomNumberRange()" func="yes">
+            <Overload retVal="">
+                <Param name="min" />
+                <Param name="max" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRoomObjectHeight()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRoomObjects()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRoomObjectWidth()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRoomObjectX()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getRoomObjectY()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getSpecialBox()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getVerbAt()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getVerbX()" func="yes">
+            <Overload retVal="">
+                <Param name="verb" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getVerbY()" func="yes">
+            <Overload retVal="">
+                <Param name="verb" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="good" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="gptr" />
+        <KeyWord name="grabCursor( x, y, w, h )" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="w" />
+                <Param name="h" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="hash_function" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="hex" />
+        <KeyWord name="hexfloat" />
+        <KeyWord name="I-assert" />
+        <KeyWord name="I-ctype" />
+        <KeyWord name="I-errno" />
+        <KeyWord name="I-fenv" />
+        <KeyWord name="I-float" />
+        <KeyWord name="I-inttypes" />
+        <KeyWord name="I-iso646" />
+        <KeyWord name="I-limits" />
+        <KeyWord name="I-locale" />
+        <KeyWord name="I-math" />
+        <KeyWord name="I-setjmp" />
+        <KeyWord name="I-signal" />
+        <KeyWord name="I-stdarg" />
+        <KeyWord name="I-stdbool" />
+        <KeyWord name="I-stddef" />
+        <KeyWord name="I-stdint" />
+        <KeyWord name="I-stdio" />
+        <KeyWord name="I-stdlib" />
+        <KeyWord name="I-string" />
+        <KeyWord name="I-tgmath" />
+        <KeyWord name="I-time" />
+        <KeyWord name="I-uchar" />
+        <KeyWord name="I-wchar" />
+        <KeyWord name="I-wctype" />
+        <KeyWord name="IM_BEAT_INDEX" />
+        <KeyWord name="IM_CLEAR_TRIGGER" />
+        <KeyWord name="IM_DETUNE" />
+        <KeyWord name="IM_FADE_SOUND" />
+        <KeyWord name="IM_GET_MASTER_VOLUME" />
+        <KeyWord name="IM_GET_SOUND_STATUS" />
+        <KeyWord name="IM_HOOK_JUMP" />
+        <KeyWord name="IM_HOOK_PART_ON_OFF" />
+        <KeyWord name="IM_HOOK_PART_PROGRAM" />
+        <KeyWord name="IM_HOOK_PART_TRANSPOSE" />
+        <KeyWord name="IM_HOOK_PART_VOLUME" />
+        <KeyWord name="IM_HOOK_TRANSPOSE" />
+        <KeyWord name="IM_JUMP_HOOK" />
+        <KeyWord name="IM_LIVE_MIDI_OFF" />
+        <KeyWord name="IM_LIVE_MIDI_ON" />
+        <KeyWord name="IM_LOOP_COUNTER" />
+        <KeyWord name="IM_LOOP_FROM_BEAT" />
+        <KeyWord name="IM_LOOP_FROM_TICK" />
+        <KeyWord name="IM_LOOP_TO_BEAT" />
+        <KeyWord name="IM_LOOP_TO_TICK" />
+        <KeyWord name="IM_MAYBE_HOOK" />
+        <KeyWord name="IM_PAN" />
+        <KeyWord name="IM_PART_INSTRUMENT" />
+        <KeyWord name="IM_PART_ON" />
+        <KeyWord name="IM_PART_ON_OFF_HOOK" />
+        <KeyWord name="IM_PART_PROGRAM_HOOK" />
+        <KeyWord name="IM_PART_TRANSPOSE" />
+        <KeyWord name="IM_PART_TRANSPOSE_HOOK" />
+        <KeyWord name="IM_PART_VOL" />
+        <KeyWord name="IM_PART_VOLUME_HOOK" />
+        <KeyWord name="IM_PLAYER_CLEAR_LOOP" />
+        <KeyWord name="IM_PLAYER_FADE" />
+        <KeyWord name="IM_PLAYER_GET_PARAM" />
+        <KeyWord name="IM_PLAYER_JUMP" />
+        <KeyWord name="IM_PLAYER_SCAN" />
+        <KeyWord name="IM_PLAYER_SET" />
+        <KeyWord name="IM_PLAYER_SET_DETUNE" />
+        <KeyWord name="IM_PLAYER_SET_HOOK" />
+        <KeyWord name="IM_PLAYER_SET_LOOP" />
+        <KeyWord name="IM_PLAYER_SET_ON_OFF" />
+        <KeyWord name="IM_PLAYER_SET_PAN" />
+        <KeyWord name="IM_PLAYER_SET_PRIORITY" />
+        <KeyWord name="IM_PLAYER_SET_SPEED" />
+        <KeyWord name="IM_PLAYER_SET_TRANSPOSE" />
+        <KeyWord name="IM_PLAYER_SET_VOLUME" />
+        <KeyWord name="IM_PRIORITY" />
+        <KeyWord name="IM_QUERY_QUEUE" />
+        <KeyWord name="IM_QUEUE_COMMAND" />
+        <KeyWord name="IM_QUEUE_TRIGGER" />
+        <KeyWord name="IM_SET_CHANNEL_VOLUME" />
+        <KeyWord name="IM_SET_MASTER_VOLUME" />
+        <KeyWord name="IM_SET_VOLCHAN" />
+        <KeyWord name="IM_SET_VOLCHAN_ENTRY" />
+        <KeyWord name="IM_SPEED" />
+        <KeyWord name="IM_START_SOUND" />
+        <KeyWord name="IM_STOP_ALL_SOUNDS" />
+        <KeyWord name="IM_STOP_SOUND" />
+        <KeyWord name="IM_TICK_INDEX" />
+        <KeyWord name="IM_TRACK_INDEX" />
+        <KeyWord name="IM_TRANSPOSE" />
+        <KeyWord name="IM_TRANSPOSE_HOOK" />
+        <KeyWord name="IM_VOLUME" />
+        <KeyWord name="imbue" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="in_avail" />
+        <KeyWord name="include scummVars6" />
+        <KeyWord name="include scummVars7" />
+        <KeyWord name="includes" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Init" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="init" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="initActor()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="initActorQuick()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="initCharset( chset )" func="yes">
+            <Overload retVal="">
+                <Param name="chset" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="initVerb()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="inplace_merge" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="insert" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="insert_after" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="inserter" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="internal" />
+        <KeyWord name="io_errc" />
+        <KeyWord name="ios" />
+        <KeyWord name="ios_base" />
+        <KeyWord name="iostate" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_heap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_heap_until" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_open" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_partitioned" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_permutation" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_sorted" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_sorted_until" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isActorInBox()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="box" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isActorMoving()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isAnyOf()" func="yes">
+            <Overload retVal="">
+                <Param name="val" />
+                <Param name="[ ${3:list ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isInBox()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="box" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isObjectOfClass()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="[ 3{:classes ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isRoomScriptRunning()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isScriptRunning()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isSoundRunning()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="iter_swap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="iword" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="jumpToScript()" func="yes">
+            <Overload retVal="">
+                <Param name="flags" />
+                <Param name="script" />
+                <Param name="[ ${4:args ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="key_comp" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="key_eq" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="kill_dependency" func="yes">
+            <Overload retVal="" descr="atomic">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="killAllScriptsExceptCurrent()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="killVerb()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="left" />
+        <KeyWord name="lexicographical_compare" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="limb" />
+        <KeyWord name="load_factor" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="loadCharset()" func="yes">
+            <Overload retVal="">
+                <Param name="chset" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="loadCostume()" func="yes">
+            <Overload retVal="">
+                <Param name="cost" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="loadFlObject()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="loadRoom()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="loadScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="loadSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="lockCostume()" func="yes">
+            <Overload retVal="">
+                <Param name="cost" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="lockRoom()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="lockScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="lockSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="lower_bound" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="make_heap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="make_move_iterator" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="max" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="max_bucket_count" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="max_element" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="max_load_factor" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="max_size" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="memory_order" />
+        <KeyWord name="merge" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="min" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="min_element" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="minmax" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="minmax_element" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mismatch" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="move" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="move_backward" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="narrow" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="next" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="next_permutation" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="noboolalpha" />
+        <KeyWord name="none_of" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="noshowbase" />
+        <KeyWord name="noshowpoint" />
+        <KeyWord name="noshowpos" />
+        <KeyWord name="noskipws" />
+        <KeyWord name="nounitbuf" />
+        <KeyWord name="nouppercase" />
+        <KeyWord name="nth_element" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nukeCharset()" func="yes">
+            <Overload retVal="">
+                <Param name="chset" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nukeCostume()" func="yes">
+            <Overload retVal="">
+                <Param name="cost" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nukeFlObjects()" func="yes">
+            <Overload retVal="">
+                <Param name="unk" />
+                <Param name="first" />
+                <Param name="last" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nukeRoom()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nukeScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nukeSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="object" />
+        <KeyWord name="oct" />
+        <KeyWord name="open" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="openmode" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="operator" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="operator=" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="operator[]" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="overflow" />
+        <KeyWord name="palette" func="yes">
+            <Overload retVal="">
+                <Param name="INTLIST" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="panCameraTo()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="partial_sort" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="partial_sort_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="partition" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="partition_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="partition_point" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pauseGame()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pbackfail" />
+        <KeyWord name="pbase" />
+        <KeyWord name="pbump" />
+        <KeyWord name="pickOneOf()" func="yes">
+            <Overload retVal="">
+                <Param name="idx" />
+                <Param name="[ ${3:list ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pickOneOfDefault()" func="yes">
+            <Overload retVal="">
+                <Param name="idx" />
+                <Param name="[ ${3:list ]}, default" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pickupObject()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="picture" />
+        <KeyWord name="pop" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pop_back" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pop_front" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pop_heap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="position" />
+        <KeyWord name="pptr" />
+        <KeyWord name="precision" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="prev" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="prev_permutation" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="print()" func="yes">
+            <Overload retVal="">
+                <Param name="string" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printAt()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printBegin()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printCenter()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printClipped()" func="yes">
+            <Overload retVal="">
+                <Param name="right" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printColor()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printEnd()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printLeft()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printMumble()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="printOverhead()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pubimbue" />
+        <KeyWord name="pubseekoff" />
+        <KeyWord name="pubseekpos" />
+        <KeyWord name="pubsetbuf" />
+        <KeyWord name="pubsync" />
+        <KeyWord name="push" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="push_back" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="push_front" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="push_heap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="put_money" />
+        <KeyWord name="put_time" />
+        <KeyWord name="putActorAt()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="putActorAtObject()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="obj" />
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pword" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="random_shuffle" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rbegin" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rdbuf" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rdstate" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="redrawVerb()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="regex_match" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="regex_replace" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="regex_search" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="register_callback" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rehash" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="remove" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="remove_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="remove_copy_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="remove_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rend" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="replace" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="replace_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="replace_copy_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="replace_if" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="reserve" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="resetiosflags" />
+        <KeyWord name="resize" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="restartGame()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="restoreVerbs()" func="yes">
+            <Overload retVal="">
+                <Param name="fromVerb" />
+                <Param name="toVerb" />
+                <Param name="slot" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="reverse" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="reverse_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="right" />
+        <KeyWord name="room" />
+        <KeyWord name="roomPalManipulate()" func="yes">
+            <Overload retVal="">
+                <Param name="resID" />
+                <Param name="start" />
+                <Param name="end" />
+                <Param name="time" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rotate" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rotate_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="saveLoadThing()" func="yes">
+            <Overload retVal="">
+                <Param name="a" />
+                <Param name="b" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="saveSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="saveVerbs()" func="yes">
+            <Overload retVal="">
+                <Param name="fromVerb" />
+                <Param name="toVerb" />
+                <Param name="slot" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sbumpc" />
+        <KeyWord name="scientific" />
+        <KeyWord name="screenEffect()" func="yes">
+            <Overload retVal="">
+                <Param name="effect" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="script" />
+        <KeyWord name="search" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="search_n" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="seekdir" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="seekoff" />
+        <KeyWord name="seekpos" />
+        <KeyWord name="set_difference" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="set_intersection" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="set_symmetric_difference" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="set_union" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorAnimSpeed()" func="yes">
+            <Overload retVal="">
+                <Param name="speed" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorAnimVar()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="var" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorCostume()" func="yes">
+            <Overload retVal="">
+                <Param name="cost" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorDefaultFrames()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorDirection()" func="yes">
+            <Overload retVal="">
+                <Param name="dir" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorElevation()" func="yes">
+            <Overload retVal="">
+                <Param name="ev" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorFollowBoxes()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorIgnoreBoxes()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorIgnoreTurnsOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorIgnoreTurnsOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorInitFrame()" func="yes">
+            <Overload retVal="">
+                <Param name="frame" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorLayer()" func="yes">
+            <Overload retVal="">
+                <Param name="layer" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorName()" func="yes">
+            <Overload retVal="">
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorPalette()" func="yes">
+            <Overload retVal="">
+                <Param name="pal" />
+                <Param name="b" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorScale()" func="yes">
+            <Overload retVal="">
+                <Param name="a" />
+            </Overload>
+            <Overload retVal="">
+                <Param name="unk" />
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorShadowMode( )" func="yes">
+            <Overload retVal="">
+                <Param name="mode" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorShadowMode()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="modeA" />
+                <Param name="modeB" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorSounds()" func="yes">
+            <Overload retVal="">
+                <Param name="[ ${2:sounds ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorStandFrame()" func="yes">
+            <Overload retVal="">
+                <Param name="frame" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorStanding()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorTalkColor()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorTalkFrame()" func="yes">
+            <Overload retVal="">
+                <Param name="start" />
+                <Param name="stop" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorTalkPos()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorTalkScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorWalkFrame()" func="yes">
+            <Overload retVal="">
+                <Param name="frame" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorWalkScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorWalkSpeed()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorWidth()" func="yes">
+            <Overload retVal="">
+                <Param name="width" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setActorZClip()" func="yes">
+            <Overload retVal="">
+                <Param name="clip" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setbase" />
+        <KeyWord name="setBoxFlags()" func="yes">
+            <Overload retVal="">
+                <Param name="[ ${2:boxes ]}, flags" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setBoxSet()" func="yes">
+            <Overload retVal="">
+                <Param name="set" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setbuf" />
+        <KeyWord name="setCameraAt()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setCharsetColors()" func="yes">
+            <Overload retVal="">
+                <Param name="[ ${2:colors ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setCurrentActor()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setCurrentVerb()" func="yes">
+            <Overload retVal="">
+                <Param name="verb" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setCursorHotspot()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setCursorImage()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setCursorTransparency()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setf" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setfill" />
+        <KeyWord name="setg" />
+        <KeyWord name="setiosflags" />
+        <KeyWord name="setObjectClass()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="[ ${3:classes ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setObjectName()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setObjectOwner()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="owner" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setObjectState()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="state" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setp" />
+        <KeyWord name="setprecision" />
+        <KeyWord name="setPseudoRooms()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+                <Param name="[ ${3:pseudos ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomColor()" func="yes">
+            <Overload retVal="">
+                <Param name="r" />
+                <Param name="g" />
+                <Param name="b" />
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomCycleDelay()" func="yes">
+            <Overload retVal="">
+                <Param name="cycle" />
+                <Param name="delay" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomIntensity()" func="yes">
+            <Overload retVal="">
+                <Param name="scale" />
+                <Param name="start" />
+                <Param name="end" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomPalette()" func="yes">
+            <Overload retVal="">
+                <Param name="palette" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomRGBIntensity()" func="yes">
+            <Overload retVal="">
+                <Param name="rScale" />
+                <Param name="gScale" />
+                <Param name="bScale" />
+                <Param name="start" />
+                <Param name="end" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomScroll()" func="yes">
+            <Overload retVal="">
+                <Param name="minx" />
+                <Param name="maxx" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setRoomShadow()" func="yes">
+            <Overload retVal="">
+                <Param name="rScale" />
+                <Param name="gScale" />
+                <Param name="bScale" />
+                <Param name="start" />
+                <Param name="end" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setScreen()" func="yes">
+            <Overload retVal="">
+                <Param name="top" />
+                <Param name="bottom" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setShadowPalette()" func="yes">
+            <Overload retVal="">
+                <Param name="startColor" />
+                <Param name="endColor" />
+                <Param name="rScale" />
+                <Param name="gScale" />
+                <Param name="bScale" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setShakeOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setShakeOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setstate" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbBackColor()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbColor()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbDimColor()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbHiColor()" func="yes">
+            <Overload retVal="">
+                <Param name="color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbImage()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbKey()" func="yes">
+            <Overload retVal="">
+                <Param name="key" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbName()" func="yes">
+            <Overload retVal="">
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbNameString()" func="yes">
+            <Overload retVal="">
+                <Param name="array" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbObject()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setVerbXY()" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="setw" />
+        <KeyWord name="sgetc" />
+        <KeyWord name="sgetn" />
+        <KeyWord name="shiftShadowPalette()" func="yes">
+            <Overload retVal="">
+                <Param name="startColor" />
+                <Param name="endColor" />
+                <Param name="rScale" />
+                <Param name="gScale" />
+                <Param name="bScale" />
+                <Param name="start" />
+                <Param name="end" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="showbase" />
+        <KeyWord name="showmanyc" />
+        <KeyWord name="showpoint" />
+        <KeyWord name="showpos" />
+        <KeyWord name="shrink_to_fit" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="shuffle" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="shuffle()" func="yes">
+            <Overload retVal="">
+                <Param name="array" />
+                <Param name="min" />
+                <Param name="max" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="shutdown()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="size" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="skipws" />
+        <KeyWord name="snextc" />
+        <KeyWord name="softCursorOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="softCursorOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="softUserPutOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="softUserPutOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sort" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sort_heap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="soundKludge()" func="yes">
+            <Overload retVal="">
+                <Param name="[ ${2:cmds ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="splice" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="splice_after" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sputbackc" />
+        <KeyWord name="sputc" />
+        <KeyWord name="sputn" />
+        <KeyWord name="stable_partition" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stable_sort" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stampObject()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="state" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startMusic()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startObject()" func="yes">
+            <Overload retVal="">
+                <Param name="flags" />
+                <Param name="obj" />
+                <Param name="verb" />
+                <Param name="[ ${5:args ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startObject2()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="verb" />
+                <Param name="[ ${4:args ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startRoom()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startRoomWithEgo()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+                <Param name="room" />
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startScript()" func="yes">
+            <Overload retVal="">
+                <Param name="flags" />
+                <Param name="script" />
+                <Param name="[ ${4:args ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startScript0()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+                <Param name="[ ${3:args ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startScript2()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+                <Param name="[ ${3:args ]}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="startSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stopMusic()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stopObjectScript()" func="yes">
+            <Overload retVal="">
+                <Param name="obj" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stopScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stopSentence()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stopSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stopTalking()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="streamoff" />
+        <KeyWord name="streampos" />
+        <KeyWord name="streamsize" />
+        <KeyWord name="sungetc" />
+        <KeyWord name="swap" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="swap_ranges" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="swapColors()" func="yes">
+            <Overload retVal="">
+                <Param name="colorA" />
+                <Param name="colorB" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sync" />
+        <KeyWord name="sync_with_stdio" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="tie" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="top" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="transform" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="uflow" />
+        <KeyWord name="underflow" />
+        <KeyWord name="unique" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="unique_copy" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="unitbuf" />
+        <KeyWord name="unlockCostume()" func="yes">
+            <Overload retVal="">
+                <Param name="cost" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="unlockRoom()" func="yes">
+            <Overload retVal="">
+                <Param name="room" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="unlockScript()" func="yes">
+            <Overload retVal="">
+                <Param name="script" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="unlockSound()" func="yes">
+            <Overload retVal="">
+                <Param name="sound" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="unsetf" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="upper_bound" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="userPutOff()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="userPutOn()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="using" />
+        <KeyWord name="value_comp" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="VAR_ACTOR_RANGE_MAX" />
+        <KeyWord name="VAR_ACTOR_RANGE_MIN" />
+        <KeyWord name="VAR_CAMERA_FAST_X" />
+        <KeyWord name="VAR_CAMERA_MAX_X" />
+        <KeyWord name="VAR_CAMERA_MIN_X" />
+        <KeyWord name="VAR_CAMERA_POS_X" />
+        <KeyWord name="VAR_CAMERA_SCRIPT" />
+        <KeyWord name="VAR_CANCEL_BTN" />
+        <KeyWord name="VAR_CHARINC" />
+        <KeyWord name="VAR_CURRENTDRIVE" />
+        <KeyWord name="VAR_CURSORSTATE" />
+        <KeyWord name="VAR_CUTSCENE_END_SCRIPT" />
+        <KeyWord name="VAR_CUTSCENE_START_SCRIPT" />
+        <KeyWord name="VAR_CUTSCENEEXIT_KEY" />
+        <KeyWord name="VAR_DEBUG_PASSWORD" />
+        <KeyWord name="VAR_DEBUGMODE" />
+        <KeyWord name="VAR_EGO" />
+        <KeyWord name="VAR_ENTER_NAME_MSG" />
+        <KeyWord name="VAR_FADE_DELAY" />
+        <KeyWord name="VAR_FIXEDDISK" />
+        <KeyWord name="VAR_GAME_DISK_MSG" />
+        <KeyWord name="VAR_GAME_LOADED" />
+        <KeyWord name="VAR_GAME_VERSION" />
+        <KeyWord name="VAR_GUI_COLORS" />
+        <KeyWord name="VAR_GUI_ENTRY_SCRIPT" />
+        <KeyWord name="VAR_GUI_EXIT_SCRIPT" />
+        <KeyWord name="VAR_HAVE_MSG" />
+        <KeyWord name="VAR_HEAPSPACE" />
+        <KeyWord name="VAR_INVENTORY_SCRIPT" />
+        <KeyWord name="VAR_KEYPRESS" />
+        <KeyWord name="VAR_LAST_SOUND" />
+        <KeyWord name="VAR_LEFTBTN_HOLD" />
+        <KeyWord name="VAR_LOAD_BTN" />
+        <KeyWord name="VAR_LOAD_MENU_TITLE" />
+        <KeyWord name="VAR_LOAD_MSG" />
+        <KeyWord name="VAR_MACHINE_SPEED" />
+        <KeyWord name="VAR_MAIN_MENU_TITLE" />
+        <KeyWord name="VAR_MAINMENU_KEY" />
+        <KeyWord name="VAR_ME" />
+        <KeyWord name="VAR_MEMORY_PERFORMANCE" />
+        <KeyWord name="VAR_MOUSE_X" />
+        <KeyWord name="VAR_MOUSE_Y" />
+        <KeyWord name="VAR_MOUSEPRESENT" />
+        <KeyWord name="VAR_MUSIC_TIMER" />
+        <KeyWord name="VAR_NEW_ROOM" />
+        <KeyWord name="VAR_NOSUBTITLES" />
+        <KeyWord name="VAR_NOT_LOADED_MSG" />
+        <KeyWord name="VAR_NOT_SAVED_MSG" />
+        <KeyWord name="VAR_NUM_ACTOR" />
+        <KeyWord name="VAR_OK_BTN" />
+        <KeyWord name="VAR_OPEN_FAILED_MSG" />
+        <KeyWord name="VAR_OVERRIDE" />
+        <KeyWord name="VAR_PAUSE_KEY" />
+        <KeyWord name="VAR_PAUSE_MSG" />
+        <KeyWord name="VAR_PLAY_BTN" />
+        <KeyWord name="VAR_POST_ENTRY_SCRIPT" />
+        <KeyWord name="VAR_POST_EXIT_SCRIPT" />
+        <KeyWord name="VAR_PRE_ENTRY_SCRIPT" />
+        <KeyWord name="VAR_PRE_EXIT_SCRIPT" />
+        <KeyWord name="VAR_QUIT_BTN" />
+        <KeyWord name="VAR_QUIT_MSG" />
+        <KeyWord name="VAR_RANDOM_NR" />
+        <KeyWord name="VAR_READ_ERROR_MSG" />
+        <KeyWord name="VAR_RESTART_KEY" />
+        <KeyWord name="VAR_RESTART_MSG" />
+        <KeyWord name="VAR_RIGHTBTN_HOLD" />
+        <KeyWord name="VAR_ROOM" />
+        <KeyWord name="VAR_ROOM_FLAG" />
+        <KeyWord name="VAR_ROOM_HEIGHT" />
+        <KeyWord name="VAR_ROOM_RESOURCE" />
+        <KeyWord name="VAR_ROOM_WIDTH" />
+        <KeyWord name="VAR_SAVE_BTN" />
+        <KeyWord name="VAR_SAVE_DISK_MSG" />
+        <KeyWord name="VAR_SAVE_MENU_TITLE" />
+        <KeyWord name="VAR_SAVE_MSG" />
+        <KeyWord name="VAR_SENTENCE_SCRIPT" />
+        <KeyWord name="VAR_SOUNDCARD" />
+        <KeyWord name="VAR_SOUNDPARAM" />
+        <KeyWord name="VAR_SOUNDPARAM2" />
+        <KeyWord name="VAR_SOUNDPARAM3" />
+        <KeyWord name="VAR_SOUNDRESULT" />
+        <KeyWord name="VAR_TALK_ACTOR" />
+        <KeyWord name="VAR_TALKSTOP_KEY" />
+        <KeyWord name="VAR_TIMEDATE_DAY" />
+        <KeyWord name="VAR_TIMEDATE_HOUR" />
+        <KeyWord name="VAR_TIMEDATE_MINUTE" />
+        <KeyWord name="VAR_TIMEDATE_MONTH" />
+        <KeyWord name="VAR_TIMEDATE_YEAR" />
+        <KeyWord name="VAR_TIMER" />
+        <KeyWord name="VAR_TIMER_NEXT" />
+        <KeyWord name="VAR_TMR_1" />
+        <KeyWord name="VAR_TMR_2" />
+        <KeyWord name="VAR_TMR_3" />
+        <KeyWord name="VAR_TMR_4" />
+        <KeyWord name="VAR_USERPUT" />
+        <KeyWord name="VAR_V6_EMSSPACE" />
+        <KeyWord name="VAR_V6_SOUNDMODE" />
+        <KeyWord name="VAR_VERB_SCRIPT" />
+        <KeyWord name="VAR_VIDEO_PERFORMANCE" />
+        <KeyWord name="VAR_VIDEOMODE" />
+        <KeyWord name="VAR_VIRT_MOUSE_X" />
+        <KeyWord name="VAR_VIRT_MOUSE_Y" />
+        <KeyWord name="VAR_WALKTO_OBJ" />
+        <KeyWord name="verbCenter()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="verbDim()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="waitForActor()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="waitForAnimation()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="waitForCamera()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="waitForMessage()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="waitForSentence()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="waitForTurn()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="walkActorTo()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="x" />
+                <Param name="y" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="walkActorToObj()" func="yes">
+            <Overload retVal="">
+                <Param name="actor" />
+                <Param name="object" />
+                <Param name="distance" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="wcerr" />
+        <KeyWord name="wcin" />
+        <KeyWord name="wclog" />
+        <KeyWord name="wcout" />
+        <KeyWord name="widen" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="width" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="wios" />
+        <KeyWord name="wstreampos" />
+        <KeyWord name="xalloc" func="yes">
+            <Overload retVal="" descr="func">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="xsgetn" />
+        <KeyWord name="xsputn" />
+    </AutoComplete>
+</NotepadPlus>

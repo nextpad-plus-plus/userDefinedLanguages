@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="bash">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="array" />
+        <KeyWord name="function" func="yes">
+            <Overload retVal="">
+                <Param name="( $+functions[name] )" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="hash" />
+        <KeyWord name="integer" />
+        <KeyWord name="local" />
+        <KeyWord name="start" />
+        <KeyWord name="zparseopts" />
+        <KeyWord name="zsh" />
+    </AutoComplete>
+</NotepadPlus>

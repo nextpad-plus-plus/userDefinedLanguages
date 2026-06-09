@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="typescript">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="class" />
+        <KeyWord name="clog" />
+        <KeyWord name="ctor" />
+        <KeyWord name="do" />
+        <KeyWord name="for" func="yes">
+            <Overload retVal="" descr="for (…) {…} (Improved Native For-Loop)">
+                <Param name="var i = Things.length - 1; i &gt;= 0; i--" />
+            </Overload>
+            <Overload retVal="" descr="for (…) {…}">
+                <Param name="var i = 0; i &lt; length; ++i" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fori" func="yes">
+            <Overload retVal="" descr="for (…) {…}">
+                <Param name="var i = 0; i &lt; Things.length; i++" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="forobj" func="yes">
+            <Overload retVal="" descr="for … in … loop">
+                <Param name="var i in Object" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="func" />
+        <KeyWord name="getter" />
+        <KeyWord name="if" func="yes">
+            <Overload retVal="" descr="if …">
+                <Param name="condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ifelse" func="yes">
+            <Overload retVal="" descr="if … else …">
+                <Param name="condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="import" />
+        <KeyWord name="meth" />
+        <KeyWord name="nam" />
+        <KeyWord name="prop" />
+        <KeyWord name="ref" />
+        <KeyWord name="ret" />
+        <KeyWord name="ret0" />
+        <KeyWord name="ret1" />
+        <KeyWord name="setter" />
+        <KeyWord name="switch" func="yes">
+            <Overload retVal="" descr="switch statement …">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="throw" />
+        <KeyWord name="tout" />
+    </AutoComplete>
+</NotepadPlus>

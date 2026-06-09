@@ -41,7 +41,9 @@ SCOPE_LANG = {
 def _candidate_lang(scope, override):
     if override:
         return override
-    if not scope:
+    if isinstance(scope, (list, tuple)):                    # some files use a scope list
+        scope = scope[0] if scope else None
+    if not isinstance(scope, str) or not scope:
         return None
     s = re.split(r"[,\s]", scope.strip())[0].strip()        # first selector only
     if s in SCOPE_LANG:
@@ -170,7 +172,7 @@ def from_snippet_file(path):
     return scope, [{"name": trig, "func": isf, "params": params, "descr": descr}]
 
 # ── emit one AC XML per language ──────────────────────────────────────────────
-def emit(language, recs, outdir):
+def emit(language, recs, outdir, max_kw=0):
     by_name = {}                                            # merge dups, union overloads
     order = []
     for r in recs:
@@ -183,6 +185,8 @@ def emit(language, recs, outdir):
         if r["func"]:
             e["overloads"].append({"params": r["params"], "descr": r["descr"]})
     order.sort(key=str.lower)
+    if max_kw and len(order) > max_kw:                      # cap oversized dumps
+        order = order[:max_kw]
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', "<NotepadPlus>",
              '    <AutoComplete language=%s>' % quoteattr(language),
@@ -224,6 +228,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--language", default=None, help="force target language (overrides scope)")
     ap.add_argument("--allow", default=None, help="file of allowed language names (1/line); reject others")
+    ap.add_argument("--max-per-lang", type=int, default=5000, help="cap keywords per language (0 = no cap)")
     args = ap.parse_args()
 
     allow_map = None
@@ -241,12 +246,13 @@ def main():
         if not recs: continue
         lang = scope_to_lang(scope, args.language, allow_map)
         if not lang:
-            rejected[scope or "(no scope)"] = rejected.get(scope or "(no scope)", 0) + 1
+            key = str(scope) if scope else "(no scope)"
+            rejected[key] = rejected.get(key, 0) + 1
             continue
         by_lang.setdefault(lang, []).extend(recs)
 
     for lang, recs in sorted(by_lang.items()):
-        out, n = emit(lang, recs, args.out)
+        out, n = emit(lang, recs, args.out, args.max_per_lang)
         print("  %-22s %4d keywords → %s" % (lang, n, os.path.relpath(out)))
     if rejected:
         top = sorted(rejected.items(), key=lambda x: -x[1])[:20]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="Stylus">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="alb" func="yes">
+            <Overload retVal="" descr="align(both)">
+                <Param name="both" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="alh" func="yes">
+            <Overload retVal="" descr="align(horizontal)">
+                <Param name="horizontal" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="alv" func="yes">
+            <Overload retVal="" descr="align(vertical)">
+                <Param name="vertical" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cen" />
+        <KeyWord name="cf" func="yes">
+            <Overload retVal="" descr="cf()">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cg" />
+        <KeyWord name="col" />
+        <KeyWord name="cw" />
+        <KeyWord name="edit" func="yes">
+            <Overload retVal="" descr="edit()">
+                <Param name="black" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sh" />
+        <KeyWord name="span" func="yes">
+            <Overload retVal="" descr="span(÷)">
+                <Param name="1/3arg2" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stack" func="yes">
+            <Overload retVal="" descr="stack()">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="uncen" />
+        <KeyWord name="uns" />
+        <KeyWord name="unstack" func="yes">
+            <Overload retVal="" descr="unstack()">
+                <Param name="arg1" />
+            </Overload>
+        </KeyWord>
+    </AutoComplete>
+</NotepadPlus>

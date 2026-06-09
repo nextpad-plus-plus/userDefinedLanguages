@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="Maze">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="%D" />
+        <KeyWord name="%L" />
+        <KeyWord name="%N" />
+        <KeyWord name="%R" />
+        <KeyWord name="%U" />
+        <KeyWord name="&gt;" />
+    </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="GDL">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="2d" />
+        <KeyWord name="3d" />
+        <KeyWord name="abs" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="acs" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="add" />
+        <KeyWord name="add2" />
+        <KeyWord name="addgroup" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="addgroup{2}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+                <Param name="edgeColor" />
+                <Param name="materialId" />
+                <Param name="materialColor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="addgroup{3}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+                <Param name="edgeColor" />
+                <Param name="materialId" />
+                <Param name="materialColor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="additional_data" />
+        <KeyWord name="addX" />
+        <KeyWord name="addY" />
+        <KeyWord name="addZ" />
+        <KeyWord name="all" />
+        <KeyWord name="and" />
+        <KeyWord name="application_query" func="yes">
+            <Overload retVal="">
+                <Param name="values" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="arc" />
+        <KeyWord name="arc2" />
+        <KeyWord name="armc" />
+        <KeyWord name="arme" />
+        <KeyWord name="asn" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="atn" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="auto" />
+        <KeyWord name="base" />
+        <KeyWord name="beam" />
+        <KeyWord name="beams" />
+        <KeyWord name="binary" func="yes">
+            <Overload retVal="">
+                <Param name="mode" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="binaryprop" />
+        <KeyWord name="bitset" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="b" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="bittest" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+                <Param name="b" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="block" />
+        <KeyWord name="body" />
+        <KeyWord name="bprism_" />
+        <KeyWord name="breakpoint" />
+        <KeyWord name="brick" />
+        <KeyWord name="building_material" />
+        <KeyWord name="bwall_" />
+        <KeyWord name="call" />
+        <KeyWord name="ceil" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="circle" />
+        <KeyWord name="circle2" />
+        <KeyWord name="close" />
+        <KeyWord name="columns" />
+        <KeyWord name="comline" />
+        <KeyWord name="component" />
+        <KeyWord name="cone" />
+        <KeyWord name="coons" />
+        <KeyWord name="coor{3}" />
+        <KeyWord name="cos" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cprism_" />
+        <KeyWord name="cprism_{2}" />
+        <KeyWord name="cprism_{3}" />
+        <KeyWord name="cprism_{4}" />
+        <KeyWord name="Create Group with Material" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr"' />
+                <Param name="replace directive" />
+                <Param name="pen" />
+                <Param name="material" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="croof_" />
+        <KeyWord name="croof_{2}" />
+        <KeyWord name="croof_{3}" />
+        <KeyWord name="cslab_" />
+        <KeyWord name="custom" />
+        <KeyWord name="cutform" />
+        <KeyWord name="cutform{2}" />
+        <KeyWord name="cutplane" />
+        <KeyWord name="cutplane{3}" />
+        <KeyWord name="cutpoly" />
+        <KeyWord name="cutpolya" />
+        <KeyWord name="cutshape" />
+        <KeyWord name="cwall_" />
+        <KeyWord name="cylind" />
+        <KeyWord name="database_set" />
+        <KeyWord name="define empty_fill" />
+        <KeyWord name="define fill" />
+        <KeyWord name="define image_fill" />
+        <KeyWord name="define line_type" />
+        <KeyWord name="define linear_gradient_fill" />
+        <KeyWord name="define material" />
+        <KeyWord name="define material based_on" />
+        <KeyWord name="define radial_gradient_fill" />
+        <KeyWord name="define solid_fill" />
+        <KeyWord name="define style" />
+        <KeyWord name="define style{2}" />
+        <KeyWord name="define symbol_fill" />
+        <KeyWord name="define symbol_line" />
+        <KeyWord name="define texture" />
+        <KeyWord name="define translucent_fill" />
+        <KeyWord name="del" />
+        <KeyWord name="deleted_par_value" func="yes">
+            <Overload retVal="">
+                <Param name="oldparname" />
+                <Param name="outputvalue" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="descriptor" />
+        <KeyWord name="dialog" />
+        <KeyWord name="dict" />
+        <KeyWord name="dim" />
+        <KeyWord name="doors" />
+        <KeyWord name="drawindex" />
+        <KeyWord name="drawing" />
+        <KeyWord name="drawing2" />
+        <KeyWord name="drawing3" />
+        <KeyWord name="drawing3{2}" />
+        <KeyWord name="drawing3{3}" />
+        <KeyWord name="edge" />
+        <KeyWord name="elbow" />
+        <KeyWord name="ellips" />
+        <KeyWord name="else" />
+        <KeyWord name="end" />
+        <KeyWord name="endgroup" />
+        <KeyWord name="eps" />
+        <KeyWord name="exit" />
+        <KeyWord name="exor" />
+        <KeyWord name="exp" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="extrude" />
+        <KeyWord name="extrudedshell" />
+        <KeyWord name="extrudedshell{2}" />
+        <KeyWord name="extrudedshell{3}" />
+        <KeyWord name="file_dependence" />
+        <KeyWord name="fill" />
+        <KeyWord name="filltypes_mask" />
+        <KeyWord name="for … to … step … next" />
+        <KeyWord name="fprism_" />
+        <KeyWord name="fra" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="fragment2" />
+        <KeyWord name="fullpath" />
+        <KeyWord name="GLOB_CH_STORY_DIST" />
+        <KeyWord name="GLOB_CONTEXT" />
+        <KeyWord name="GLOB_CSTORY_ELEV" />
+        <KeyWord name="GLOB_CSTORY_HEIGHT" />
+        <KeyWord name="GLOB_ELEVATION" />
+        <KeyWord name="GLOB_EYEPOS_X" />
+        <KeyWord name="GLOB_EYEPOS_Y" />
+        <KeyWord name="GLOB_EYEPOS_Z" />
+        <KeyWord name="GLOB_FEEDBACK_MODE" />
+        <KeyWord name="GLOB_FIRST_FRAME" />
+        <KeyWord name="GLOB_FRAME_NR" />
+        <KeyWord name="GLOB_HSTORY_ELEV" />
+        <KeyWord name="GLOB_HSTORY_HEIGHT" />
+        <KeyWord name="GLOB_LAST_FRAME" />
+        <KeyWord name="GLOB_MODPAR_NAME" />
+        <KeyWord name="GLOB_NORTH_DIR" />
+        <KeyWord name="GLOB_PREVIEW_MODE" />
+        <KeyWord name="GLOB_SCALE" />
+        <KeyWord name="GLOB_SCRIPT_TYPE" />
+        <KeyWord name="GLOB_SEO_TOOL_MODE" />
+        <KeyWord name="GLOB_TARGPOS_X" />
+        <KeyWord name="GLOB_TARGPOS_Y" />
+        <KeyWord name="GLOB_TARGPOS_Z" />
+        <KeyWord name="GLOB_VIEW_TYPE" />
+        <KeyWord name="gosub" />
+        <KeyWord name="goto" />
+        <KeyWord name="group" />
+        <KeyWord name="haskey" func="yes">
+            <Overload retVal="">
+                <Param name="dictionary.key" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="hatches" />
+        <KeyWord name="hideparameter" />
+        <KeyWord name="hotarc" />
+        <KeyWord name="hotarc2" />
+        <KeyWord name="hotline" />
+        <KeyWord name="hotline2" />
+        <KeyWord name="hotspot" />
+        <KeyWord name="hotspot2" />
+        <KeyWord name="hprism_" />
+        <KeyWord name="if … then" />
+        <KeyWord name="if … then gosub" />
+        <KeyWord name="if … then … else" />
+        <KeyWord name="ind" func="yes">
+            <Overload retVal="">
+                <Param name="type" />
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="initaddonscope input" />
+        <KeyWord name="input" func="yes">
+            <Overload retVal="">
+                <Param name="channel" />
+                <Param name="recordID" />
+                <Param name="fieldID" />
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="int" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isectgroup" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isectgroup{2}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+                <Param name="edgeColor" />
+                <Param name="materialId" />
+                <Param name="materialColor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isectgroup{3}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+                <Param name="edgeColor" />
+                <Param name="materialId" />
+                <Param name="materialColor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isectlines" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="killgroup" />
+        <KeyWord name="Label (subroutine) … RETURN" />
+        <KeyWord name="lgt" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="libraryglobal" func="yes">
+            <Overload retVal="">
+                <Param name="object_name" />
+                <Param name="parameter" />
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="light" />
+        <KeyWord name="lights" />
+        <KeyWord name="lin_" />
+        <KeyWord name="line2" />
+        <KeyWord name="line_property" />
+        <KeyWord name="line_type" />
+        <KeyWord name="lock" />
+        <KeyWord name="log" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mass" />
+        <KeyWord name="mass{2}" />
+        <KeyWord name="master" />
+        <KeyWord name="material" />
+        <KeyWord name="max" func="yes">
+            <Overload retVal="">
+                <Param name="x1" />
+                <Param name="x2" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mesh" />
+        <KeyWord name="meshes" />
+        <KeyWord name="migrationwarning" />
+        <KeyWord name="min" func="yes">
+            <Overload retVal="">
+                <Param name="x1" />
+                <Param name="x2" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mode" />
+        <KeyWord name="model" />
+        <KeyWord name="modpar" />
+        <KeyWord name="mul" />
+        <KeyWord name="mul2" />
+        <KeyWord name="mulx" />
+        <KeyWord name="muly" />
+        <KeyWord name="mulz" />
+        <KeyWord name="newparameter" />
+        <KeyWord name="not" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="nsp" />
+        <KeyWord name="ntr" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="objects" />
+        <KeyWord name="open" func="yes">
+            <Overload retVal="">
+                <Param name="filter" />
+                <Param name="filename" />
+                <Param name="parameter" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="output" />
+        <KeyWord name="paragraph" />
+        <KeyWord name="param" />
+        <KeyWord name="parameters" />
+        <KeyWord name="parvalue_description" func="yes">
+            <Overload retVal="">
+                <Param name="parname" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pen" />
+        <KeyWord name="pgon" />
+        <KeyWord name="pgon{2}" />
+        <KeyWord name="pgon{3}" />
+        <KeyWord name="picture" />
+        <KeyWord name="picture2" />
+        <KeyWord name="picture2{2}" />
+        <KeyWord name="pipg" />
+        <KeyWord name="pitched_roofs" />
+        <KeyWord name="placegroup" />
+        <KeyWord name="plane" />
+        <KeyWord name="plane_" />
+        <KeyWord name="pointcloud" />
+        <KeyWord name="poly" />
+        <KeyWord name="poly2" />
+        <KeyWord name="poly2_" />
+        <KeyWord name="poly2_a" />
+        <KeyWord name="poly2_b" />
+        <KeyWord name="poly2_b{2}" />
+        <KeyWord name="poly2_b{3}" />
+        <KeyWord name="poly2_b{4}" />
+        <KeyWord name="poly2_b{5}" />
+        <KeyWord name="poly2_b{6}" />
+        <KeyWord name="poly_" />
+        <KeyWord name="polyroof" />
+        <KeyWord name="polyroof{3}" />
+        <KeyWord name="position" />
+        <KeyWord name="preparefunction" />
+        <KeyWord name="print" />
+        <KeyWord name="prism" />
+        <KeyWord name="prism_" />
+        <KeyWord name="profiletypes_mask" />
+        <KeyWord name="project2" />
+        <KeyWord name="project2{2}" />
+        <KeyWord name="project2{3}" />
+        <KeyWord name="project2{4}" />
+        <KeyWord name="put" />
+        <KeyWord name="pyramid" />
+        <KeyWord name="radius" />
+        <KeyWord name="range" />
+        <KeyWord name="rect" />
+        <KeyWord name="rect2" />
+        <KeyWord name="ref component" />
+        <KeyWord name="ref descriptor" />
+        <KeyWord name="removekey" func="yes">
+            <Overload retVal="">
+                <Param name="dictionary.key" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="repeat … until" />
+        <KeyWord name="req" func="yes">
+            <Overload retVal="">
+                <Param name="parameter_string" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="request" func="yes">
+            <Overload retVal="">
+                <Param name="question_name" />
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="request{2}" func="yes">
+            <Overload retVal="">
+                <Param name="question_name" />
+                <Param name="name_or_index" />
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="request{3}" func="yes">
+            <Overload retVal="">
+                <Param name="question_name" />
+                <Param name="name_or_index_array" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="request{4}" func="yes">
+            <Overload retVal="">
+                <Param name="question_name" />
+                <Param name="name_or_index" />
+                <Param name="index" />
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="resol" />
+        <KeyWord name="return" />
+        <KeyWord name="returned_parameters" />
+        <KeyWord name="revolve" />
+        <KeyWord name="revolvedshell" />
+        <KeyWord name="revolvedshellangular" />
+        <KeyWord name="revolvedshellangular{2}" />
+        <KeyWord name="revolvedshellangular{3}" />
+        <KeyWord name="revolvedshell{2}" />
+        <KeyWord name="revolvedshell{3}" />
+        <KeyWord name="revolve{2}" />
+        <KeyWord name="revolve{3}" />
+        <KeyWord name="revolve{4}" />
+        <KeyWord name="revolve{5}" />
+        <KeyWord name="richtext" />
+        <KeyWord name="richtext2" />
+        <KeyWord name="rnd" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rooms" />
+        <KeyWord name="rot" />
+        <KeyWord name="rot2" />
+        <KeyWord name="rotX" />
+        <KeyWord name="rotY" />
+        <KeyWord name="rotZ" />
+        <KeyWord name="round_int" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ruled" />
+        <KeyWord name="ruledsegmented" />
+        <KeyWord name="ruledshell" />
+        <KeyWord name="ruledshell{2}" />
+        <KeyWord name="ruledshell{3}" />
+        <KeyWord name="ruled{2}" />
+        <KeyWord name="sect_attrs" />
+        <KeyWord name="sect_attrs{2}" />
+        <KeyWord name="sect_fill" />
+        <KeyWord name="separator" />
+        <KeyWord name="Set Migration GUID" />
+        <KeyWord name="sgn" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="shadow" />
+        <KeyWord name="sin" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="slab" />
+        <KeyWord name="slab_" />
+        <KeyWord name="SMYB_MAT" />
+        <KeyWord name="solid" />
+        <KeyWord name="sphere" />
+        <KeyWord name="spline2" />
+        <KeyWord name="spline2A" />
+        <KeyWord name="split" func="yes">
+            <Overload retVal="">
+                <Param name="string" />
+                <Param name="format" />
+                <Param name="variable1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sprism_" />
+        <KeyWord name="sprism_{2}" />
+        <KeyWord name="sprism_{3}" />
+        <KeyWord name="sprism_{4}" />
+        <KeyWord name="sqr" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="step" />
+        <KeyWord name="stored_par_value" func="yes">
+            <Overload retVal="">
+                <Param name="oldparname" />
+                <Param name="outputvalue" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="str" func="yes">
+            <Overload retVal="">
+                <Param name="numeric_expression" />
+                <Param name="length" />
+                <Param name="fractions" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="str to lower" func="yes">
+            <Overload retVal="">
+                <Param name="string_expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="STR TO UPPER" func="yes">
+            <Overload retVal="">
+                <Param name="string_expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="strlen" func="yes">
+            <Overload retVal="">
+                <Param name="string_expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="strstr" func="yes">
+            <Overload retVal="">
+                <Param name="base_string" />
+                <Param name="string_to_look_for" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="strsub" func="yes">
+            <Overload retVal="">
+                <Param name="string_expression" />
+                <Param name="start_pos" />
+                <Param name="char_number" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="str{2}" func="yes">
+            <Overload retVal="">
+                <Param name="format_string" />
+                <Param name="numeric_expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="stw" func="yes">
+            <Overload retVal="">
+                <Param name="string_expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="style" />
+        <KeyWord name="sub" />
+        <KeyWord name="subgroup" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="subgroup{2}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+                <Param name="edgeColor" />
+                <Param name="materialID" />
+                <Param name="materialColor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="subgroup{3}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr1"' />
+                <Param name='"g_expr2"' />
+                <Param name="edgeColor" />
+                <Param name="materialID" />
+                <Param name="materialColor" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="surface" />
+        <KeyWord name="surface3d" />
+        <KeyWord name="sweep" />
+        <KeyWord name="sweepgroup" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr"' />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="z" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sweepgroup{2}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr"' />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="z" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sweepgroup{3}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr"' />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="z" />
+                <Param name="edgeColor" />
+                <Param name="materialID" />
+                <Param name="materialColor" />
+                <Param name="method" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sweepgroup{4}" func="yes">
+            <Overload retVal="">
+                <Param name='"g_expr"' />
+                <Param name="x" />
+                <Param name="y" />
+                <Param name="z" />
+                <Param name="edgeColor" />
+                <Param name="materialID" />
+                <Param name="materialColor" />
+                <Param name="method" />
+                <Param name="status" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SYMB_MIRRORED" />
+        <KeyWord name="SYMB_POS_X" />
+        <KeyWord name="SYMB_POS_Y" />
+        <KeyWord name="SYMB_POS_Z" />
+        <KeyWord name="SYMB_ROTANGLE" />
+        <KeyWord name="SYMB_VIEW_PEN" />
+        <KeyWord name="tan" func="yes">
+            <Overload retVal="">
+                <Param name="x" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="teve" />
+        <KeyWord name="text" />
+        <KeyWord name="text2" />
+        <KeyWord name="textblock" />
+        <KeyWord name="toler" />
+        <KeyWord name="tube" />
+        <KeyWord name="tubea" />
+        <KeyWord name="tube{2}" />
+        <KeyWord name="ui" />
+        <KeyWord name="ui_button" />
+        <KeyWord name="ui_cancel" />
+        <KeyWord name="ui_colorpicker" />
+        <KeyWord name="ui_colorpicker{2}" />
+        <KeyWord name="ui_current_page" />
+        <KeyWord name="ui_custom_popup_infield" />
+        <KeyWord name="ui_custom_popup_infield{2}" />
+        <KeyWord name="ui_custom_popup_listitem" />
+        <KeyWord name="ui_custom_popup_listitem{2}" />
+        <KeyWord name="ui_dialog" />
+        <KeyWord name="ui_function" />
+        <KeyWord name="ui_groupbox" />
+        <KeyWord name="ui_infield" />
+        <KeyWord name="ui_infield{2}" />
+        <KeyWord name="ui_infield{3}" />
+        <KeyWord name="ui_infield{4}" />
+        <KeyWord name="ui_link" />
+        <KeyWord name="ui_listfield" />
+        <KeyWord name="ui_listitem" />
+        <KeyWord name="ui_listitem{2}" />
+        <KeyWord name="ui_next" />
+        <KeyWord name="ui_ok" />
+        <KeyWord name="ui_outfield" />
+        <KeyWord name="ui_page" />
+        <KeyWord name="ui_pict" />
+        <KeyWord name="ui_pict_button" />
+        <KeyWord name="ui_pict_pushcheckbutton" />
+        <KeyWord name="ui_pict_pushcheckbutton{2}" />
+        <KeyWord name="ui_prev" />
+        <KeyWord name="ui_radiobutton" />
+        <KeyWord name="ui_radiobutton{2}" />
+        <KeyWord name="ui_separator" />
+        <KeyWord name="ui_slider" />
+        <KeyWord name="ui_slider{2}" />
+        <KeyWord name="ui_style" />
+        <KeyWord name="ui_textstyle_infield" />
+        <KeyWord name="ui_textstyle_infield{2}" />
+        <KeyWord name="ui_tooltip" />
+        <KeyWord name="until" />
+        <KeyWord name="use" />
+        <KeyWord name="values" />
+        <KeyWord name="values{2}" />
+        <KeyWord name="vardim1" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="vardim2" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="vartype" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="vect" />
+        <KeyWord name="vert" />
+        <KeyWord name="volume3d" />
+        <KeyWord name="WALL_FILL" />
+        <KeyWord name="WALL_FILL_PEN" />
+        <KeyWord name="WALL_HEIGHT" />
+        <KeyWord name="WALL_MAT_A" />
+        <KeyWord name="WALL_MAT_B" />
+        <KeyWord name="WALL_MAT_EDGE" />
+        <KeyWord name="WALL_RESOL" />
+        <KeyWord name="WALL_SECT_PEN" />
+        <KeyWord name="WALL_THICKNESS" />
+        <KeyWord name="wallarc2" />
+        <KeyWord name="wallblock2" />
+        <KeyWord name="wallblock2{2}" />
+        <KeyWord name="wallhole" />
+        <KeyWord name="wallhole2" />
+        <KeyWord name="wallhole2{2}" />
+        <KeyWord name="wallline2" />
+        <KeyWord name="wallniche" />
+        <KeyWord name="walls" />
+        <KeyWord name="while … do" />
+        <KeyWord name="WIDO_FRAME_THICKNESS" />
+        <KeyWord name="WIDO_HEAD_DEPTH" />
+        <KeyWord name="WIDO_ORIG_DIST" />
+        <KeyWord name="WIDO_POSITION" />
+        <KeyWord name="WIDO_REVEAL_SIDE" />
+        <KeyWord name="WIDO_RIGHT_JAMB" />
+        <KeyWord name="WIDO_SILL" />
+        <KeyWord name="WIDO_THRES_DEPTH" />
+        <KeyWord name="windows" />
+        <KeyWord name="wire" />
+        <KeyWord name="xform" />
+        <KeyWord name="xwall_" />
+        <KeyWord name="xwall_{2}" />
+        <KeyWord name="xwall_{3}" />
+        <KeyWord name="zzyzx" />
+    </AutoComplete>
+</NotepadPlus>

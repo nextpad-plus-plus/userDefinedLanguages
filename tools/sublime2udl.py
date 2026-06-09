@@ -206,29 +206,58 @@ def build_udl(g, force_name=None):
     total_kw = sum(len(kw[n]) for n in range(1, 9))
     return name, "\n".join(L), total_kw
 
+def load_grammar(path):
+    if path.endswith(".sublime-syntax"):
+        return load_sublime_syntax(path)
+    if path.endswith(".tmLanguage"):
+        return load_tmlanguage(path)
+    return None
+
+def convert_one(path, out_dir, force_name, min_keywords):
+    g = load_grammar(path)
+    if not g or not (force_name or g.name):
+        return None
+    name, xml, n = build_udl(g, force_name)
+    if n < min_keywords:
+        return ("skip", name, n)
+    os.makedirs(out_dir, exist_ok=True)
+    out = os.path.join(out_dir, re.sub(r"[/:]", "_", name) + ".xml")
+    open(out, "w", encoding="utf-8").write(xml)
+    return ("write", name, n)
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("grammar")
+    ap.add_argument("grammar", help="a grammar file OR a directory to batch-convert")
     ap.add_argument("--out", required=True)
     ap.add_argument("--name", default=None)
+    ap.add_argument("--min-keywords", type=int, default=0, help="skip UDLs with fewer keywords")
     args = ap.parse_args()
 
-    if args.grammar.endswith(".sublime-syntax"):
-        g = load_sublime_syntax(args.grammar)
-    elif args.grammar.endswith(".tmLanguage"):
-        g = load_tmlanguage(args.grammar)
+    if os.path.isdir(args.grammar):
+        # .tmLanguage first, then .sublime-syntax → modern format wins on name collision.
+        files = []
+        for dp, _dn, fn in os.walk(args.grammar):
+            for f in fn:
+                if f.endswith(".tmLanguage"): files.append((0, os.path.join(dp, f)))
+                elif f.endswith(".sublime-syntax"): files.append((1, os.path.join(dp, f)))
+        files.sort()
+        wrote = skipped = errored = 0
+        for _ord, path in files:
+            try:
+                r = convert_one(path, args.out, None, args.min_keywords)
+            except Exception:
+                errored += 1; continue
+            if r is None: errored += 1
+            elif r[0] == "write": wrote += 1
+            else: skipped += 1
+        print("syntax→UDL: wrote %d, skipped %d (<%d kw), unparseable %d"
+              % (wrote, skipped, args.min_keywords, errored))
     else:
-        sys.stderr.write("  ! unknown grammar type: %s\n" % args.grammar); sys.exit(2)
-    if not g:
-        sys.stderr.write("  ! could not parse %s\n" % args.grammar); sys.exit(1)
-    if not (args.name or g.name):
-        sys.stderr.write("  - skip (no name / partial grammar): %s\n" % os.path.basename(args.grammar)); sys.exit(3)
-
-    name, xml, n = build_udl(g, args.name)
-    os.makedirs(args.out, exist_ok=True)
-    out = os.path.join(args.out, re.sub(r"[/:]", "_", name) + ".xml")
-    open(out, "w", encoding="utf-8").write(xml)
-    print("  %-24s %4d keywords → %s" % (name, n, os.path.relpath(out)))
+        r = convert_one(args.grammar, args.out, args.name, args.min_keywords)
+        if r and r[0] == "write":
+            print("  %-24s %4d keywords" % (r[1], r[2]))
+        else:
+            sys.stderr.write("  - not written: %s\n" % args.grammar)
 
 if __name__ == "__main__":
     main()

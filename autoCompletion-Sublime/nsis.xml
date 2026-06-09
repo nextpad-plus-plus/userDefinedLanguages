@@ -1,0 +1,4269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="nsis">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="!addincludedir" />
+        <KeyWord name="!addplugindir" />
+        <KeyWord name="!appendfile" />
+        <KeyWord name="!appendfile /CHARSET" />
+        <KeyWord name="!appendfile /CHARSET /RawNL" />
+        <KeyWord name="!appendfile /RawNL" />
+        <KeyWord name="!cd" />
+        <KeyWord name="!define" />
+        <KeyWord name="!define:MEMENTO_REGISTRY_KEY" />
+        <KeyWord name="!define:MEMENTO_REGISTRY_ROOT" />
+        <KeyWord name="!define:MUI_ABORTWARNING" />
+        <KeyWord name="!define:MUI_ABORTWARNING_TEXT" />
+        <KeyWord name="!define:MUI_BGCOLOR" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_CHECKBITMAP" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_NODESC" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_SMALLDESC" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_TEXT_COMPLIST" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_TEXT_DESCRIPTION_INFO" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_TEXT_DESCRIPTION_TITLE" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_TEXT_INSTTYPE" />
+        <KeyWord name="!define:MUI_COMPONENTSPAGE_TEXT_TOP" />
+        <KeyWord name="!define:MUI_CUSTOMFUNCTION_ABORT" />
+        <KeyWord name="!define:MUI_DIRECTORYPAGE_BGCOLOR" />
+        <KeyWord name="!define:MUI_DIRECTORYPAGE_TEXT_DESTINATION" />
+        <KeyWord name="!define:MUI_DIRECTORYPAGE_TEXT_TOP" />
+        <KeyWord name="!define:MUI_DIRECTORYPAGE_VARIABLE" />
+        <KeyWord name="!define:MUI_DIRECTORYPAGE_VERIFYONLEAVE" />
+        <KeyWord name="!define:MUI_FINISHPAGE_BUTTON" />
+        <KeyWord name="!define:MUI_FINISHPAGE_CANCEL_ENABLED" />
+        <KeyWord name="!define:MUI_FINISHPAGE_LINK" />
+        <KeyWord name="!define:MUI_FINISHPAGE_LINK_COLOR" />
+        <KeyWord name="!define:MUI_FINISHPAGE_LINK_LOCATION" />
+        <KeyWord name="!define:MUI_FINISHPAGE_NOAUTOCLOSE" />
+        <KeyWord name="!define:MUI_FINISHPAGE_NOREBOOTSUPPORT" />
+        <KeyWord name="!define:MUI_FINISHPAGE_REBOOTLATER_DEFAULT" />
+        <KeyWord name="!define:MUI_FINISHPAGE_RUN" />
+        <KeyWord name="!define:MUI_FINISHPAGE_RUN_FUNCTION" />
+        <KeyWord name="!define:MUI_FINISHPAGE_RUN_NOTCHECKED" />
+        <KeyWord name="!define:MUI_FINISHPAGE_RUN_PARAMETERS" />
+        <KeyWord name="!define:MUI_FINISHPAGE_RUN_TEXT" />
+        <KeyWord name="!define:MUI_FINISHPAGE_SHOWREADME" />
+        <KeyWord name="!define:MUI_FINISHPAGE_SHOWREADME_FUNCTION" />
+        <KeyWord name="!define:MUI_FINISHPAGE_SHOWREADME_NOTCHECKED" />
+        <KeyWord name="!define:MUI_FINISHPAGE_SHOWREADME_TEXT" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TEXT" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TEXT_LARGE" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TEXT_REBOOT" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TEXT_REBOOTLATER" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TEXT_REBOOTNOW" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TITLE" />
+        <KeyWord name="!define:MUI_FINISHPAGE_TITLE_3LINES" />
+        <KeyWord name="!define:MUI_HEADER_TRANSPARENT_TEXT" />
+        <KeyWord name="!define:MUI_HEADERIMAGE" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:nsis-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-uninstall-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-uninstall-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-uninstall-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange-uninstall.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:orange.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP:win.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:nsis-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-uninstall-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-uninstall-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-uninstall-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange-uninstall.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:orange.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL:win.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_RTL_STRETCH" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_BITMAP_STRETCH" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_RIGHT" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:nsis-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-uninstall-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-uninstall-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-uninstall-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange-uninstall.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:orange.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP:win.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_NOSTRETCH" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:nsis-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-uninstall-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-uninstall-r-nsis.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-uninstall-r.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange-uninstall.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:orange.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL:win.bmp" />
+        <KeyWord name="!define:MUI_HEADERIMAGE_UNBITMAP_RTL_NOSTRETCH" />
+        <KeyWord name="!define:MUI_ICON" />
+        <KeyWord name="!define:MUI_ICON:arrow-install.ico" />
+        <KeyWord name="!define:MUI_ICON:arrow2-install.ico" />
+        <KeyWord name="!define:MUI_ICON:box-install.ico" />
+        <KeyWord name="!define:MUI_ICON:classic-install.ico" />
+        <KeyWord name="!define:MUI_ICON:llama-blue.ico" />
+        <KeyWord name="!define:MUI_ICON:llama-grey.ico" />
+        <KeyWord name="!define:MUI_ICON:modern-install-blue-full.ico" />
+        <KeyWord name="!define:MUI_ICON:modern-install-blue.ico" />
+        <KeyWord name="!define:MUI_ICON:modern-install-colorful.ico" />
+        <KeyWord name="!define:MUI_ICON:modern-install-full.ico" />
+        <KeyWord name="!define:MUI_ICON:modern-install.ico" />
+        <KeyWord name="!define:MUI_ICON:nsis1-install.ico" />
+        <KeyWord name="!define:MUI_ICON:orange-install-nsis.ico" />
+        <KeyWord name="!define:MUI_ICON:orange-install.ico" />
+        <KeyWord name="!define:MUI_ICON:pixel-install.ico" />
+        <KeyWord name="!define:MUI_ICON:win-install.ico" />
+        <KeyWord name="!define:MUI_INSTFILESPAGE_ABORTHEADER_SUBTEXT" />
+        <KeyWord name="!define:MUI_INSTFILESPAGE_ABORTHEADER_TEXT" />
+        <KeyWord name="!define:MUI_INSTFILESPAGE_COLORS" />
+        <KeyWord name="!define:MUI_INSTFILESPAGE_FINISHHEADER_SUBTEXT" />
+        <KeyWord name="!define:MUI_INSTFILESPAGE_FINISHHEADER_TEXT" />
+        <KeyWord name="!define:MUI_INSTFILESPAGE_PROGRESSBAR" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_BGCOLOR" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_BUTTON" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_CHECKBOX" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_CHECKBOX_TEXT" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_RADIOBUTTONS" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_RADIOBUTTONS_TEXT_ACCEPT" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_RADIOBUTTONS_TEXT_DECLINE" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_TEXT_BOTTOM" />
+        <KeyWord name="!define:MUI_LICENSEPAGE_TEXT_TOP" />
+        <KeyWord name="!define:MUI_PAGE_HEADER_SUBTEXT" />
+        <KeyWord name="!define:MUI_PAGE_HEADER_TEXT" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_DEFAULTFOLDER" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_NODISABLE" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_REGISTRY_KEY" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_REGISTRY_ROOT" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_REGISTRY_VALUENAME" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_TEXT_CHECKBOX" />
+        <KeyWord name="!define:MUI_STARTMENUPAGE_TEXT_TOP" />
+        <KeyWord name="!define:MUI_UI" />
+        <KeyWord name="!define:MUI_UI_COMPONENTSPAGE_NODESC" />
+        <KeyWord name="!define:MUI_UI_COMPONENTSPAGE_SMALLDESC" />
+        <KeyWord name="!define:MUI_UI_HEADERIMAGE" />
+        <KeyWord name="!define:MUI_UI_HEADERIMAGE_RIGHT" />
+        <KeyWord name="!define:MUI_UNABORTWARNING" />
+        <KeyWord name="!define:MUI_UNABORTWARNING_CANCEL_DEFAULT" />
+        <KeyWord name="!define:MUI_UNABORTWARNING_TEXT" />
+        <KeyWord name="!define:MUI_UNCONFIRMPAGE_TEXT_LOCATION" />
+        <KeyWord name="!define:MUI_UNCONFIRMPAGE_TEXT_TOP" />
+        <KeyWord name="!define:MUI_UNCONFIRMPAGE_VARIABLE" />
+        <KeyWord name="!define:MUI_UNFINISHPAGE_NOAUTOCLOSE" />
+        <KeyWord name="!define:MUI_UNICON" />
+        <KeyWord name="!define:MUI_UNICON:arrow-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:arrow2-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:box-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:classic-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:llama-blue.ico" />
+        <KeyWord name="!define:MUI_UNICON:llama-grey.ico" />
+        <KeyWord name="!define:MUI_UNICON:modern-uninstall-blue-full.ico" />
+        <KeyWord name="!define:MUI_UNICON:modern-uninstall-blue.ico" />
+        <KeyWord name="!define:MUI_UNICON:modern-uninstall-colorful.ico" />
+        <KeyWord name="!define:MUI_UNICON:modern-uninstall-full.ico" />
+        <KeyWord name="!define:MUI_UNICON:modern-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:nsis1-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:orange-uninstall-nsis.ico" />
+        <KeyWord name="!define:MUI_UNICON:orange-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:pixel-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNICON:win-uninstall.ico" />
+        <KeyWord name="!define:MUI_UNWELCOMEFINISHPAGE_BITMAP" />
+        <KeyWord name="!define:MUI_UNWELCOMEFINISHPAGE_BITMAP_NOSTRETCH" />
+        <KeyWord name="!define:MUI_UNWELCOMEFINISHPAGE_INI" />
+        <KeyWord name="!define:MUI_WELCOMEFINISHPAGE_BITMAP" />
+        <KeyWord name="!define:MUI_WELCOMEFINISHPAGE_BITMAP_NOSTRETCH" />
+        <KeyWord name="!define:MUI_WELCOMEFINISHPAGE_INI" />
+        <KeyWord name="!define:MUI_WELCOMEPAGE_TEXT" />
+        <KeyWord name="!define:MUI_WELCOMEPAGE_TITLE" />
+        <KeyWord name="!define:MUI_WELCOMEPAGE_TITLE_3LINES" />
+        <KeyWord name="!define:MULTIUSER_EXECUTIONLEVEL" />
+        <KeyWord name="!define:MULTIUSER_EXECUTIONLEVEL Admin" />
+        <KeyWord name="!define:MULTIUSER_EXECUTIONLEVEL Highest" />
+        <KeyWord name="!define:MULTIUSER_EXECUTIONLEVEL Power" />
+        <KeyWord name="!define:MULTIUSER_EXECUTIONLEVEL Standard" />
+        <KeyWord name="!define:MULTIUSER_INIT_FUNCTIONQUIT" />
+        <KeyWord name="!define:MULTIUSER_INIT_TEXT_ADMINREQUIRED" />
+        <KeyWord name="!define:MULTIUSER_INIT_TEXT_ALLUSERSNOTPOSSIBLE" />
+        <KeyWord name="!define:MULTIUSER_INIT_TEXT_POWERREQUIRED" />
+        <KeyWord name="!define:MULTIUSER_INIT_UNFUNCTIONQUIT" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_COMMANDLINE" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_DEFAULT_CURRENTUSER" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_KEY" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_VALUENAME" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_FUNCTION" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_FUNCTION AllUsers" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_FUNCTION CurrentUser" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_INSTDIR" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_KEY" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_VALUENAME" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_UNFUNCTION" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_UNFUNCTION AllUsers" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODE_UNFUNCTION CurrentUser" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODEPAGE_TEXT_ALLUSERS" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODEPAGE_TEXT_CURRENTUSER" />
+        <KeyWord name="!define:MULTIUSER_INSTALLMODEPAGE_TEXT_TOP" />
+        <KeyWord name="!define:MULTIUSER_MUI" />
+        <KeyWord name="!define:MULTIUSER_NOUNINSTALL" />
+        <KeyWord name="!delfile" />
+        <KeyWord name="!echo" />
+        <KeyWord name="!else" />
+        <KeyWord name="!endif" />
+        <KeyWord name="!error" />
+        <KeyWord name="!execute" />
+        <KeyWord name="!finalize" />
+        <KeyWord name="!getdllversion" />
+        <KeyWord name="!gettlbversion" />
+        <KeyWord name="!if" />
+        <KeyWord name="!ifdef" />
+        <KeyWord name="!ifdef…else" />
+        <KeyWord name="!ifmacrodef" />
+        <KeyWord name="!ifmacrodef…else" />
+        <KeyWord name="!ifmacrondef" />
+        <KeyWord name="!ifmacrondef…else" />
+        <KeyWord name="!ifndef" />
+        <KeyWord name="!ifndef…else" />
+        <KeyWord name="!if…else" />
+        <KeyWord name="!include" />
+        <KeyWord name="!include Colors" />
+        <KeyWord name="!include FileFunc" />
+        <KeyWord name="!include InstallOptions" />
+        <KeyWord name="!include LangFile" />
+        <KeyWord name="!include Library" />
+        <KeyWord name="!include LogicLib" />
+        <KeyWord name="!include Memento" />
+        <KeyWord name="!include MUI" />
+        <KeyWord name="!include MUI2" />
+        <KeyWord name="!include MultiUser" />
+        <KeyWord name="!include nsDialogs" />
+        <KeyWord name="!include Sections" />
+        <KeyWord name="!include StrFunc" />
+        <KeyWord name="!include TextFunc" />
+        <KeyWord name="!include UpgradeDLL" />
+        <KeyWord name="!include Util" />
+        <KeyWord name="!include VB6RunTime" />
+        <KeyWord name="!include VPatchLib" />
+        <KeyWord name="!include WinCore" />
+        <KeyWord name="!include WinMessages" />
+        <KeyWord name="!include WinVer" />
+        <KeyWord name="!include WordFunc" />
+        <KeyWord name="!include x64" />
+        <KeyWord name="!insertmacro" />
+        <KeyWord name="!insertmacro:CheckNetFramework" />
+        <KeyWord name="!insertmacro:FontName" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_DISPLAY" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_EXTRACT" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_FUNCTION_READ_CONVERT" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_INITDIALOG" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_READ" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_READ_UNCONVERT" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_SHOW" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_UNFUNCTION_WRITE_CONVERT" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_WRITE" />
+        <KeyWord name="!insertmacro:INSTALLOPTIONS_WRITE_CONVERT" />
+        <KeyWord name="!insertmacro:MUI_CUSTOMFUNCTION_GUIINIT" />
+        <KeyWord name="!insertmacro:MUI_CUSTOMFUNCTION_ONMOUSEOVERSECTION" />
+        <KeyWord name="!insertmacro:MUI_CUSTOMFUNCTION_UNABORT" />
+        <KeyWord name="!insertmacro:MUI_CUSTOMFUNCTION_UNGUIINIT" />
+        <KeyWord name="!insertmacro:MUI_CUSTOMFUNCTION_UNONMOUSEOVERSECTION" />
+        <KeyWord name="!insertmacro:MUI_FUNCTION_DESCRIPTION_BEGIN" />
+        <KeyWord name="!insertmacro:MUI_FUNCTION_DESCRIPTION_END" />
+        <KeyWord name="!insertmacro:MUI_LANGDLL_ALLLANGUAGES" />
+        <KeyWord name="!insertmacro:MUI_LANGDLL_ALWAYSSHOW" />
+        <KeyWord name="!insertmacro:MUI_LANGDLL_DISPLAY" />
+        <KeyWord name="!insertmacro:MUI_LANGDLL_INFO" />
+        <KeyWord name="!insertmacro:MUI_LANGDLL_WINDOWTITLE" />
+        <KeyWord name="!insertmacro:MUI_LANGUAGE" />
+        <KeyWord name="!insertmacro:MUI_PAGE_COMPONENTS" />
+        <KeyWord name="!insertmacro:MUI_PAGE_CUSTOMFUNCTION_DESTROY" />
+        <KeyWord name="!insertmacro:MUI_PAGE_CUSTOMFUNCTION_LEAVE" />
+        <KeyWord name="!insertmacro:MUI_PAGE_CUSTOMFUNCTION_PRE" />
+        <KeyWord name="!insertmacro:MUI_PAGE_CUSTOMFUNCTION_SHOW" />
+        <KeyWord name="!insertmacro:MUI_PAGE_DIRECTORY" />
+        <KeyWord name="!insertmacro:MUI_PAGE_FINISH" />
+        <KeyWord name="!insertmacro:MUI_PAGE_INSTFILES" />
+        <KeyWord name="!insertmacro:MUI_PAGE_LICENSE" />
+        <KeyWord name="!insertmacro:MUI_PAGE_STARTMENU" />
+        <KeyWord name="!insertmacro:MUI_PAGE_WELCOME" />
+        <KeyWord name="!insertmacro:MUI_RESERVEFILE_INSTALLOPTIONS" />
+        <KeyWord name="!insertmacro:MUI_RESERVEFILE_LANGDLL" />
+        <KeyWord name="!insertmacro:MUI_STARTMENU_WRITE_BEGIN" />
+        <KeyWord name="!insertmacro:MUI_UNFUNCTION_DESCRIPTION_BEGIN" />
+        <KeyWord name="!insertmacro:MUI_UNFUNCTION_DESCRIPTION_END" />
+        <KeyWord name="!insertmacro:MUI_UNGETLANGUAGE" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_COMPONENTS" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_CONFIRM" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_DIRECTORY" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_FINISH" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_INSTFILES" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_LICENSE" />
+        <KeyWord name="!insertmacro:MUI_UNPAGE_WELCOME" />
+        <KeyWord name="!insertmacro:MUI_WELCOMEFINISHPAGE_CUSTOMFUNCTION_INIT" />
+        <KeyWord name="!insertmacro:MULTIUSER_INIT" />
+        <KeyWord name="!insertmacro:MULTIUSER_PAGE_INSTALLMODE" />
+        <KeyWord name="!insertmacro:MULTIUSER_UNINIT" />
+        <KeyWord name="!macro" />
+        <KeyWord name="!macroend" />
+        <KeyWord name="!makensis" />
+        <KeyWord name="!packhdr" />
+        <KeyWord name="!pragma" />
+        <KeyWord name="!searchparse" />
+        <KeyWord name="!searchreplace" />
+        <KeyWord name="!system" />
+        <KeyWord name="!tempfile" />
+        <KeyWord name="!undef" />
+        <KeyWord name="!verbose" />
+        <KeyWord name="!warning" />
+        <KeyWord name="$ADMINTOOLS" />
+        <KeyWord name="$APPDATA" />
+        <KeyWord name="$CDBURN_AREA" />
+        <KeyWord name="$CMDLINE" />
+        <KeyWord name="$COMMONFILES" />
+        <KeyWord name="$COMMONFILES32" />
+        <KeyWord name="$COMMONFILES64" />
+        <KeyWord name="$COOKIES" />
+        <KeyWord name="$DESKTOP" />
+        <KeyWord name="$DOCUMENTS" />
+        <KeyWord name="$EXEDIR" />
+        <KeyWord name="$EXEFILE" />
+        <KeyWord name="$EXEPATH" />
+        <KeyWord name="$FAVORITES" />
+        <KeyWord name="$FONTS" />
+        <KeyWord name="$HISTORY" />
+        <KeyWord name="$HWNDPARENT" />
+        <KeyWord name="$INSTDIR" />
+        <KeyWord name="$INTERNET_CACHE" />
+        <KeyWord name="$LOCALAPPDATA" />
+        <KeyWord name="$MUSIC" />
+        <KeyWord name="$NETHOOD" />
+        <KeyWord name="$OUTDIR" />
+        <KeyWord name="$PICTURES" />
+        <KeyWord name="$PLUGINSDIR" />
+        <KeyWord name="$PRINTHOOD" />
+        <KeyWord name="$PROFILE" />
+        <KeyWord name="$PROGRAMFILES" />
+        <KeyWord name="$PROGRAMFILES32" />
+        <KeyWord name="$PROGRAMFILES64" />
+        <KeyWord name="$QUICKLAUNCH" />
+        <KeyWord name="$RECENT" />
+        <KeyWord name="$RESOURCES" />
+        <KeyWord name="$RESOURCES_LOCALIZED" />
+        <KeyWord name="$SENDTO" />
+        <KeyWord name="$SMPROGRAMS" />
+        <KeyWord name="$SMSTARTUP" />
+        <KeyWord name="$STARTMENU" />
+        <KeyWord name="$SYSDIR" />
+        <KeyWord name="$TEMP" />
+        <KeyWord name="$TEMPLATES" />
+        <KeyWord name="$VIDEOS" />
+        <KeyWord name="$WINDIR" />
+        <KeyWord name="${__COUNTER__}" />
+        <KeyWord name="${__DATE__}" />
+        <KeyWord name="${__FILE__}" />
+        <KeyWord name="${__FILEDIR__}" />
+        <KeyWord name="${__FUNCTION__}" />
+        <KeyWord name="${__GLOBAL__}" />
+        <KeyWord name="${__LINE__}" />
+        <KeyWord name="${__MACRO__}" />
+        <KeyWord name="${__PAGEEX__}" />
+        <KeyWord name="${__SECTION__}" />
+        <KeyWord name="${__TIME__}" />
+        <KeyWord name="${__TIMESTAMP__}" />
+        <KeyWord name="${__UNINSTALL__}" />
+        <KeyWord name="${_NSIS_DEFAW}" />
+        <KeyWord name="${ABM_ACTIVATE}" />
+        <KeyWord name="${ABM_GETAUTOHIDEBAR}" />
+        <KeyWord name="${ABM_GETSTATE}" />
+        <KeyWord name="${ABM_GETTASKBARPOS}" />
+        <KeyWord name="${ABM_NEW}" />
+        <KeyWord name="${ABM_QUERYPOS}" />
+        <KeyWord name="${ABM_REMOVE}" />
+        <KeyWord name="${ABM_SETAUTOHIDEBAR}" />
+        <KeyWord name="${ABM_SETPOS}" />
+        <KeyWord name="${ABM_WINDOWPOSCHANGED}" />
+        <KeyWord name="${Abort}" />
+        <KeyWord name="${AndIfNot}" />
+        <KeyWord name="${AndIf}" />
+        <KeyWord name="${AtLeastServicePack}" />
+        <KeyWord name="${AtLeastWin10}" />
+        <KeyWord name="${AtLeastWin2000}" />
+        <KeyWord name="${AtLeastWin2003}" />
+        <KeyWord name="${AtLeastWin2008R2}" />
+        <KeyWord name="${AtLeastWin2008}" />
+        <KeyWord name="${AtLeastWin2012}" />
+        <KeyWord name="${AtLeastWin7}" />
+        <KeyWord name="${AtLeastWin8}" />
+        <KeyWord name="${AtLeastWin95}" />
+        <KeyWord name="${AtLeastWin98}" />
+        <KeyWord name="${AtLeastWinME}" />
+        <KeyWord name="${AtLeastWinNT4}" />
+        <KeyWord name="${AtLeastWinVista}" />
+        <KeyWord name="${AtLeastWinXP}" />
+        <KeyWord name="${AtMostServicePack}" />
+        <KeyWord name="${AtMostWin10}" />
+        <KeyWord name="${AtMostWin2000}" />
+        <KeyWord name="${AtMostWin2003}" />
+        <KeyWord name="${AtMostWin2008R2}" />
+        <KeyWord name="${AtMostWin2008}" />
+        <KeyWord name="${AtMostWin2012}" />
+        <KeyWord name="${AtMostWin7}" />
+        <KeyWord name="${AtMostWin8}" />
+        <KeyWord name="${AtMostWin95}" />
+        <KeyWord name="${AtMostWin98}" />
+        <KeyWord name="${AtMostWinME}" />
+        <KeyWord name="${AtMostWinNT4}" />
+        <KeyWord name="${AtMostWinVista}" />
+        <KeyWord name="${AtMostWinXP}" />
+        <KeyWord name="${BannerTrimPath}" />
+        <KeyWord name="${BCM_SETSHIELD}" />
+        <KeyWord name="${BM_CLICK}" />
+        <KeyWord name="${BM_GETCHECK}" />
+        <KeyWord name="${BM_GETIMAGE}" />
+        <KeyWord name="${BM_GETSTATE}" />
+        <KeyWord name="${BM_SETCHECK}" />
+        <KeyWord name="${BM_SETIMAGE}" />
+        <KeyWord name="${BM_SETSTATE}" />
+        <KeyWord name="${BM_SETSTYLE}" />
+        <KeyWord name="${BRIDLE_NULL}" />
+        <KeyWord name="${BST_CHECKED}" />
+        <KeyWord name="${BST_FOCUS}" />
+        <KeyWord name="${BST_INDETERMINATE}" />
+        <KeyWord name="${BST_PUSHED}" />
+        <KeyWord name="${BST_UNCHECKED}" />
+        <KeyWord name="${Case}" />
+        <KeyWord name="${CB_ADDSTRING}" />
+        <KeyWord name="${CB_DELETESTRING}" />
+        <KeyWord name="${CB_DIR}" />
+        <KeyWord name="${CB_ERR}" />
+        <KeyWord name="${CB_FINDSTRINGEXACT}" />
+        <KeyWord name="${CB_FINDSTRING}" />
+        <KeyWord name="${CB_GETCOUNT}" />
+        <KeyWord name="${CB_GETCURSEL}" />
+        <KeyWord name="${CB_GETDROPPEDCONTROLRECT}" />
+        <KeyWord name="${CB_GETDROPPEDSTATE}" />
+        <KeyWord name="${CB_GETDROPPEDWIDTH}" />
+        <KeyWord name="${CB_GETEDITSEL}" />
+        <KeyWord name="${CB_GETEXTENDEDUI}" />
+        <KeyWord name="${CB_GETHORIZONTALEXTENT}" />
+        <KeyWord name="${CB_GETITEMDATA}" />
+        <KeyWord name="${CB_GETITEMHEIGHT}" />
+        <KeyWord name="${CB_GETLBTEXTLEN}" />
+        <KeyWord name="${CB_GETLBTEXT}" />
+        <KeyWord name="${CB_GETLOCALE}" />
+        <KeyWord name="${CB_GETTOPINDEX}" />
+        <KeyWord name="${CB_INITSTORAGE}" />
+        <KeyWord name="${CB_INSERTSTRING}" />
+        <KeyWord name="${CB_LIMITTEXT}" />
+        <KeyWord name="${CB_MSGMAX}" />
+        <KeyWord name="${CB_MULTIPLEADDSTRING}" />
+        <KeyWord name="${CB_RESETCONTENT}" />
+        <KeyWord name="${CB_SELECTSTRING}" />
+        <KeyWord name="${CB_SETCURSEL}" />
+        <KeyWord name="${CB_SETDROPPEDWIDTH}" />
+        <KeyWord name="${CB_SETEDITSEL}" />
+        <KeyWord name="${CB_SETEXTENDEDUI}" />
+        <KeyWord name="${CB_SETHORIZONTALEXTENT}" />
+        <KeyWord name="${CB_SETITEMDATA}" />
+        <KeyWord name="${CB_SETITEMHEIGHT}" />
+        <KeyWord name="${CB_SETLOCALE}" />
+        <KeyWord name="${CB_SETTOPINDEX}" />
+        <KeyWord name="${CB_SHOWDROPDOWN}" />
+        <KeyWord name="${CCM_DPISCALE}" />
+        <KeyWord name="${CCM_FIRST}" />
+        <KeyWord name="${CCM_GETUNICODEFORMAT}" />
+        <KeyWord name="${CCM_GETVERSION}" />
+        <KeyWord name="${CCM_SETBKCOLOR}" />
+        <KeyWord name="${CCM_SETUNICODEFORMAT}" />
+        <KeyWord name="${CCM_SETVERSION}" />
+        <KeyWord name="${CCM_SETWINDOWTHEME}" />
+        <KeyWord name="${CCS_BOTTOM}" />
+        <KeyWord name="${CCS_LEFT}" />
+        <KeyWord name="${CCS_NODIVIDER}" />
+        <KeyWord name="${CCS_RIGHT}" />
+        <KeyWord name="${CCS_TOP}" />
+        <KeyWord name="${Cmd}" />
+        <KeyWord name="${ConfigReadS}" />
+        <KeyWord name="${ConfigRead}" />
+        <KeyWord name="${ConfigWriteS}" />
+        <KeyWord name="${ConfigWrite}" />
+        <KeyWord name="${DBT_APPYBEGIN}" />
+        <KeyWord name="${DBT_APPYEND}" />
+        <KeyWord name="${DBT_CONFIGCHANGECANCELED}" />
+        <KeyWord name="${DBT_CONFIGCHANGED}" />
+        <KeyWord name="${DBT_CONFIGMGAPI32}" />
+        <KeyWord name="${DBT_CONFIGMGPRIVATE}" />
+        <KeyWord name="${DBT_CUSTOMEVENT}" />
+        <KeyWord name="${DBT_DEVICEARRIVAL}" />
+        <KeyWord name="${DBT_DEVICEQUERYREMOVEFAILED}" />
+        <KeyWord name="${DBT_DEVICEQUERYREMOVE}" />
+        <KeyWord name="${DBT_DEVICEREMOVECOMPLETE}" />
+        <KeyWord name="${DBT_DEVICEREMOVEPENDING}" />
+        <KeyWord name="${DBT_DEVICETYPESPECIFIC}" />
+        <KeyWord name="${DBT_DEVNODES_CHANGED}" />
+        <KeyWord name="${DBT_DEVTYP_DEVICEINTERFACE}" />
+        <KeyWord name="${DBT_DEVTYP_DEVNODE}" />
+        <KeyWord name="${DBT_DEVTYP_HANDLE}" />
+        <KeyWord name="${DBT_DEVTYP_NET}" />
+        <KeyWord name="${DBT_DEVTYP_OEM}" />
+        <KeyWord name="${DBT_DEVTYP_PORT}" />
+        <KeyWord name="${DBT_DEVTYP_VOLUME}" />
+        <KeyWord name="${DBT_LOW_DISK_SPACE}" />
+        <KeyWord name="${DBT_MONITORCHANGE}" />
+        <KeyWord name="${DBT_NO_DISK_SPACE}" />
+        <KeyWord name="${DBT_QUERYCHANGECONFIG}" />
+        <KeyWord name="${DBT_SHELLLOGGEDON}" />
+        <KeyWord name="${DBT_USERDEFINED}" />
+        <KeyWord name="${DBT_VOLLOCKLOCKFAILED}" />
+        <KeyWord name="${DBT_VOLLOCKLOCKRELEASED}" />
+        <KeyWord name="${DBT_VOLLOCKLOCKTAKEN}" />
+        <KeyWord name="${DBT_VOLLOCKQUERYLOCK}" />
+        <KeyWord name="${DBT_VOLLOCKQUERYUNLOCK}" />
+        <KeyWord name="${DBT_VOLLOCKUNLOCKFAILED}" />
+        <KeyWord name="${DBT_VPOWERDAPI}" />
+        <KeyWord name="${DBT_VXDINITCOMPLETE}" />
+        <KeyWord name="${DirState}" />
+        <KeyWord name="${DisableX64FSRedirection}" />
+        <KeyWord name="${DM_BITSPERPEL}" />
+        <KeyWord name="${DM_COLLATE}" />
+        <KeyWord name="${DM_COLOR}" />
+        <KeyWord name="${DM_COPIES}" />
+        <KeyWord name="${DM_DEFAULTSOURCE}" />
+        <KeyWord name="${DM_DISPLAYFLAGS}" />
+        <KeyWord name="${DM_DISPLAYFREQUENCY}" />
+        <KeyWord name="${DM_DITHERTYPE}" />
+        <KeyWord name="${DM_DUPLEX}" />
+        <KeyWord name="${DM_FORMNAME}" />
+        <KeyWord name="${DM_GRAYSCALE}" />
+        <KeyWord name="${DM_ICMINTENT}" />
+        <KeyWord name="${DM_ICMMETHOD}" />
+        <KeyWord name="${DM_INTERLACED}" />
+        <KeyWord name="${DM_LOGPIXELS}" />
+        <KeyWord name="${DM_MEDIATYPE}" />
+        <KeyWord name="${DM_NUP}" />
+        <KeyWord name="${DM_ORIENTATION}" />
+        <KeyWord name="${DM_PANNINGHEIGHT}" />
+        <KeyWord name="${DM_PANNINGWIDTH}" />
+        <KeyWord name="${DM_PAPERLENGTH}" />
+        <KeyWord name="${DM_PAPERSIZE}" />
+        <KeyWord name="${DM_PAPERWIDTH}" />
+        <KeyWord name="${DM_PELSHEIGHT}" />
+        <KeyWord name="${DM_PELSWIDTH}" />
+        <KeyWord name="${DM_POSITION}" />
+        <KeyWord name="${DM_PRINTQUALITY}" />
+        <KeyWord name="${DM_SCALE}" />
+        <KeyWord name="${DM_SPECVERSION}" />
+        <KeyWord name="${DM_TTOPTION}" />
+        <KeyWord name="${DM_YRESOLUTION}" />
+        <KeyWord name="${DoUntil…LoopUntil}" />
+        <KeyWord name="${DoUntil…Loop}" />
+        <KeyWord name="${Do…LoopUntil}" />
+        <KeyWord name="${Do…Loop}" />
+        <KeyWord name="${DriveSpace}" />
+        <KeyWord name="${ElseIfNot}" />
+        <KeyWord name="${ElseIf}" />
+        <KeyWord name="${ElseUnless}" />
+        <KeyWord name="${Else}" />
+        <KeyWord name="${EM_CANUNDO}" />
+        <KeyWord name="${EM_CHARFROMPOS}" />
+        <KeyWord name="${EM_EMPTYUNDOBUFFER}" />
+        <KeyWord name="${EM_EXLIMITTEXT}" />
+        <KeyWord name="${EM_FMTLINES}" />
+        <KeyWord name="${EM_GETFIRSTVISIBLELINE}" />
+        <KeyWord name="${EM_GETHANDLE}" />
+        <KeyWord name="${EM_GETIMESTATUS}" />
+        <KeyWord name="${EM_GETLIMITTEXT}" />
+        <KeyWord name="${EM_GETLINECOUNT}" />
+        <KeyWord name="${EM_GETLINE}" />
+        <KeyWord name="${EM_GETMARGINS}" />
+        <KeyWord name="${EM_GETMODIFY}" />
+        <KeyWord name="${EM_GETPASSWORDCHAR}" />
+        <KeyWord name="${EM_GETRECT}" />
+        <KeyWord name="${EM_GETSEL}" />
+        <KeyWord name="${EM_GETTHUMB}" />
+        <KeyWord name="${EM_GETWORDBREAKPROC}" />
+        <KeyWord name="${EM_LIMITTEXT}" />
+        <KeyWord name="${EM_LINEFROMCHAR}" />
+        <KeyWord name="${EM_LINEINDEX}" />
+        <KeyWord name="${EM_LINELENGTH}" />
+        <KeyWord name="${EM_LINESCROLL}" />
+        <KeyWord name="${EM_POSFROMCHAR}" />
+        <KeyWord name="${EM_REPLACESEL}" />
+        <KeyWord name="${EM_SCROLLCARET}" />
+        <KeyWord name="${EM_SCROLL}" />
+        <KeyWord name="${EM_SETHANDLE}" />
+        <KeyWord name="${EM_SETIMESTATUS}" />
+        <KeyWord name="${EM_SETLIMITTEXT}" />
+        <KeyWord name="${EM_SETMARGINS}" />
+        <KeyWord name="${EM_SETMODIFY}" />
+        <KeyWord name="${EM_SETPASSWORDCHAR}" />
+        <KeyWord name="${EM_SETREADONLY}" />
+        <KeyWord name="${EM_SETRECTNP}" />
+        <KeyWord name="${EM_SETRECT}" />
+        <KeyWord name="${EM_SETSEL}" />
+        <KeyWord name="${EM_SETTABSTOPS}" />
+        <KeyWord name="${EM_SETWORDBREAKPROC}" />
+        <KeyWord name="${EM_UNDO}" />
+        <KeyWord name="${EnableX64FSRedirection}" />
+        <KeyWord name="${EndIf}" />
+        <KeyWord name="${EndUnless}" />
+        <KeyWord name="${EndWhile}" />
+        <KeyWord name="${Errors}" />
+        <KeyWord name="${ExitDo}" />
+        <KeyWord name="${ExitWhile}" />
+        <KeyWord name="${FileExists}" />
+        <KeyWord name="${FileJoin}" />
+        <KeyWord name="${FileReadFromEnd}" />
+        <KeyWord name="${FileRecode}" />
+        <KeyWord name="${ForEach…Next}" />
+        <KeyWord name="${For…Next}" />
+        <KeyWord name="${GetBaseName}" />
+        <KeyWord name="${GetDrives}" />
+        <KeyWord name="${GetExeName}" />
+        <KeyWord name="${GetExePath}" />
+        <KeyWord name="${GetFileAttributes}" />
+        <KeyWord name="${GetFileExt}" />
+        <KeyWord name="${GetFileName}" />
+        <KeyWord name="${GetFileVersion}" />
+        <KeyWord name="${GetOptionsS}" />
+        <KeyWord name="${GetOptions}" />
+        <KeyWord name="${GetParameters}" />
+        <KeyWord name="${GetParent}" />
+        <KeyWord name="${GetRoot}" />
+        <KeyWord name="${GetSize}" />
+        <KeyWord name="${GetTime}" />
+        <KeyWord name="${HDM_FIRST}" />
+        <KeyWord name="${HWND_BROADCAST}" />
+        <KeyWord name="${I_IMAGENONE}" />
+        <KeyWord name="${IfCmd}" />
+        <KeyWord name="${IfNot}" />
+        <KeyWord name="${IfNot…Else}" />
+        <KeyWord name="${IfNot…FileExists}" />
+        <KeyWord name="${IfThenNot}" />
+        <KeyWord name="${IfThen}" />
+        <KeyWord name="${If}" />
+        <KeyWord name="${If…Else}" />
+        <KeyWord name="${If…FileExists}" />
+        <KeyWord name="${IsDomainController}" />
+        <KeyWord name="${IsNativeAMD64}" />
+        <KeyWord name="${IsNativeARM64}" />
+        <KeyWord name="${IsNativeIA32}" />
+        <KeyWord name="${IsNT}" />
+        <KeyWord name="${IsServerOS}" />
+        <KeyWord name="${IsServicePack}" />
+        <KeyWord name="${IsWin10}" />
+        <KeyWord name="${IsWin2000}" />
+        <KeyWord name="${IsWin2003}" />
+        <KeyWord name="${IsWin2008R2}" />
+        <KeyWord name="${IsWin2008}" />
+        <KeyWord name="${IsWin2012}" />
+        <KeyWord name="${IsWin7}" />
+        <KeyWord name="${IsWin8}" />
+        <KeyWord name="${IsWin95}" />
+        <KeyWord name="${IsWin98}" />
+        <KeyWord name="${IsWinME}" />
+        <KeyWord name="${IsWinNT4}" />
+        <KeyWord name="${IsWinVista}" />
+        <KeyWord name="${IsWinXP}" />
+        <KeyWord name="${IsWow64}" />
+        <KeyWord name="${LANG_AFRIKAANS}" />
+        <KeyWord name="${LANG_ALBANIAN}" />
+        <KeyWord name="${LANG_ARABIC}" />
+        <KeyWord name="${LANG_BASQUE}" />
+        <KeyWord name="${LANG_BELARUSIAN}" />
+        <KeyWord name="${LANG_BOSNIAN}" />
+        <KeyWord name="${LANG_BRAZILIAN}" />
+        <KeyWord name="${LANG_BRETON}" />
+        <KeyWord name="${LANG_BULGARIAN}" />
+        <KeyWord name="${LANG_CATALAN}" />
+        <KeyWord name="${LANG_CROATIAN}" />
+        <KeyWord name="${LANG_CZECH}" />
+        <KeyWord name="${LANG_DANISH}" />
+        <KeyWord name="${LANG_DUTCH}" />
+        <KeyWord name="${LANG_ENGLISH}" />
+        <KeyWord name="${LANG_ESPERANTO}" />
+        <KeyWord name="${LANG_ESTONIAN}" />
+        <KeyWord name="${LANG_FARSI}" />
+        <KeyWord name="${LANG_FINNISH}" />
+        <KeyWord name="${LANG_FRENCH}" />
+        <KeyWord name="${LANG_GALICIAN}" />
+        <KeyWord name="${LANG_GEORGIAN}" />
+        <KeyWord name="${LANG_GERMAN}" />
+        <KeyWord name="${LANG_GREEK}" />
+        <KeyWord name="${LANG_HEBREW}" />
+        <KeyWord name="${LANG_HUNGARIAN}" />
+        <KeyWord name="${LANG_ICELANDIC}" />
+        <KeyWord name="${LANG_INDONESIAN}" />
+        <KeyWord name="${LANG_IRISH}" />
+        <KeyWord name="${LANG_ITALIAN}" />
+        <KeyWord name="${LANG_JAPANESE}" />
+        <KeyWord name="${LANG_KOREAN}" />
+        <KeyWord name="${LANG_KURDISH}" />
+        <KeyWord name="${LANG_LATVIAN}" />
+        <KeyWord name="${LANG_LITHUANIAN}" />
+        <KeyWord name="${LANG_LUXEMBOURGISH}" />
+        <KeyWord name="${LANG_MACEDONIAN}" />
+        <KeyWord name="${LANG_MALAY}" />
+        <KeyWord name="${LANG_MONGOLIAN}" />
+        <KeyWord name="${LANG_NORWEGIANNYNORSK}" />
+        <KeyWord name="${LANG_NORWEGIAN}" />
+        <KeyWord name="${LANG_PASHTO}" />
+        <KeyWord name="${LANG_POLISH}" />
+        <KeyWord name="${LANG_PORTUGUESEBR}" />
+        <KeyWord name="${LANG_PORTUGUESE}" />
+        <KeyWord name="${LANG_ROMANIAN}" />
+        <KeyWord name="${LANG_RUSSIAN}" />
+        <KeyWord name="${LANG_SCOTSGAELIC}" />
+        <KeyWord name="${LANG_SERBIANLATIN}" />
+        <KeyWord name="${LANG_SERBIAN}" />
+        <KeyWord name="${LANG_SIMPCHINESE}" />
+        <KeyWord name="${LANG_SLOVAK}" />
+        <KeyWord name="${LANG_SLOVENIAN}" />
+        <KeyWord name="${LANG_SPANISHINTERNATIONAL}" />
+        <KeyWord name="${LANG_SPANISH}" />
+        <KeyWord name="${LANG_SWEDISH}" />
+        <KeyWord name="${LANG_THAI}" />
+        <KeyWord name="${LANG_TRADCHINESE}" />
+        <KeyWord name="${LANG_TURKISH}" />
+        <KeyWord name="${LANG_UKRAINIAN}" />
+        <KeyWord name="${LANG_UZBEK}" />
+        <KeyWord name="${LANG_WELSH}" />
+        <KeyWord name="${LB_ADDFILE}" />
+        <KeyWord name="${LB_ADDSTRING}" />
+        <KeyWord name="${LB_DELETESTRING}" />
+        <KeyWord name="${LB_DIR}" />
+        <KeyWord name="${LB_ERR}" />
+        <KeyWord name="${LB_FINDSTRINGEXACT}" />
+        <KeyWord name="${LB_FINDSTRING}" />
+        <KeyWord name="${LB_GETANCHORINDEX}" />
+        <KeyWord name="${LB_GETCARETINDEX}" />
+        <KeyWord name="${LB_GETCOUNT}" />
+        <KeyWord name="${LB_GETCURSEL}" />
+        <KeyWord name="${LB_GETHORIZONTALEXTENT}" />
+        <KeyWord name="${LB_GETITEMDATA}" />
+        <KeyWord name="${LB_GETITEMHEIGHT}" />
+        <KeyWord name="${LB_GETITEMRECT}" />
+        <KeyWord name="${LB_GETLOCALE}" />
+        <KeyWord name="${LB_GETSELCOUNT}" />
+        <KeyWord name="${LB_GETSELITEMS}" />
+        <KeyWord name="${LB_GETSEL}" />
+        <KeyWord name="${LB_GETTEXTLEN}" />
+        <KeyWord name="${LB_GETTEXT}" />
+        <KeyWord name="${LB_GETTOPINDEX}" />
+        <KeyWord name="${LB_INITSTORAGE}" />
+        <KeyWord name="${LB_INSERTSTRING}" />
+        <KeyWord name="${LB_ITEMFROMPOINT}" />
+        <KeyWord name="${LB_MSGMAX}" />
+        <KeyWord name="${LB_MULTIPLEADDSTRING}" />
+        <KeyWord name="${LB_RESETCONTENT}" />
+        <KeyWord name="${LB_SELECTSTRING}" />
+        <KeyWord name="${LB_SELITEMRANGEEX}" />
+        <KeyWord name="${LB_SELITEMRANGE}" />
+        <KeyWord name="${LB_SETANCHORINDEX}" />
+        <KeyWord name="${LB_SETCARETINDEX}" />
+        <KeyWord name="${LB_SETCOLUMNWIDTH}" />
+        <KeyWord name="${LB_SETCOUNT}" />
+        <KeyWord name="${LB_SETCURSEL}" />
+        <KeyWord name="${LB_SETHORIZONTALEXTENT}" />
+        <KeyWord name="${LB_SETITEMDATA}" />
+        <KeyWord name="${LB_SETITEMHEIGHT}" />
+        <KeyWord name="${LB_SETLOCALE}" />
+        <KeyWord name="${LB_SETSEL}" />
+        <KeyWord name="${LB_SETTABSTOPS}" />
+        <KeyWord name="${LB_SETTOPINDEX}" />
+        <KeyWord name="${LineFind}" />
+        <KeyWord name="${LineRead}" />
+        <KeyWord name="${LineSum}" />
+        <KeyWord name="${Locate}" />
+        <KeyWord name="${Loop}" />
+        <KeyWord name="${LVCF_FMT}" />
+        <KeyWord name="${LVCF_SUBITEM}" />
+        <KeyWord name="${LVCF_TEXT}" />
+        <KeyWord name="${LVCF_WIDTH}" />
+        <KeyWord name="${LVIF_IMAGE}" />
+        <KeyWord name="${LVIF_PARAM}" />
+        <KeyWord name="${LVIF_STATE}" />
+        <KeyWord name="${LVIF_TEXT}" />
+        <KeyWord name="${LVIS_STATEIMAGEMASK}" />
+        <KeyWord name="${LVM_DELETEALLITEMS}" />
+        <KeyWord name="${LVM_DELETEITEM}" />
+        <KeyWord name="${LVM_FIRST}" />
+        <KeyWord name="${LVM_GETEXTENDEDLISTVIEWSTYLE}" />
+        <KeyWord name="${LVM_GETIMAGELIST}" />
+        <KeyWord name="${LVM_GETITEMA}" />
+        <KeyWord name="${LVM_GETITEMCOUNT}" />
+        <KeyWord name="${LVM_GETITEMSTATE}" />
+        <KeyWord name="${LVM_GETITEMW}" />
+        <KeyWord name="${LVM_GETITEM}" />
+        <KeyWord name="${LVM_INSERTCOLUMNA}" />
+        <KeyWord name="${LVM_INSERTCOLUMNW}" />
+        <KeyWord name="${LVM_INSERTCOLUMN}" />
+        <KeyWord name="${LVM_INSERTITEMA}" />
+        <KeyWord name="${LVM_INSERTITEMW}" />
+        <KeyWord name="${LVM_INSERTITEM}" />
+        <KeyWord name="${LVM_SETCOLUMNWIDTH}" />
+        <KeyWord name="${LVM_SETEXTENDEDLISTVIEWSTYLE}" />
+        <KeyWord name="${LVM_SETIMAGELIST}" />
+        <KeyWord name="${LVM_SETITEMA}" />
+        <KeyWord name="${LVM_SETITEMCOUNT}" />
+        <KeyWord name="${LVM_SETITEMSTATE}" />
+        <KeyWord name="${LVM_SETITEMTEXTA}" />
+        <KeyWord name="${LVM_SETITEMTEXTW}" />
+        <KeyWord name="${LVM_SETITEMTEXT}" />
+        <KeyWord name="${LVM_SETITEMW}" />
+        <KeyWord name="${LVM_SETITEM}" />
+        <KeyWord name="${LVM_SETSELECTEDCOLUMN}" />
+        <KeyWord name="${LVM_SORTITEMS}" />
+        <KeyWord name="${LVS_EDITLABELS}" />
+        <KeyWord name="${LVS_EX_CHECKBOXES}" />
+        <KeyWord name="${LVS_EX_DOUBLEBUFFER}" />
+        <KeyWord name="${LVS_EX_FULLROWSELECT}" />
+        <KeyWord name="${LVS_EX_INFOTIP}" />
+        <KeyWord name="${LVS_EX_LABELTIP}" />
+        <KeyWord name="${LVS_ICON}" />
+        <KeyWord name="${LVS_LIST}" />
+        <KeyWord name="${LVS_NOCOLUMNHEADER}" />
+        <KeyWord name="${LVS_NOSCROLL}" />
+        <KeyWord name="${LVS_NOSORTHEADER}" />
+        <KeyWord name="${LVS_REPORT}" />
+        <KeyWord name="${LVS_SHAREIMAGELISTS}" />
+        <KeyWord name="${LVS_SHOWSELALWAYS}" />
+        <KeyWord name="${LVS_SINGLESEL}" />
+        <KeyWord name="${LVS_SMALLICON}" />
+        <KeyWord name="${LVS_SORTASCENDING}" />
+        <KeyWord name="${LVS_SORTDESCENDING}" />
+        <KeyWord name="${LVSCW_AUTOSIZE_USEHEADER}" />
+        <KeyWord name="${LVSCW_AUTOSIZE}" />
+        <KeyWord name="${MementoSectionEnd}" />
+        <KeyWord name="${MementoSectionRestore}" />
+        <KeyWord name="${MementoSectionSave}" />
+        <KeyWord name="${MementoSection}" />
+        <KeyWord name="${MementoUnselectedSection}" />
+        <KeyWord name="${Next}" />
+        <KeyWord name="${NSD_AddExStyle}" />
+        <KeyWord name="${NSD_AddStyle}" />
+        <KeyWord name="${NSD_CB_AddString}" />
+        <KeyWord name="${NSD_CB_SelectString}" />
+        <KeyWord name="${NSD_Check}" />
+        <KeyWord name="${NSD_ClearIcon}" />
+        <KeyWord name="${NSD_ClearImage}" />
+        <KeyWord name="${NSD_CreateBitmap}" />
+        <KeyWord name="${NSD_CreateBrowseButton}" />
+        <KeyWord name="${NSD_CreateButton}" />
+        <KeyWord name="${NSD_CreateCheckBox}" />
+        <KeyWord name="${NSD_CreateComboBox}" />
+        <KeyWord name="${NSD_CreateDirRequest}" />
+        <KeyWord name="${NSD_CreateDropList}" />
+        <KeyWord name="${NSD_CreateFileRequest}" />
+        <KeyWord name="${NSD_CreateGroupBox}" />
+        <KeyWord name="${NSD_CreateHLine}" />
+        <KeyWord name="${NSD_CreateIcon}" />
+        <KeyWord name="${NSD_CreateLabel}" />
+        <KeyWord name="${NSD_CreateLink}" />
+        <KeyWord name="${NSD_CreateListBox}" />
+        <KeyWord name="${NSD_CreateNumber}" />
+        <KeyWord name="${NSD_CreatePassword}" />
+        <KeyWord name="${NSD_CreateProgressBar}" />
+        <KeyWord name="${NSD_CreateRadioButton}" />
+        <KeyWord name="${NSD_CreateText}" />
+        <KeyWord name="${NSD_CreateTimer}" />
+        <KeyWord name="${NSD_CreateVLine}" />
+        <KeyWord name="${NSD_FreeIcon}" />
+        <KeyWord name="${NSD_FreeImage}" />
+        <KeyWord name="${NSD_GetState}" />
+        <KeyWord name="${NSD_GetText}" />
+        <KeyWord name="${NSD_KillTimer}" />
+        <KeyWord name="${NSD_LB_AddString}" />
+        <KeyWord name="${NSD_LB_Clear}" />
+        <KeyWord name="${NSD_LB_DelString}" />
+        <KeyWord name="${NSD_LB_GetCount}" />
+        <KeyWord name="${NSD_LB_GetSelection}" />
+        <KeyWord name="${NSD_LB_InsertString}" />
+        <KeyWord name="${NSD_LB_SelectString}" />
+        <KeyWord name="${NSD_OnBack}" />
+        <KeyWord name="${NSD_OnChange}" />
+        <KeyWord name="${NSD_OnClick}" />
+        <KeyWord name="${NSD_OnNotify}" />
+        <KeyWord name="${NSD_SetFocus}" />
+        <KeyWord name="${NSD_SetIconFromInstaller}" />
+        <KeyWord name="${NSD_SetIcon}" />
+        <KeyWord name="${NSD_SetImage}" />
+        <KeyWord name="${NSD_SetState}" />
+        <KeyWord name="${NSD_SetStretchedImage}" />
+        <KeyWord name="${NSD_SetTextLimit}" />
+        <KeyWord name="${NSD_SetText}" />
+        <KeyWord name="${NSD_Uncheck}" />
+        <KeyWord name="${NSIS_CHAR_SIZE}" />
+        <KeyWord name="${NSIS_MAX_STRLEN}" />
+        <KeyWord name="${NSIS_PACKEDVERSION}" />
+        <KeyWord name="${NSIS_PTR_SIZE}" />
+        <KeyWord name="${NSIS_UNICODE}" />
+        <KeyWord name="${NSIS_VERSION}" />
+        <KeyWord name="${NSISDIR}" />
+        <KeyWord name="${NSISDIR}\Contrib\Examples" />
+        <KeyWord name="${NSISDIR}\Contrib\Graphics" />
+        <KeyWord name="${NSISDIR}\Contrib\Graphics\Checks" />
+        <KeyWord name="${NSISDIR}\Contrib\Graphics\Header" />
+        <KeyWord name="${NSISDIR}\Contrib\Graphics\Icons" />
+        <KeyWord name="${NSISDIR}\Contrib\Graphics\Wizard" />
+        <KeyWord name="${NSISDIR}\Contrib\Language files" />
+        <KeyWord name="${NSISDIR}\Contrib\Plugins" />
+        <KeyWord name="${NSISDIR}\Contrib\UIs" />
+        <KeyWord name="${OrIfNot}" />
+        <KeyWord name="${PBM_DELTAPOS}" />
+        <KeyWord name="${PBM_GETBARCOLOR}" />
+        <KeyWord name="${PBM_GETBKCOLOR}" />
+        <KeyWord name="${PBM_GETPOS}" />
+        <KeyWord name="${PBM_GETRANGE}" />
+        <KeyWord name="${PBM_GETSTATE}" />
+        <KeyWord name="${PBM_GETSTEP}" />
+        <KeyWord name="${PBM_SETBARCOLOR}" />
+        <KeyWord name="${PBM_SETBKCOLOR}" />
+        <KeyWord name="${PBM_SETMARQUEE}" />
+        <KeyWord name="${PBM_SETPOS}" />
+        <KeyWord name="${PBM_SETRANGE32}" />
+        <KeyWord name="${PBM_SETRANGE}" />
+        <KeyWord name="${PBM_SETSTATE}" />
+        <KeyWord name="${PBM_SETSTEP}" />
+        <KeyWord name="${PBM_STEPIT}" />
+        <KeyWord name="${PBST_ERROR}" />
+        <KeyWord name="${PBST_NORMAL}" />
+        <KeyWord name="${PBST_PAUSED}" />
+        <KeyWord name="${RebootFlag}" />
+        <KeyWord name="${RefreshShellIcons}" />
+        <KeyWord name="${RunningX64}" />
+        <KeyWord name="${SB_CONST_ALPHA}" />
+        <KeyWord name="${SB_GRAD_RECT}" />
+        <KeyWord name="${SB_GRAD_TRI}" />
+        <KeyWord name="${SB_NONE}" />
+        <KeyWord name="${SB_PIXEL_ALPHA}" />
+        <KeyWord name="${SB_PREMULT_ALPHA}" />
+        <KeyWord name="${SB_SIMPLEID}" />
+        <KeyWord name="${SBM_ENABLE_ARROWS}" />
+        <KeyWord name="${SBM_GETPOS}" />
+        <KeyWord name="${SBM_GETRANGE}" />
+        <KeyWord name="${SBM_GETSCROLLINFO}" />
+        <KeyWord name="${SBM_SETPOS}" />
+        <KeyWord name="${SBM_SETRANGEREDRAW}" />
+        <KeyWord name="${SBM_SETRANGE}" />
+        <KeyWord name="${SBM_SETSCROLLINFO}" />
+        <KeyWord name="${SECTION_OFF}" />
+        <KeyWord name="${SectionIsBold}" />
+        <KeyWord name="${SectionIsExpanded}" />
+        <KeyWord name="${SectionIsPartiallySelected}" />
+        <KeyWord name="${SectionIsReadOnly}" />
+        <KeyWord name="${SectionIsSectionGroupEnd}" />
+        <KeyWord name="${SectionIsSectionGroup}" />
+        <KeyWord name="${SectionIsSelected}" />
+        <KeyWord name="${Select}" />
+        <KeyWord name="${SF_BOLD}" />
+        <KeyWord name="${SF_EXPAND}" />
+        <KeyWord name="${SF_NAMECHG}" />
+        <KeyWord name="${SF_PSELECTED}" />
+        <KeyWord name="${SF_RO}" />
+        <KeyWord name="${SF_SECGRPEND}" />
+        <KeyWord name="${SF_SECGRP}" />
+        <KeyWord name="${SF_SELECTED}" />
+        <KeyWord name="${SF_SUBSECEND}" />
+        <KeyWord name="${SF_SUBSEC}" />
+        <KeyWord name="${SF_TOGGLED}" />
+        <KeyWord name="${Silent}" />
+        <KeyWord name="${STM_GETICON}" />
+        <KeyWord name="${STM_GETIMAGE}" />
+        <KeyWord name="${STM_MSGMAX}" />
+        <KeyWord name="${STM_ONLY_THIS_INTERFACE}" />
+        <KeyWord name="${STM_ONLY_THIS_NAME}" />
+        <KeyWord name="${STM_ONLY_THIS_PROTOCOL}" />
+        <KeyWord name="${STM_ONLY_THIS_TYPE}" />
+        <KeyWord name="${STM_SETICON}" />
+        <KeyWord name="${STM_SETIMAGE}" />
+        <KeyWord name="${StrFilterS}" />
+        <KeyWord name="${StrFilter}" />
+        <KeyWord name="${SW_FORCEMINIMIZE}" />
+        <KeyWord name="${SW_HIDE}" />
+        <KeyWord name="${SW_MAXIMIZE}" />
+        <KeyWord name="${SW_MAX}" />
+        <KeyWord name="${SW_MINIMIZE}" />
+        <KeyWord name="${SW_NORMAL}" />
+        <KeyWord name="${SW_RESTORE}" />
+        <KeyWord name="${SW_SHOWMAXIMIZED}" />
+        <KeyWord name="${SW_SHOWMINIMIZED}" />
+        <KeyWord name="${SW_SHOWMINNOACTIVE}" />
+        <KeyWord name="${SW_SHOWNA}" />
+        <KeyWord name="${SW_SHOWNOACTIVATE}" />
+        <KeyWord name="${SW_SHOWNORMAL}" />
+        <KeyWord name="${SW_SHOW}" />
+        <KeyWord name="${Switch}" />
+        <KeyWord name="${SYSSTRUCT_LVITEM_V1}" />
+        <KeyWord name="${SYSSTRUCT_LVITEM_V2}" />
+        <KeyWord name="${SYSSTRUCT_LVITEM_V3}" />
+        <KeyWord name="${SYSSTRUCT_LVITEM_V4}" />
+        <KeyWord name="${SYSSTRUCT_TCITEM}" />
+        <KeyWord name="${TCIF_PARAM}" />
+        <KeyWord name="${TCIF_TEXT}" />
+        <KeyWord name="${TCM_ADJUSTRECT}" />
+        <KeyWord name="${TCM_FIRST}" />
+        <KeyWord name="${TCM_GETCURSEL}" />
+        <KeyWord name="${TCM_INSERTITEMA}" />
+        <KeyWord name="${TCM_INSERTITEMW}" />
+        <KeyWord name="${TCM_INSERTITEM}" />
+        <KeyWord name="${TCN_SELCHANGE}" />
+        <KeyWord name="${TCN_SELCHANGING}" />
+        <KeyWord name="${TCS_SCROLLOPPOSITE}" />
+        <KeyWord name="${TextCompareS}" />
+        <KeyWord name="${TextCompare}" />
+        <KeyWord name="${TrimNewLines}" />
+        <KeyWord name="${Unless}" />
+        <KeyWord name="${Unless…FileExists}" />
+        <KeyWord name="${VersionCompare}" />
+        <KeyWord name="${VersionConvert}" />
+        <KeyWord name="${While}" />
+        <KeyWord name="${WM_ACTIVATEAPP}" />
+        <KeyWord name="${WM_ACTIVATE}" />
+        <KeyWord name="${WM_AFXFIRST}" />
+        <KeyWord name="${WM_AFXLAST}" />
+        <KeyWord name="${WM_APPCOMMAND}" />
+        <KeyWord name="${WM_APP}" />
+        <KeyWord name="${WM_ASKCBFORMATNAME}" />
+        <KeyWord name="${WM_CANCELJOURNAL}" />
+        <KeyWord name="${WM_CANCELMODE}" />
+        <KeyWord name="${WM_CAPTURECHANGED}" />
+        <KeyWord name="${WM_CHANGECBCHAIN}" />
+        <KeyWord name="${WM_CHANGEUISTATE}" />
+        <KeyWord name="${WM_CHARTOITEM}" />
+        <KeyWord name="${WM_CHAR}" />
+        <KeyWord name="${WM_CHILDACTIVATE}" />
+        <KeyWord name="${WM_CLEAR}" />
+        <KeyWord name="${WM_CLOSE}" />
+        <KeyWord name="${WM_COMMAND}" />
+        <KeyWord name="${WM_COMMNOTIFY}" />
+        <KeyWord name="${WM_COMPACTING}" />
+        <KeyWord name="${WM_COMPAREITEM}" />
+        <KeyWord name="${WM_CONTEXTMENU}" />
+        <KeyWord name="${WM_CONVERTREQUESTEX}" />
+        <KeyWord name="${WM_COPYDATA}" />
+        <KeyWord name="${WM_COPY}" />
+        <KeyWord name="${WM_CREATE}" />
+        <KeyWord name="${WM_CTLCOLORBTN}" />
+        <KeyWord name="${WM_CTLCOLORDLG}" />
+        <KeyWord name="${WM_CTLCOLOREDIT}" />
+        <KeyWord name="${WM_CTLCOLORLISTBOX}" />
+        <KeyWord name="${WM_CTLCOLORMSGBOX}" />
+        <KeyWord name="${WM_CTLCOLORSCROLLBAR}" />
+        <KeyWord name="${WM_CTLCOLORSTATIC}" />
+        <KeyWord name="${WM_CTLCOLOR}" />
+        <KeyWord name="${WM_CUT}" />
+        <KeyWord name="${WM_DDE_FIRST}" />
+        <KeyWord name="${WM_DEADCHAR}" />
+        <KeyWord name="${WM_DELETEITEM}" />
+        <KeyWord name="${WM_DESTROYCLIPBOARD}" />
+        <KeyWord name="${WM_DESTROY}" />
+        <KeyWord name="${WM_DEVICECHANGE}" />
+        <KeyWord name="${WM_DEVMODECHANGE}" />
+        <KeyWord name="${WM_DISPLAYCHANGE}" />
+        <KeyWord name="${WM_DRAWCLIPBOARD}" />
+        <KeyWord name="${WM_DRAWITEM}" />
+        <KeyWord name="${WM_DROPFILES}" />
+        <KeyWord name="${WM_ENABLE}" />
+        <KeyWord name="${WM_ENDSESSION}" />
+        <KeyWord name="${WM_ENTERIDLE}" />
+        <KeyWord name="${WM_ENTERMENULOOP}" />
+        <KeyWord name="${WM_ENTERSIZEMOVE}" />
+        <KeyWord name="${WM_ERASEBKGND}" />
+        <KeyWord name="${WM_EXITMENULOOP}" />
+        <KeyWord name="${WM_EXITSIZEMOVE}" />
+        <KeyWord name="${WM_FONTCHANGE}" />
+        <KeyWord name="${WM_GETDLGCODE}" />
+        <KeyWord name="${WM_GETFONT}" />
+        <KeyWord name="${WM_GETHOTKEY}" />
+        <KeyWord name="${WM_GETICON}" />
+        <KeyWord name="${WM_GETMINMAXINFO}" />
+        <KeyWord name="${WM_GETOBJECT}" />
+        <KeyWord name="${WM_GETTEXTLENGTH}" />
+        <KeyWord name="${WM_GETTEXT}" />
+        <KeyWord name="${WM_HANDHELDFIRST}" />
+        <KeyWord name="${WM_HANDHELDLAST}" />
+        <KeyWord name="${WM_HELP}" />
+        <KeyWord name="${WM_HOTKEY}" />
+        <KeyWord name="${WM_HSCROLLCLIPBOARD}" />
+        <KeyWord name="${WM_HSCROLL}" />
+        <KeyWord name="${WM_ICONERASEBKGND}" />
+        <KeyWord name="${WM_IME_CHAR}" />
+        <KeyWord name="${WM_IME_COMPOSITIONFULL}" />
+        <KeyWord name="${WM_IME_COMPOSITION}" />
+        <KeyWord name="${WM_IME_CONTROL}" />
+        <KeyWord name="${WM_IME_ENDCOMPOSITION}" />
+        <KeyWord name="${WM_IME_KEYDOWN}" />
+        <KeyWord name="${WM_IME_KEYLAST}" />
+        <KeyWord name="${WM_IME_KEYUP}" />
+        <KeyWord name="${WM_IME_NOTIFY}" />
+        <KeyWord name="${WM_IME_REQUEST}" />
+        <KeyWord name="${WM_IME_SELECT}" />
+        <KeyWord name="${WM_IME_SETCONTEXT}" />
+        <KeyWord name="${WM_IME_STARTCOMPOSITION}" />
+        <KeyWord name="${WM_INITDIALOG}" />
+        <KeyWord name="${WM_INITMENUPOPUP}" />
+        <KeyWord name="${WM_INITMENU}" />
+        <KeyWord name="${WM_INPUTLANGCHANGEREQUEST}" />
+        <KeyWord name="${WM_INPUTLANGCHANGE}" />
+        <KeyWord name="${WM_INPUT}" />
+        <KeyWord name="${WM_KEYDOWN}" />
+        <KeyWord name="${WM_KEYFIRST}" />
+        <KeyWord name="${WM_KEYLAST}" />
+        <KeyWord name="${WM_KEYUP}" />
+        <KeyWord name="${WM_KILLFOCUS}" />
+        <KeyWord name="${WM_LBUTTONDBLCLK}" />
+        <KeyWord name="${WM_LBUTTONDOWN}" />
+        <KeyWord name="${WM_LBUTTONUP}" />
+        <KeyWord name="${WM_MBUTTONDBLCLK}" />
+        <KeyWord name="${WM_MBUTTONDOWN}" />
+        <KeyWord name="${WM_MBUTTONUP}" />
+        <KeyWord name="${WM_MDIACTIVATE}" />
+        <KeyWord name="${WM_MDICASCADE}" />
+        <KeyWord name="${WM_MDICREATE}" />
+        <KeyWord name="${WM_MDIDESTROY}" />
+        <KeyWord name="${WM_MDIGETACTIVE}" />
+        <KeyWord name="${WM_MDIICONARRANGE}" />
+        <KeyWord name="${WM_MDIMAXIMIZE}" />
+        <KeyWord name="${WM_MDINEXT}" />
+        <KeyWord name="${WM_MDIREFRESHMENU}" />
+        <KeyWord name="${WM_MDIRESTORE}" />
+        <KeyWord name="${WM_MDISETMENU}" />
+        <KeyWord name="${WM_MDITILE}" />
+        <KeyWord name="${WM_MEASUREITEM}" />
+        <KeyWord name="${WM_MENUCHAR}" />
+        <KeyWord name="${WM_MENUCOMMAND}" />
+        <KeyWord name="${WM_MENUDRAG}" />
+        <KeyWord name="${WM_MENUGETOBJECT}" />
+        <KeyWord name="${WM_MENURBUTTONUP}" />
+        <KeyWord name="${WM_MENUSELECT}" />
+        <KeyWord name="${WM_MOUSEACTIVATE}" />
+        <KeyWord name="${WM_MOUSEFIRST}" />
+        <KeyWord name="${WM_MOUSEHOVER}" />
+        <KeyWord name="${WM_MOUSELAST}" />
+        <KeyWord name="${WM_MOUSELEAVE}" />
+        <KeyWord name="${WM_MOUSEMOVE}" />
+        <KeyWord name="${WM_MOUSEWHEEL}" />
+        <KeyWord name="${WM_MOVE}" />
+        <KeyWord name="${WM_MOVING}" />
+        <KeyWord name="${WM_NCACTIVATE}" />
+        <KeyWord name="${WM_NCCALCSIZE}" />
+        <KeyWord name="${WM_NCCREATE}" />
+        <KeyWord name="${WM_NCDESTROY}" />
+        <KeyWord name="${WM_NCHITTEST}" />
+        <KeyWord name="${WM_NCLBUTTONDBLCLK}" />
+        <KeyWord name="${WM_NCLBUTTONDOWN}" />
+        <KeyWord name="${WM_NCLBUTTONUP}" />
+        <KeyWord name="${WM_NCMBUTTONDBLCLK}" />
+        <KeyWord name="${WM_NCMBUTTONDOWN}" />
+        <KeyWord name="${WM_NCMBUTTONUP}" />
+        <KeyWord name="${WM_NCMOUSEHOVER}" />
+        <KeyWord name="${WM_NCMOUSELEAVE}" />
+        <KeyWord name="${WM_NCMOUSEMOVE}" />
+        <KeyWord name="${WM_NCPAINT}" />
+        <KeyWord name="${WM_NCRBUTTONDBLCLK}" />
+        <KeyWord name="${WM_NCRBUTTONDOWN}" />
+        <KeyWord name="${WM_NCRBUTTONUP}" />
+        <KeyWord name="${WM_NCXBUTTONDBLCLK}" />
+        <KeyWord name="${WM_NCXBUTTONDOWN}" />
+        <KeyWord name="${WM_NCXBUTTONUP}" />
+        <KeyWord name="${WM_NEXTDLGCTL}" />
+        <KeyWord name="${WM_NEXTMENU}" />
+        <KeyWord name="${WM_NOTIFYFORMAT}" />
+        <KeyWord name="${WM_NOTIFY}" />
+        <KeyWord name="${WM_NULL}" />
+        <KeyWord name="${WM_PAINTCLIPBOARD}" />
+        <KeyWord name="${WM_PAINTICON}" />
+        <KeyWord name="${WM_PAINT}" />
+        <KeyWord name="${WM_PALETTECHANGED}" />
+        <KeyWord name="${WM_PALETTEISCHANGING}" />
+        <KeyWord name="${WM_PARENTNOTIFY}" />
+        <KeyWord name="${WM_PASTE}" />
+        <KeyWord name="${WM_PENWINFIRST}" />
+        <KeyWord name="${WM_PENWINLAST}" />
+        <KeyWord name="${WM_POWERBROADCAST}" />
+        <KeyWord name="${WM_POWER}" />
+        <KeyWord name="${WM_PRINTCLIENT}" />
+        <KeyWord name="${WM_PRINT}" />
+        <KeyWord name="${WM_QUERYDRAGICON}" />
+        <KeyWord name="${WM_QUERYENDSESSION}" />
+        <KeyWord name="${WM_QUERYNEWPALETTE}" />
+        <KeyWord name="${WM_QUERYOPEN}" />
+        <KeyWord name="${WM_QUERYUISTATE}" />
+        <KeyWord name="${WM_QUEUESYNC}" />
+        <KeyWord name="${WM_QUIT}" />
+        <KeyWord name="${WM_RASDIALEVENT}" />
+        <KeyWord name="${WM_RBUTTONDBLCLK}" />
+        <KeyWord name="${WM_RBUTTONDOWN}" />
+        <KeyWord name="${WM_RBUTTONUP}" />
+        <KeyWord name="${WM_RENDERALLFORMATS}" />
+        <KeyWord name="${WM_RENDERFORMAT}" />
+        <KeyWord name="${WM_SETCURSOR}" />
+        <KeyWord name="${WM_SETFOCUS}" />
+        <KeyWord name="${WM_SETFONT}" />
+        <KeyWord name="${WM_SETHOTKEY}" />
+        <KeyWord name="${WM_SETICON}" />
+        <KeyWord name="${WM_SETREDRAW}" />
+        <KeyWord name="${WM_SETTEXT}" />
+        <KeyWord name="${WM_SETTINGCHANGE}" />
+        <KeyWord name="${WM_SHOWWINDOW}" />
+        <KeyWord name="${WM_SIZECLIPBOARD}" />
+        <KeyWord name="${WM_SIZE}" />
+        <KeyWord name="${WM_SIZING}" />
+        <KeyWord name="${WM_SPOOLERSTATUS}" />
+        <KeyWord name="${WM_STYLECHANGED}" />
+        <KeyWord name="${WM_STYLECHANGING}" />
+        <KeyWord name="${WM_SYNCPAINT}" />
+        <KeyWord name="${WM_SYSCHAR}" />
+        <KeyWord name="${WM_SYSCOLORCHANGE}" />
+        <KeyWord name="${WM_SYSCOMMAND}" />
+        <KeyWord name="${WM_SYSDEADCHAR}" />
+        <KeyWord name="${WM_SYSKEYDOWN}" />
+        <KeyWord name="${WM_SYSKEYUP}" />
+        <KeyWord name="${WM_TABLET_FIRST}" />
+        <KeyWord name="${WM_TABLET_LAST}" />
+        <KeyWord name="${WM_TCARD}" />
+        <KeyWord name="${WM_THEMECHANGED}" />
+        <KeyWord name="${WM_TIMECHANGE}" />
+        <KeyWord name="${WM_TIMER}" />
+        <KeyWord name="${WM_UNDO}" />
+        <KeyWord name="${WM_UNICHAR}" />
+        <KeyWord name="${WM_UNINITMENUPOPUP}" />
+        <KeyWord name="${WM_UPDATEUISTATE}" />
+        <KeyWord name="${WM_USERCHANGED}" />
+        <KeyWord name="${WM_USER}" />
+        <KeyWord name="${WM_VKEYTOITEM}" />
+        <KeyWord name="${WM_VSCROLLCLIPBOARD}" />
+        <KeyWord name="${WM_VSCROLL}" />
+        <KeyWord name="${WM_WINDOWPOSCHANGED}" />
+        <KeyWord name="${WM_WINDOWPOSCHANGING}" />
+        <KeyWord name="${WM_WININICHANGE}" />
+        <KeyWord name="${WM_WTSSESSION_CHANGE}" />
+        <KeyWord name="${WM_XBUTTONDBLCLK}" />
+        <KeyWord name="${WM_XBUTTONDOWN}" />
+        <KeyWord name="${WM_XBUTTONUP}" />
+        <KeyWord name="${WordAddS}" />
+        <KeyWord name="${WordAdd}" />
+        <KeyWord name="${WordFind2xS}" />
+        <KeyWord name="${WordFind2x}" />
+        <KeyWord name="${WordFind3xS}" />
+        <KeyWord name="${WordFind3x}" />
+        <KeyWord name="${WordFindS}" />
+        <KeyWord name="${WordFind}" />
+        <KeyWord name="${WordInsertS}" />
+        <KeyWord name="${WordInsert}" />
+        <KeyWord name="${WordReplaceS}" />
+        <KeyWord name="${WordReplace}" />
+        <KeyWord name="%BitmapCheck" />
+        <KeyWord name="%BitmapCheck:big.bmp" />
+        <KeyWord name="%BitmapCheck:classic-cross.bmp" />
+        <KeyWord name="%BitmapCheck:classic.bmp" />
+        <KeyWord name="%BitmapCheck:colorful.bmp" />
+        <KeyWord name="%BitmapCheck:grey-cross.bmp" />
+        <KeyWord name="%BitmapCheck:grey.bmp" />
+        <KeyWord name="%BitmapCheck:modern.bmp" />
+        <KeyWord name="%BitmapCheck:red-round.bmp" />
+        <KeyWord name="%BitmapCheck:red.bmp" />
+        <KeyWord name="%BitmapCheck:simple-round.bmp" />
+        <KeyWord name="%BitmapCheck:simple-round2.bmp" />
+        <KeyWord name="%BitmapCheck:simple.bmp" />
+        <KeyWord name="%BkColorLicense" />
+        <KeyWord name="%BkColorLicense /gray (default)" />
+        <KeyWord name="%BkColorLicense /windows" />
+        <KeyWord name="%Bring2Front" />
+        <KeyWord name="%BufSizeFile" />
+        <KeyWord name="%ButtonTextInstall" />
+        <KeyWord name="%ButtonTextMisc" />
+        <KeyWord name="%ButtonTextUninstall" />
+        <KeyWord name="%CallbacksPage" />
+        <KeyWord name="%CaptionUninstall" />
+        <KeyWord name="%CheckCRC" />
+        <KeyWord name="%CheckCRC off" />
+        <KeyWord name="%CheckCRC on (default)" />
+        <KeyWord name="%CloseFile" />
+        <KeyWord name="%CloseFind" />
+        <KeyWord name="%CmpInt" />
+        <KeyWord name="%CmpInt64" />
+        <KeyWord name="%CmpIntU64" />
+        <KeyWord name="%CmpSStr" />
+        <KeyWord name="%CmpStr" />
+        <KeyWord name="%CmpUInt" />
+        <KeyWord name="%CpyStr" />
+        <KeyWord name="%DataLicense" />
+        <KeyWord name="%DataLicense rtf" />
+        <KeyWord name="%DataLicense txt" />
+        <KeyWord name="%DirectoryCreate" />
+        <KeyWord name="%DirRM" />
+        <KeyWord name="%DirRM /r /REBOOTOK" />
+        <KeyWord name="%DirRM /REBOOTOK" />
+        <KeyWord name="%DLLReg" />
+        <KeyWord name="%DPIAwareManifest" />
+        <KeyWord name="%DPIAwareManifest false" />
+        <KeyWord name="%DPIAwareManifest notset" />
+        <KeyWord name="%DPIAwareManifest true" />
+        <KeyWord name="%EnvStringsExpand" />
+        <KeyWord name="%EnvStrRead" />
+        <KeyWord name="%ErrorsClear" />
+        <KeyWord name="%ErrorTextFile" />
+        <KeyWord name="%ExecutionLevelRequest" />
+        <KeyWord name="%ExecutionLevelRequest admin (default)" />
+        <KeyWord name="%ExecutionLevelRequest highest" />
+        <KeyWord name="%ExecutionLevelRequest none" />
+        <KeyWord name="%ExecutionLevelRequest user" />
+        <KeyWord name="%FileCopy" />
+        <KeyWord name="%FileCopy /FILESONLY" />
+        <KeyWord name="%FileCopy /SILENT" />
+        <KeyWord name="%FileCopy /SILENT /FILESONLY" />
+        <KeyWord name="%FileReserve" />
+        <KeyWord name="%FileReserve /nonfatal" />
+        <KeyWord name="%FileReserve /nonfatal /r" />
+        <KeyWord name="%FirstFind" />
+        <KeyWord name="%FmtInt" />
+        <KeyWord name="%FmtInt64" />
+        <KeyWord name="%FontCreate" />
+        <KeyWord name="%ForceSelectionLicense checkbox" />
+        <KeyWord name="%ForceSelectionLicense off (default)" />
+        <KeyWord name="%ForceSelectionLicense radiobuttons" />
+        <KeyWord name="%GetFullDLLPath" />
+        <KeyWord name="%GetInstTypeText" />
+        <KeyWord name="%GetSectionFlags" />
+        <KeyWord name="%GetSectionInstTypes" />
+        <KeyWord name="%GetSectionSize" />
+        <KeyWord name="%GetSectionText" />
+        <KeyWord name="%Go2" />
+        <KeyWord name="%IconUninstall" />
+        <KeyWord name="%IconUninstall:arrow-uninstall.ico" />
+        <KeyWord name="%IconUninstall:arrow2-uninstall.ico" />
+        <KeyWord name="%IconUninstall:box-uninstall.ico" />
+        <KeyWord name="%IconUninstall:classic-uninstall.ico" />
+        <KeyWord name="%IconUninstall:llama-blue.ico" />
+        <KeyWord name="%IconUninstall:llama-grey.ico" />
+        <KeyWord name="%IconUninstall:modern-uninstall-blue-full.ico" />
+        <KeyWord name="%IconUninstall:modern-uninstall-blue.ico" />
+        <KeyWord name="%IconUninstall:modern-uninstall-colorful.ico" />
+        <KeyWord name="%IconUninstall:modern-uninstall-full.ico" />
+        <KeyWord name="%IconUninstall:modern-uninstall.ico" />
+        <KeyWord name="%IconUninstall:nsis1-uninstall.ico" />
+        <KeyWord name="%IconUninstall:orange-uninstall-nsis.ico" />
+        <KeyWord name="%IconUninstall:orange-uninstall.ico" />
+        <KeyWord name="%IconUninstall:pixel-uninstall.ico" />
+        <KeyWord name="%IconUninstall:win-uninstall.ico" />
+        <KeyWord name="%IconWindow" />
+        <KeyWord name="%IconWindow off" />
+        <KeyWord name="%IconWindow on" />
+        <KeyWord name="%INIFlush" />
+        <KeyWord name="%INISecDelete" />
+        <KeyWord name="%INIStrDelete" />
+        <KeyWord name="%INIStrRead" />
+        <KeyWord name="%INIStrWrite" />
+        <KeyWord name="%InstallSilent" />
+        <KeyWord name="%InstallSilent normal (default)" />
+        <KeyWord name="%InstallSilent silent" />
+        <KeyWord name="%InstallSilent silentlog" />
+        <KeyWord name="%InstDetailsShow" />
+        <KeyWord name="%InstDetailsShow hide (default)" />
+        <KeyWord name="%InstDetailsShow nevershow" />
+        <KeyWord name="%InstDetailsShow show" />
+        <KeyWord name="%IntCmp64" />
+        <KeyWord name="%IntCmpU64" />
+        <KeyWord name="%IntFmt64" />
+        <KeyWord name="%LangStringLicense" />
+        <KeyWord name="%LangStringLicense rtf" />
+        <KeyWord name="%LangStringLicense txt" />
+        <KeyWord name="%LanguageFileLoad" />
+        <KeyWord name="%LenStr" />
+        <KeyWord name="%MessageSend" />
+        <KeyWord name="%NextFind" />
+        <KeyWord name="%OpenFile" />
+        <KeyWord name="%OpInt" />
+        <KeyWord name="%PageUninst" />
+        <KeyWord name="%PageUninst /ENABLECANCEL" />
+        <KeyWord name="%PageUninst components" />
+        <KeyWord name="%PageUninst custom" />
+        <KeyWord name="%PageUninst custom /ENABLECANCEL" />
+        <KeyWord name="%PageUninst directory" />
+        <KeyWord name="%PageUninst instfiles" />
+        <KeyWord name="%PageUninst license" />
+        <KeyWord name="%PageUninst uninstConfirm" />
+        <KeyWord name="%PathSearch" />
+        <KeyWord name="%PluginsDirInit" />
+        <KeyWord name="%PrintDetail" />
+        <KeyWord name="%ReadByteFile" />
+        <KeyWord name="%ReadFile" />
+        <KeyWord name="%ReadUTF16LEFile" />
+        <KeyWord name="%ReadWordFile" />
+        <KeyWord name="%RegBinWrite" />
+        <KeyWord name="%RegDLLUn" />
+        <KeyWord name="%RegDWORDRead" />
+        <KeyWord name="%RegDWORDWrite" />
+        <KeyWord name="%RegExpandStrWrite" />
+        <KeyWord name="%RegKeyDelete" />
+        <KeyWord name="%RegKeyDelete /ifempty" />
+        <KeyWord name="%RegKeyEnum" />
+        <KeyWord name="%RegMultiStrWrite" />
+        <KeyWord name="%RegNoneWrite" />
+        <KeyWord name="%RegStrRead" />
+        <KeyWord name="%RegStrWrite" />
+        <KeyWord name="%RegValueDelete" />
+        <KeyWord name="%RegValueEnum" />
+        <KeyWord name="%SeekFile" />
+        <KeyWord name="%SetInstTypeText" />
+        <KeyWord name="%SetLog" />
+        <KeyWord name="%SetLog off" />
+        <KeyWord name="%SetLog on" />
+        <KeyWord name="%SetSectionFlags" />
+        <KeyWord name="%SetSectionInstTypes" />
+        <KeyWord name="%SetSectionSize" />
+        <KeyWord name="%SetSectionText" />
+        <KeyWord name="%ShellExec" />
+        <KeyWord name="%ShellExec open" />
+        <KeyWord name="%ShellExec print" />
+        <KeyWord name="%ShortCutCreate" />
+        <KeyWord name="%StyleXP" />
+        <KeyWord name="%StyleXP off (default)" />
+        <KeyWord name="%StyleXP on" />
+        <KeyWord name="%SubCaptionUninstall" />
+        <KeyWord name="%SubSection" />
+        <KeyWord name="%SubSectionEnd" />
+        <KeyWord name="%SupportedOSManifest" />
+        <KeyWord name="%SupportedOSManifest all" />
+        <KeyWord name="%SupportedOSManifest none" />
+        <KeyWord name="%SupportedOSManifest Win7" />
+        <KeyWord name="%SupportedOSManifest Win8" />
+        <KeyWord name="%SupportedOSManifest WinVista" />
+        <KeyWord name="%TextCompleted" />
+        <KeyWord name="%TextComponent" />
+        <KeyWord name="%TextDetailsButton" />
+        <KeyWord name="%TextDir" />
+        <KeyWord name="%TextLicense" />
+        <KeyWord name="%TextLog" />
+        <KeyWord name="%TextSpace" />
+        <KeyWord name="%TextUninstall" />
+        <KeyWord name="%UIChange" />
+        <KeyWord name="%UIChange:default.exe" />
+        <KeyWord name="%UIChange:modern.exe" />
+        <KeyWord name="%UIChange:modern_nodesc.exe" />
+        <KeyWord name="%UIChange:modern_smalldesc.exe" />
+        <KeyWord name="%UIChange:sdbarker_tiny.exe" />
+        <KeyWord name="%UninstallerWrite" />
+        <KeyWord name="%UnInstallSilent" />
+        <KeyWord name="%UnInstallSilent normal (default)" />
+        <KeyWord name="%UnInstallSilent silent" />
+        <KeyWord name="%UnInstallSilent silentlog" />
+        <KeyWord name="%UninstDetailsShow" />
+        <KeyWord name="%UninstDetailsShow hide (default)" />
+        <KeyWord name="%UninstDetailsShow nevershow" />
+        <KeyWord name="%UninstDetailsShow show" />
+        <KeyWord name="%VarDir" />
+        <KeyWord name="%VerifyDir" />
+        <KeyWord name="%VerifyDir auto (default)" />
+        <KeyWord name="%VerifyDir leave" />
+        <KeyWord name="%WaitExec" />
+        <KeyWord name="%WaitExec $var" />
+        <KeyWord name="%WindowEnable" />
+        <KeyWord name="%WindowFind" />
+        <KeyWord name="%WindowHide" />
+        <KeyWord name="%WindowIs" />
+        <KeyWord name="%WindowLock" />
+        <KeyWord name="%WindowLock off" />
+        <KeyWord name="%WindowLock on" />
+        <KeyWord name="%WindowShow" />
+        <KeyWord name="%WriteByteFile" />
+        <KeyWord name="%WriteFile" />
+        <KeyWord name="%WriteUTF16LEFile" />
+        <KeyWord name="%{AddWordS}" />
+        <KeyWord name="%{AddWord}" />
+        <KeyWord name="%{CmdIf}" />
+        <KeyWord name="%{CompareSText}" />
+        <KeyWord name="%{CompareText}" />
+        <KeyWord name="%{CompareVersion}" />
+        <KeyWord name="%{ConvertVersion}" />
+        <KeyWord name="%{DoExit}" />
+        <KeyWord name="%{ExistsFile}" />
+        <KeyWord name="%{FilterStrS}" />
+        <KeyWord name="%{FilterStr}" />
+        <KeyWord name="%{Find2xSWord}" />
+        <KeyWord name="%{Find2xWord}" />
+        <KeyWord name="%{Find3xSWord}" />
+        <KeyWord name="%{Find3xWord}" />
+        <KeyWord name="%{FindLine}" />
+        <KeyWord name="%{FindWordS}" />
+        <KeyWord name="%{FindWord}" />
+        <KeyWord name="%{IfAnd}" />
+        <KeyWord name="%{IfElse}" />
+        <KeyWord name="%{IfNotAnd}" />
+        <KeyWord name="%{IfNotElse}" />
+        <KeyWord name="%{IfNotOr}" />
+        <KeyWord name="%{InsertWordS}" />
+        <KeyWord name="%{InsertWord}" />
+        <KeyWord name="%{IsServer}" />
+        <KeyWord name="%{JoinFile}" />
+        <KeyWord name="%{ReadConfig}" />
+        <KeyWord name="%{ReadFromEnFiled}" />
+        <KeyWord name="%{ReadLine}" />
+        <KeyWord name="%{ReadSConfig}" />
+        <KeyWord name="%{RecodeFile}" />
+        <KeyWord name="%{ReplaceWordS}" />
+        <KeyWord name="%{ReplaceWord}" />
+        <KeyWord name="%{ShellIconsRefresh}" />
+        <KeyWord name="%{SumLine}" />
+        <KeyWord name="%{ThenIf}" />
+        <KeyWord name="%{ThenNotIf}" />
+        <KeyWord name="%{UnlessElse}" />
+        <KeyWord name="%{WhileEnd}" />
+        <KeyWord name="%{WhileExit}" />
+        <KeyWord name="%{WriteConfig}" />
+        <KeyWord name="%{WriteSConfig}" />
+        <KeyWord name="/AUTOADD" />
+        <KeyWord name="/BRANDING" />
+        <KeyWord name="/CHARSET" />
+        <KeyWord name="/CHECKNOSHORTCUTS" />
+        <KeyWord name="/COMPONENTSONLYONCUSTOM" />
+        <KeyWord name="/CUSTOMSTRING" />
+        <KeyWord name="/DATE" />
+        <KeyWord name="/ENABLECANCEL" />
+        <KeyWord name="/FILE" />
+        <KeyWord name="/FILESONLY" />
+        <KeyWord name="/FINAL" />
+        <KeyWord name="/FULLSCREEN" />
+        <KeyWord name="/GLOBAL" />
+        <KeyWord name="/GRADIENT" />
+        <KeyWord name="/GRAY" />
+        <KeyWord name="/IFEMPTY" />
+        <KeyWord name="/IGNORECASE" />
+        <KeyWord name="/IMGID" />
+        <KeyWord name="/ITALIC" />
+        <KeyWord name="/LANG" />
+        <KeyWord name="/LASTUSED" />
+        <KeyWord name="/LOOP" />
+        <KeyWord name="/MATH" />
+        <KeyWord name="/NOCUSTOM" />
+        <KeyWord name="/NOERRORS" />
+        <KeyWord name="/NOICON" />
+        <KeyWord name="/NOIEPROXY" />
+        <KeyWord name="/NONFATAL" />
+        <KeyWord name="/ONAME=" />
+        <KeyWord name="/REBOOTOK" />
+        <KeyWord name="/REDEF" />
+        <KeyWord name="/RESIZETOFIT" />
+        <KeyWord name="/RTL" />
+        <KeyWord name="/SD" />
+        <KeyWord name="/SHORT" />
+        <KeyWord name="/SILENT" />
+        <KeyWord name="/SIZE" />
+        <KeyWord name="/SOLID" />
+        <KeyWord name="/STOP" />
+        <KeyWord name="/STRIKE" />
+        <KeyWord name="/TILED" />
+        <KeyWord name="/TIMEOUT" />
+        <KeyWord name="/TRIMCENTER" />
+        <KeyWord name="/TRIMLEFT" />
+        <KeyWord name="/TRIMRIGHT" />
+        <KeyWord name="/UNDERLINE" />
+        <KeyWord name="/USERNAME" />
+        <KeyWord name="/UTCDATE" />
+        <KeyWord name="/WAIT" />
+        <KeyWord name="/WINDOWS" />
+        <KeyWord name="Abort" />
+        <KeyWord name="Abort [message]" />
+        <KeyWord name="AccessControl::ClearOnFile" />
+        <KeyWord name="AccessControl::ClearOnFile /NOINHERIT" />
+        <KeyWord name="AccessControl::ClearOnRegKey" />
+        <KeyWord name="AccessControl::ClearOnRegKey /NOINHERIT" />
+        <KeyWord name="AccessControl::DenyOnFile" />
+        <KeyWord name="AccessControl::DenyOnFile /NOINHERIT" />
+        <KeyWord name="AccessControl::DenyOnRegKey" />
+        <KeyWord name="AccessControl::DenyOnRegKey /NOINHERIT" />
+        <KeyWord name="AccessControl::DisableFileInheritance" />
+        <KeyWord name="AccessControl::DisableRegKeyInheritance" />
+        <KeyWord name="AccessControl::EnableFileInheritance" />
+        <KeyWord name="AccessControl::EnableRegKeyInheritance" />
+        <KeyWord name="AccessControl::GetCurrentUserName" />
+        <KeyWord name="AccessControl::GetFileGroup" />
+        <KeyWord name="AccessControl::GetFileOwner" />
+        <KeyWord name="AccessControl::GetRegKeyGroup" />
+        <KeyWord name="AccessControl::GetRegKeyOwner" />
+        <KeyWord name="AccessControl::GrantOnFile" />
+        <KeyWord name="AccessControl::GrantOnFile /NOINHERIT" />
+        <KeyWord name="AccessControl::GrantOnRegKey" />
+        <KeyWord name="AccessControl::GrantOnRegKey /NOINHERIT" />
+        <KeyWord name="AccessControl::RevokeOnFile" />
+        <KeyWord name="AccessControl::RevokeOnFile /NOINHERIT" />
+        <KeyWord name="AccessControl::RevokeOnRegKey" />
+        <KeyWord name="AccessControl::RevokeOnRegKey /NOINHERIT" />
+        <KeyWord name="AccessControl::SetFileGroup" />
+        <KeyWord name="AccessControl::SetFileOwner" />
+        <KeyWord name="AccessControl::SetOnFile" />
+        <KeyWord name="AccessControl::SetOnFile /NOINHERIT" />
+        <KeyWord name="AccessControl::SetOnRegKey" />
+        <KeyWord name="AccessControl::SetOnRegKey /NOINHERIT" />
+        <KeyWord name="AccessControl::SetRegKeyGroup" />
+        <KeyWord name="AccessControl::SetRegKeyOwner" />
+        <KeyWord name="AccessControl::SidToName" />
+        <KeyWord name="AddBrandingImage" />
+        <KeyWord name="AddSize" />
+        <KeyWord name="AdvSplash::show" />
+        <KeyWord name="Aero::Apply" />
+        <KeyWord name="Aero::Apply /NOBRANDING" />
+        <KeyWord name="AllowRootDirInstall" />
+        <KeyWord name="AllowRootDirInstall false (default)" />
+        <KeyWord name="AllowRootDirInstall true" />
+        <KeyWord name="AllowSkipFiles" />
+        <KeyWord name="AllowSkipFiles off" />
+        <KeyWord name="AllowSkipFiles on (default)" />
+        <KeyWord name="Animate::hwnd" />
+        <KeyWord name="Animate::show" />
+        <KeyWord name="Animate::show /NOUNLOAD" />
+        <KeyWord name="Animate::wait" />
+        <KeyWord name="AnimGif::play" />
+        <KeyWord name="AnimGif::play /NOUNLOAD" />
+        <KeyWord name="AnimGif::stop" />
+        <KeyWord name="ANY_ALT" />
+        <KeyWord name="ANY_CTRL" />
+        <KeyWord name="ANY_SHIFT" />
+        <KeyWord name="AppAssocReg::ClearUserAssociations" />
+        <KeyWord name="AppAssocReg::QueryAppIsDefault" />
+        <KeyWord name="AppAssocReg::QueryAppIsDefaultAll" />
+        <KeyWord name="AppAssocReg::QueryCurrentDefault" />
+        <KeyWord name="AppAssocReg::SetAppAsDefault" />
+        <KeyWord name="AppAssocReg::SetAppAsDefaultAll" />
+        <KeyWord name="ApplicationID::Set" />
+        <KeyWord name="ARCHIVE or FILE_ATTRIBUTE_ARCHIVE" />
+        <KeyWord name="AutoCloseWindow" />
+        <KeyWord name="AutoCloseWindow false (default)" />
+        <KeyWord name="AutoCloseWindow true" />
+        <KeyWord name="b:Abort()" func="yes">
+            <Overload retVal="">
+                <Param name='"user_message"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:BringToFront()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Call()" func="yes">
+            <Overload retVal="">
+                <Param name='"name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:CallInstDLL()" func="yes">
+            <Overload retVal="">
+                <Param name='"dll_file"' />
+                <Param name='"function_name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ClearErrors()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Copy()" func="yes">
+            <Overload retVal="">
+                <Param name='"file"' />
+                <Param name='"target"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:CreateDirectory()" func="yes">
+            <Overload retVal="">
+                <Param name='"path_to_create"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:CreateFont()" func="yes">
+            <Overload retVal="">
+                <Param name='"face_name"' />
+                <Param name='"${3:height", "${5:weight", ${7:/ITALIC, ${9:/UNDERLINE, ${11:/STRIKE}}}}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:CreateShortCut()" func="yes">
+            <Overload retVal="">
+                <Param name='"link.lnk"' />
+                <Param name='"target_file", "${4:parameters", "${6:icon_file", ${8:icon_index_number, ${10:start_options, ${12:keyboard_shortcut, "${14:description"}}}}}}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Delete()" func="yes">
+            <Overload retVal="">
+                <Param name='"source", "${3:rebootok"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:DeleteINISec()" func="yes">
+            <Overload retVal="">
+                <Param name='"ini_filename"' />
+                <Param name='"section_name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:DeleteINIStr()" func="yes">
+            <Overload retVal="">
+                <Param name='"ini_filename"' />
+                <Param name='"section_name"' />
+                <Param name='"str_name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:DeleteRegKey()" func="yes">
+            <Overload retVal="">
+                <Param name='"rootkey"' />
+                <Param name='"subkey"}, "${4:options"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:DeleteRegValue()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"key_name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:DetailPrint()" func="yes">
+            <Overload retVal="">
+                <Param name='"user_message"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Do Until..Loop" />
+        <KeyWord name="b:Do While..Loop" />
+        <KeyWord name="b:EnableWindow()" func="yes">
+            <Overload retVal="">
+                <Param name="hwnd" />
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:EnumRegKey()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"index"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:EnumRegValue()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"index"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Exch()" func="yes">
+            <Overload retVal="">
+                <Param name="user_var" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Exec()" func="yes">
+            <Overload retVal="">
+                <Param name='"command"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ExecShell()" func="yes">
+            <Overload retVal="">
+                <Param name='"action"' />
+                <Param name='"command", ${4:parameter}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ExecWait()" func="yes">
+            <Overload retVal="">
+                <Param name='"command"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ExpandEnvStrings()" func="yes">
+            <Overload retVal="">
+                <Param name='"string"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:File()" func="yes">
+            <Overload retVal="">
+                <Param name='"file", "${3:options", "${5:outpath"}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileClose()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileCopy()" func="yes">
+            <Overload retVal="">
+                <Param name='"file"' />
+                <Param name='"target"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileDelete()" func="yes">
+            <Overload retVal="">
+                <Param name='"source", "${3:rebootok"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileOpen()" func="yes">
+            <Overload retVal="">
+                <Param name='"filename"' />
+                <Param name="open_mode" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileRead()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name="maxlen" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileReadByte()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name="maxlen" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileReadUTF16LE()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name="maxlen" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileReadWord()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name="maxlen" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileRename()" func="yes">
+            <Overload retVal="">
+                <Param name='"source"' />
+                <Param name='"target", "${4:options"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileSeek()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name="offset, ${4:mode, ${6:user_var}}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileWrite()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileWriteByte()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name='"string"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileWriteUTF16LE()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name='"string"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FileWriteWord()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name='"string"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FindClose()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FindNext()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FindWindow()" func="yes">
+            <Overload retVal="">
+                <Param name='"windowclass"' />
+                <Param name='"windowtitle", ${4:windowparent, ${6:childafter}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:FlushINI()" func="yes">
+            <Overload retVal="">
+                <Param name='"ini_filename"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Function()" />
+        <KeyWord name="b:GetCurInstType()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetCurrentAddress()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetDlgItem()" func="yes">
+            <Overload retVal="">
+                <Param name="dialog" />
+                <Param name="item_id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetErrorLevel()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetFullPathName()" func="yes">
+            <Overload retVal="">
+                <Param name='"path", "${3:options"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetFunctionAddress()" func="yes">
+            <Overload retVal="">
+                <Param name='"function_name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetInstDirError()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetLabelAddress()" func="yes">
+            <Overload retVal="">
+                <Param name='"label"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:GetTempFileName()" func="yes">
+            <Overload retVal="">
+                <Param name="$${2:base_dir}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Goto()" func="yes">
+            <Overload retVal="">
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:HideWindow()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:If" />
+        <KeyWord name="b:If Not" />
+        <KeyWord name="b:If Not..Else" />
+        <KeyWord name="b:If Not..ElseIf" />
+        <KeyWord name="b:If..Else" />
+        <KeyWord name="b:If..ElseIf" />
+        <KeyWord name="b:InitPluginsDir()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:InstTypeGetText()" func="yes">
+            <Overload retVal="">
+                <Param name="inst_type_idx" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:InstTypeSetText()" func="yes">
+            <Overload retVal="">
+                <Param name="inst_type_idx" />
+                <Param name='"text"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:IntCmp()" func="yes">
+            <Overload retVal="">
+                <Param name="val1" />
+                <Param name="val2" />
+                <Param name="jump_if_equal, ${5:jump_if_val1_less, ${7:jump_if_val1_more}}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:IntFmt()" func="yes">
+            <Overload retVal="">
+                <Param name="format" />
+                <Param name="numberstring" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:IntOp()" func="yes">
+            <Overload retVal="">
+                <Param name="value1" />
+                <Param name="op" />
+                <Param name="value2" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LangString()" func="yes">
+            <Overload retVal="">
+                <Param name="name" />
+                <Param name="$\{LANG_language_id\}" />
+                <Param name='"string"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LicenseLangString()" func="yes">
+            <Overload retVal="">
+                <Param name="name" />
+                <Param name="$\{LANG_language_id\}" />
+                <Param name='"license_path"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LoadLanguageFile()" func="yes">
+            <Overload retVal="">
+                <Param name='"language_file_nlf"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LockWindow()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LockWindow(off)" func="yes">
+            <Overload retVal="">
+                <Param name="off" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LockWindow(on)" func="yes">
+            <Overload retVal="">
+                <Param name="on" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LogSet()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LogSet(off)" func="yes">
+            <Overload retVal="">
+                <Param name="off" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LogSet(on)" func="yes">
+            <Overload retVal="">
+                <Param name="on" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:LogText()" func="yes">
+            <Overload retVal="">
+                <Param name='"text"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox()" func="yes">
+            <Overload retVal="">
+                <Param name='"buttons"' />
+                <Param name='"message", ${4:options, ${6:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox(ABORTRETRYIGNORE)" func="yes">
+            <Overload retVal="">
+                <Param name='"ABORTRETRYIGNORE"' />
+                <Param name='"message", ${3:options, ${5:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox(OK)" func="yes">
+            <Overload retVal="">
+                <Param name='"OK"' />
+                <Param name='"message", ${3:options, ${5:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox(OKCANCEL)" func="yes">
+            <Overload retVal="">
+                <Param name='"OKCANCEL"' />
+                <Param name='"message", ${3:options, ${5:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox(RETRYCANCEL)" func="yes">
+            <Overload retVal="">
+                <Param name='"RETRYCANCEL"' />
+                <Param name='"message", ${3:options, ${5:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox(YESNO)" func="yes">
+            <Overload retVal="">
+                <Param name='"YESNO"' />
+                <Param name='"message", ${3:options, ${5:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:MsgBox(YESNOCANCEL)" func="yes">
+            <Overload retVal="">
+                <Param name='"YESNOCANCEL"' />
+                <Param name='"message", ${3:options, ${5:sd}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Pop()" />
+        <KeyWord name="b:Push()" func="yes">
+            <Overload retVal="">
+                <Param name="string" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Quit()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ReadEnvStr()" func="yes">
+            <Overload retVal="">
+                <Param name="name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ReadINIStr()" func="yes">
+            <Overload retVal="">
+                <Param name='"ini_filename"' />
+                <Param name='"section_name"' />
+                <Param name='"entry_name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ReadRegDWORD()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"sub_key"' />
+                <Param name='"name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ReadRegStr()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"sub_key"' />
+                <Param name='"name"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Reboot()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:RegDLL()" func="yes">
+            <Overload retVal="">
+                <Param name='"file", ${3:options}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Rename()" func="yes">
+            <Overload retVal="">
+                <Param name='"source"' />
+                <Param name='"target", "${4:options"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ReserveFile()" func="yes">
+            <Overload retVal="">
+                <Param name='"file", "${3:options"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:RMDir()" func="yes">
+            <Overload retVal="">
+                <Param name='"directory", "${3:options"}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SearchPath()" func="yes">
+            <Overload retVal="">
+                <Param name='"filename"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionGetFlags()" func="yes">
+            <Overload retVal="">
+                <Param name="section_index" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionGetInstTypes()" func="yes">
+            <Overload retVal="">
+                <Param name="section_index" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionGetSize()" func="yes">
+            <Overload retVal="">
+                <Param name="section_index" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionSetFlags()" func="yes">
+            <Overload retVal="">
+                <Param name="section_index" />
+                <Param name="inst_types" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionSetInstTypes()" func="yes">
+            <Overload retVal="">
+                <Param name="section_index" />
+                <Param name="section_flags" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionSetSize()" func="yes">
+            <Overload retVal="">
+                <Param name="handle" />
+                <Param name="maxlen" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SectionSetText()" func="yes">
+            <Overload retVal="">
+                <Param name="section_index" />
+                <Param name='"section_text"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SendMessage()" func="yes">
+            <Overload retVal="">
+                <Param name="hwnd" />
+                <Param name="msg" />
+                <Param name="wparam" />
+                <Param name="lparam, ${6:timeout_in_ms}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetAutoClose()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetAutoClose(false)" func="yes">
+            <Overload retVal="">
+                <Param name="false" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetAutoClose(true)" func="yes">
+            <Overload retVal="">
+                <Param name="true" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetCtlColors()" func="yes">
+            <Overload retVal="">
+                <Param name="hwnd, ${3:branding}, text_color, bg_color" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetCurInstType()" func="yes">
+            <Overload retVal="">
+                <Param name="inst_type_idx" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsPrint()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsPrint(both)" func="yes">
+            <Overload retVal="">
+                <Param name="both" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsPrint(lastused)" func="yes">
+            <Overload retVal="">
+                <Param name="lastused" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsPrint(listonly)" func="yes">
+            <Overload retVal="">
+                <Param name="listonly" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsPrint(none)" func="yes">
+            <Overload retVal="">
+                <Param name="none" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsPrint(textonly)" func="yes">
+            <Overload retVal="">
+                <Param name="textonly" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsView()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsView(hide)" func="yes">
+            <Overload retVal="">
+                <Param name="hide" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetDetailsView(show)" func="yes">
+            <Overload retVal="">
+                <Param name="show" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetErrorLevel()" func="yes">
+            <Overload retVal="">
+                <Param name="error_level" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetErrorLevel(0)" func="yes">
+            <Overload retVal="">
+                <Param name="0" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetErrorLevel(1)" func="yes">
+            <Overload retVal="">
+                <Param name="1" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetErrorLevel(2)" func="yes">
+            <Overload retVal="">
+                <Param name="2" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetErrors()" func="yes">
+            <Overload retVal="">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetFileAttributes()" func="yes">
+            <Overload retVal="">
+                <Param name='"filename"' />
+                <Param name="attributes" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetOutPath()" func="yes">
+            <Overload retVal="">
+                <Param name='"path"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRebootFlag()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRebootFlag(false)" func="yes">
+            <Overload retVal="">
+                <Param name="false" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRebootFlag(true)" func="yes">
+            <Overload retVal="">
+                <Param name="true" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRegView()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRegView(32)" func="yes">
+            <Overload retVal="">
+                <Param name="32" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRegView(64)" func="yes">
+            <Overload retVal="">
+                <Param name="64" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetRegView(lastused)" func="yes">
+            <Overload retVal="">
+                <Param name="lastused" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetShellVarContext()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetShellVarContext(all)" func="yes">
+            <Overload retVal="">
+                <Param name="all" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetShellVarContext(current)" func="yes">
+            <Overload retVal="">
+                <Param name="current" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetSilent()" func="yes">
+            <Overload retVal="">
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetSilent(normal)" func="yes">
+            <Overload retVal="">
+                <Param name="normal" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:SetSilent(silent)" func="yes">
+            <Overload retVal="">
+                <Param name="silent" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:ShowWindow()" func="yes">
+            <Overload retVal="">
+                <Param name="hwnd" />
+                <Param name="value" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Sleep()" func="yes">
+            <Overload retVal="">
+                <Param name="sleeptime_in_ms" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:StrCmp()" func="yes">
+            <Overload retVal="">
+                <Param name="str1" />
+                <Param name="str2" />
+                <Param name="jump_if_equal, ${5:jump_if_val1_less}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:StrCpy()" func="yes">
+            <Overload retVal="">
+                <Param name="str, ${3:maxlen, ${5:start_offset}}" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:StrLen()" func="yes">
+            <Overload retVal="">
+                <Param name="str" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:UnRegDLL()" func="yes">
+            <Overload retVal="">
+                <Param name='"dllfile"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:Var" />
+        <KeyWord name="b:WordFind()" func="yes">
+            <Overload retVal="">
+                <Param name='"string"' />
+                <Param name='"options"' />
+                <Param name='"delimiter1", "${5:delimiter2", "${7:center"}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WordFindS()" func="yes">
+            <Overload retVal="">
+                <Param name='"string"' />
+                <Param name='"options"' />
+                <Param name='"delimiter1", "${5:delimiter2", "${7:center"}}' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WordReplace()" func="yes">
+            <Overload retVal="">
+                <Param name='"string"' />
+                <Param name='"word1"' />
+                <Param name='"word2"' />
+                <Param name='"options"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WordReplaceS()" func="yes">
+            <Overload retVal="">
+                <Param name='"string"' />
+                <Param name='"word1"' />
+                <Param name='"word2"' />
+                <Param name='"options"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WriteINIStr()" func="yes">
+            <Overload retVal="">
+                <Param name='"ini_filename"' />
+                <Param name='"section_name"' />
+                <Param name='"entry_name"' />
+                <Param name='"value"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WriteRegBin()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"key_name"' />
+                <Param name='"value_data"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WriteRegDWORD()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"key_name"' />
+                <Param name='"value"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WriteRegExpandStr()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"key_name"' />
+                <Param name='"value"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WriteRegStr()" func="yes">
+            <Overload retVal="">
+                <Param name='"root_key"' />
+                <Param name='"subkey"' />
+                <Param name='"key_name"' />
+                <Param name='"value"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="b:WriteUninstaller()" func="yes">
+            <Overload retVal="">
+                <Param name='"path.exe"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Banner::destroy" />
+        <KeyWord name="Banner::getWindow" />
+        <KeyWord name="Banner::show" />
+        <KeyWord name="Base64_Decode" />
+        <KeyWord name="Base64_Encode" />
+        <KeyWord name="BaseConvert::Convert" />
+        <KeyWord name="BDEAlias::AddAliasDebug" />
+        <KeyWord name="BDEAlias::DeleteAlias" />
+        <KeyWord name="BGFont" />
+        <KeyWord name="BGGradient" />
+        <KeyWord name="BGGradient off (default)" />
+        <KeyWord name="BgImage::AddImage" />
+        <KeyWord name="BgImage::AddText" />
+        <KeyWord name="BgImage::Clear" />
+        <KeyWord name="BgImage::Destroy" />
+        <KeyWord name="BgImage::Redraw" />
+        <KeyWord name="BgImage::SetBg" />
+        <KeyWord name="BgImage::SetReturn" />
+        <KeyWord name="BgImage::Sound" />
+        <KeyWord name="BgWorker::CallAndWait" />
+        <KeyWord name="blowfish::decrypt" />
+        <KeyWord name="blowfish::encrypt" />
+        <KeyWord name="BrandingText" />
+        <KeyWord name="BrandingURL::Set" />
+        <KeyWord name="BrandingURL::Unload" />
+        <KeyWord name="BringToFront" />
+        <KeyWord name="buttonEnabled" />
+        <KeyWord name="ButtonEvent::AddEventHandler" />
+        <KeyWord name="ButtonEvent::AddEventHandler /NOTIFY" />
+        <KeyWord name="ButtonEvent::UnsetEventHandler" />
+        <KeyWord name="ButtonEvent::WhichButtonId" />
+        <KeyWord name="buttonVisible" />
+        <KeyWord name="CabDLL::CabExtractAll" />
+        <KeyWord name="CabDLL::CabInfo" />
+        <KeyWord name="CabDLL::CabView" />
+        <KeyWord name="CABSetup::DataSetSize" />
+        <KeyWord name="CABSetup::Extract" />
+        <KeyWord name="Call" />
+        <KeyWord name="CallAnsiPlugin::Call" />
+        <KeyWord name="CallInstDLL" />
+        <KeyWord name="Caption" />
+        <KeyWord name="CDRom::Close" />
+        <KeyWord name="CDRom::FindNext" />
+        <KeyWord name="CDRom::Open" />
+        <KeyWord name="CDRom::Status" />
+        <KeyWord name="CDRom::VolumeName" />
+        <KeyWord name="CDRom::VolumeSerialNumber" />
+        <KeyWord name="ChangeRes::ChangeResolution" />
+        <KeyWord name="ChangeUI" />
+        <KeyWord name="ChangeUI:default.exe" />
+        <KeyWord name="ChangeUI:modern.exe" />
+        <KeyWord name="ChangeUI:modern_nodesc.exe" />
+        <KeyWord name="ChangeUI:modern_smalldesc.exe" />
+        <KeyWord name="ChangeUI:sdbarker_tiny.exe" />
+        <KeyWord name="CharToASCII" />
+        <KeyWord name="CheckBitmap" />
+        <KeyWord name="CheckBitmap:big.bmp" />
+        <KeyWord name="CheckBitmap:classic-cross.bmp" />
+        <KeyWord name="CheckBitmap:classic.bmp" />
+        <KeyWord name="CheckBitmap:colorful.bmp" />
+        <KeyWord name="CheckBitmap:grey-cross.bmp" />
+        <KeyWord name="CheckBitmap:grey.bmp" />
+        <KeyWord name="CheckBitmap:modern.bmp" />
+        <KeyWord name="CheckBitmap:red-round.bmp" />
+        <KeyWord name="CheckBitmap:red.bmp" />
+        <KeyWord name="CheckBitmap:simple-round.bmp" />
+        <KeyWord name="CheckBitmap:simple-round2.bmp" />
+        <KeyWord name="CheckBitmap:simple.bmp" />
+        <KeyWord name="Checks\big.bmp" />
+        <KeyWord name="Checks\classic-cross.bmp" />
+        <KeyWord name="Checks\classic.bmp" />
+        <KeyWord name="Checks\colorful.bmp" />
+        <KeyWord name="Checks\grey-cross.bmp" />
+        <KeyWord name="Checks\grey.bmp" />
+        <KeyWord name="Checks\modern.bmp" />
+        <KeyWord name="Checks\red-round.bmp" />
+        <KeyWord name="Checks\red.bmp" />
+        <KeyWord name="Checks\simple-round.bmp" />
+        <KeyWord name="Checks\simple-round2.bmp" />
+        <KeyWord name="Checks\simple.bmp" />
+        <KeyWord name="ClearErrors" />
+        <KeyWord name="CLR::Call /NOUNLOAD" />
+        <KeyWord name="CLR::Destroy" />
+        <KeyWord name="CompletedText" />
+        <KeyWord name="ComPlusAdmin::CreateApplication" />
+        <KeyWord name="ComPlusAdmin::DeleteApplication" />
+        <KeyWord name="ComPlusAdmin::GetApplicationProperty" />
+        <KeyWord name="ComPlusAdmin::InstallComponent" />
+        <KeyWord name="ComPlusAdmin::IsApplicationPresent" />
+        <KeyWord name="ComPlusAdmin::IsComponentPresent" />
+        <KeyWord name="ComPlusAdmin::RemoveComponent" />
+        <KeyWord name="ComPlusAdmin::SetApplicationProperty" />
+        <KeyWord name="ComPlusAdmin::SetUserNameAndPassword" />
+        <KeyWord name="ComponentText" />
+        <KeyWord name="CopyFiles" />
+        <KeyWord name="CopyFiles /FILESONLY" />
+        <KeyWord name="CopyFiles /SILENT" />
+        <KeyWord name="CopyFiles /SILENT /FILESONLY" />
+        <KeyWord name="CPUDesc::tell" />
+        <KeyWord name="CPUFeatures.CheckFeature" />
+        <KeyWord name="CPUFeatures.CPUIsAMD" />
+        <KeyWord name="CPUFeatures.CPUIsIntel" />
+        <KeyWord name="CPUFeatures.CPUSupports" />
+        <KeyWord name="CPUFeatures.CPUSupportsAll" />
+        <KeyWord name="CPUFeatures.GetCount" />
+        <KeyWord name="CPUFeatures.GetFeatures" />
+        <KeyWord name="CPUFeatures.GetFlags" />
+        <KeyWord name="CPUFeatures.GetVendor" />
+        <KeyWord name="CPUFeatures.nsh" />
+        <KeyWord name="CRCCheck" />
+        <KeyWord name="CRCCheck off" />
+        <KeyWord name="CRCCheck on (default)" />
+        <KeyWord name="CRCCheck::GenCRC" />
+        <KeyWord name="CreateDirectory" />
+        <KeyWord name="CreateFont" />
+        <KeyWord name="CreateMutex::nsCreateMutex" />
+        <KeyWord name="CreateShortCut" />
+        <KeyWord name="Crypto::HashData" />
+        <KeyWord name="Crypto::HashFile" />
+        <KeyWord name="CustomLicense::LoadFile" />
+        <KeyWord name="CustomLicense::LoadFile rtf" />
+        <KeyWord name="CustomLicense::LoadFile txt" />
+        <KeyWord name="DcryptDll::Decrypt" />
+        <KeyWord name="DcryptDll::HexDecoder" />
+        <KeyWord name="DcryptDll::HexEncoder" />
+        <KeyWord name="DcryptDll::LoadStr" />
+        <KeyWord name="DcryptDll::MD5Hash" />
+        <KeyWord name="DEFBUTTON1" />
+        <KeyWord name="DEFBUTTON2" />
+        <KeyWord name="DEFBUTTON3" />
+        <KeyWord name="DEFBUTTON4" />
+        <KeyWord name="Delete" />
+        <KeyWord name="Delete /REBOOTOK" />
+        <KeyWord name="DeleteINISec" />
+        <KeyWord name="DeleteINIStr" />
+        <KeyWord name="DeleteRegKey" />
+        <KeyWord name="DeleteRegKey /ifempty" />
+        <KeyWord name="DeleteRegValue" />
+        <KeyWord name="DetailPrint" />
+        <KeyWord name="DetailsButtonText" />
+        <KeyWord name="Dialer::AttemptConnect" />
+        <KeyWord name="Dialer::AutodialHangup" />
+        <KeyWord name="Dialer::AutodialOnline" />
+        <KeyWord name="Dialer::AutodialUnattended" />
+        <KeyWord name="Dialer::GetConnectedState" />
+        <KeyWord name="Dialogs::Author" />
+        <KeyWord name="Dialogs::Folder" />
+        <KeyWord name="Dialogs::InputBox" />
+        <KeyWord name="Dialogs::InputRegCode" />
+        <KeyWord name="Dialogs::Open" />
+        <KeyWord name="Dialogs::Ver" />
+        <KeyWord name="DirText" />
+        <KeyWord name="DirVar" />
+        <KeyWord name="DirVerify" />
+        <KeyWord name="DirVerify auto (default)" />
+        <KeyWord name="DirVerify leave" />
+        <KeyWord name="DlgHost.nsh" />
+        <KeyWord name="DlgHost::Close" />
+        <KeyWord name="DlgHost::DlgBox" />
+        <KeyWord name="DlgHost::SetClient" />
+        <KeyWord name="do:Help Dialog" />
+        <KeyWord name="do:IllegalFileCharacters" />
+        <KeyWord name="do:IsNT" />
+        <KeyWord name="do:IsNT..Else" />
+        <KeyWord name="do:IsRunningX64" />
+        <KeyWord name="do:IsRunningX64..Else" />
+        <KeyWord name="do:IsServer" />
+        <KeyWord name="do:IsServer..Else" />
+        <KeyWord name="do:IsServicePack (Windows 2000)" />
+        <KeyWord name="do:IsServicePack (Windows 7)" />
+        <KeyWord name="do:IsServicePack (Windows NT4)" />
+        <KeyWord name="do:IsServicePack (Windows Server 2003)" />
+        <KeyWord name="do:IsServicePack (Windows Server 2008)" />
+        <KeyWord name="do:IsServicePack (Windows Vista)" />
+        <KeyWord name="do:IsServicePack (Windows XP)" />
+        <KeyWord name="do:Language Dialog" />
+        <KeyWord name="do:Language Dialog (Africa)" />
+        <KeyWord name="do:Language Dialog (Americas)" />
+        <KeyWord name="do:Language Dialog (Asia)" />
+        <KeyWord name="do:Language Dialog (East-Asia)" />
+        <KeyWord name="do:Language Dialog (Europe)" />
+        <KeyWord name="do:Language Dialog (Worldwide)" />
+        <KeyWord name="do:Library function" />
+        <KeyWord name="do:nsDialogs ChangeFilerequest" />
+        <KeyWord name="do:nsDialogs ClickButton" />
+        <KeyWord name="do:nsDialogs Function" />
+        <KeyWord name="do:nsDialogs onChangePassword" />
+        <KeyWord name="do:nsDialogs onChangeText" />
+        <KeyWord name="do:UAC Init Macro" />
+        <KeyWord name="do:Version Information" />
+        <KeyWord name="do:VersionCompare" />
+        <KeyWord name="DotNetChecker.nsh" />
+        <KeyWord name="DumpLog::DumpLog" />
+        <KeyWord name="DumpState::debug" />
+        <KeyWord name="EBanner::play" />
+        <KeyWord name="EBanner::play /LOOP" />
+        <KeyWord name="EBanner::show" />
+        <KeyWord name="EBanner::show [/options]" />
+        <KeyWord name="EBanner::stop" />
+        <KeyWord name="Email::EmailValidation" />
+        <KeyWord name="EmbeddedLists::Dialog" />
+        <KeyWord name="EmbeddedLists::InitDialog" />
+        <KeyWord name="EmbeddedLists::Show" />
+        <KeyWord name="EnableWindow" />
+        <KeyWord name="EnumCDs::next" />
+        <KeyWord name="EnumCDs::next /NOUNLOAD" />
+        <KeyWord name="EnumINI::KeyExist" />
+        <KeyWord name="EnumINI::Section" />
+        <KeyWord name="EnumINI::SectionExist" />
+        <KeyWord name="EnumINI::SectionNames" />
+        <KeyWord name="EnumRegKey" />
+        <KeyWord name="EnumRegValue" />
+        <KeyWord name="EnvVar::AddValue" />
+        <KeyWord name="EnvVar::AddValueEx" />
+        <KeyWord name="EnvVar::Check" />
+        <KeyWord name="EnvVar::Delete" />
+        <KeyWord name="EnvVar::SetHKCU" />
+        <KeyWord name="EnvVar::SetHKLM" />
+        <KeyWord name="EventLog::WriteEventLog" />
+        <KeyWord name="Exch" />
+        <KeyWord name="ExDlg::create_dlg" />
+        <KeyWord name="ExDlg::dealloc" />
+        <KeyWord name="ExDlg::push_windowtext" />
+        <KeyWord name="Exec" />
+        <KeyWord name="ExecCmd::exec" />
+        <KeyWord name="ExecCmd::exec [/options]" />
+        <KeyWord name="ExecCmd::wait" />
+        <KeyWord name="ExecDos::exec" />
+        <KeyWord name="ExecDos::exec [/options]" />
+        <KeyWord name="ExecDos::isdone" />
+        <KeyWord name="ExecDos::wait" />
+        <KeyWord name="ExecPri::ExecWait" />
+        <KeyWord name="ExecShell" />
+        <KeyWord name="ExecShell open" />
+        <KeyWord name="ExecShell print" />
+        <KeyWord name="ExecShellWait" />
+        <KeyWord name="ExecShellWait / INVOKEIDLISTprint" />
+        <KeyWord name="ExecShellWait /INVOKEIDLIST open" />
+        <KeyWord name="ExecShellWait open" />
+        <KeyWord name="ExecShellWait print" />
+        <KeyWord name="ExecTimeout" />
+        <KeyWord name="ExecWait" />
+        <KeyWord name="ExecWait $var" />
+        <KeyWord name="ExLicensePage::showPage" />
+        <KeyWord name="ExLicensePage::showPage rtf" />
+        <KeyWord name="ExLicensePage::showPage txt" />
+        <KeyWord name="ExpandEnvStrings" />
+        <KeyWord name="Expr" />
+        <KeyWord name="ExprEval" />
+        <KeyWord name="ExtractDllEx::extract" />
+        <KeyWord name="File" />
+        <KeyWord name="File /nonfatal" />
+        <KeyWord name="File /nonfatal /r" />
+        <KeyWord name="File /oname" />
+        <KeyWord name="FileBufSize" />
+        <KeyWord name="FileClose" />
+        <KeyWord name="FileErrorText" />
+        <KeyWord name="FileOpen" />
+        <KeyWord name="FileRead" />
+        <KeyWord name="FileReadByte" />
+        <KeyWord name="FileReadUTF16LE" />
+        <KeyWord name="FileReadWord" />
+        <KeyWord name="FileSeek" />
+        <KeyWord name="FileWrite" />
+        <KeyWord name="FileWriteByte" />
+        <KeyWord name="FileWriteUTF16LE" />
+        <KeyWord name="FileWriteWord" />
+        <KeyWord name="FindClose" />
+        <KeyWord name="FindFirst" />
+        <KeyWord name="FindNext" />
+        <KeyWord name="FindProcDLL::FindProc" />
+        <KeyWord name="FindWindow" />
+        <KeyWord name="Firewall-Disabler::DisableFirewall" />
+        <KeyWord name="Firewall-Disabler::EnableFirewall" />
+        <KeyWord name="Firewall-Disabler::QueryFirewall" />
+        <KeyWord name="FloatOp::Autor" />
+        <KeyWord name="FloatOp::D divide" />
+        <KeyWord name="FloatOp::M multiply" />
+        <KeyWord name="FloatOp::R subtract" />
+        <KeyWord name="FloatOp::S add" />
+        <KeyWord name="FloatOp::Ver" />
+        <KeyWord name="FlushINI" />
+        <KeyWord name="ForEachIn" />
+        <KeyWord name="ForEachInReverse" />
+        <KeyWord name="FreeArc::ExtractFreeArcArchive" />
+        <KeyWord name="Function" />
+        <KeyWord name="Function .onGUIEnd" />
+        <KeyWord name="Function .onGUIInit" />
+        <KeyWord name="Function .onInit" />
+        <KeyWord name="Function .onInstFailed" />
+        <KeyWord name="Function .onInstSuccess" />
+        <KeyWord name="Function .onMouseOverSection" />
+        <KeyWord name="Function .onRebootFailed" />
+        <KeyWord name="Function .onSelChange" />
+        <KeyWord name="Function .onUserAbort" />
+        <KeyWord name="Function .onVerifyInstDir" />
+        <KeyWord name="Function un.onGUIEnd" />
+        <KeyWord name="Function un.onGUIInit" />
+        <KeyWord name="Function un.onInit" />
+        <KeyWord name="Function un.onRebootFailed" />
+        <KeyWord name="Function un.onSelChange" />
+        <KeyWord name="Function un.onUninstFailed" />
+        <KeyWord name="Function un.onUninstSuccess" />
+        <KeyWord name="Function un.onUserAbort" />
+        <KeyWord name="FunctionEnd" />
+        <KeyWord name="Games::registerGame" />
+        <KeyWord name="Games::unregisterGame" />
+        <KeyWord name="GetCurInstType" />
+        <KeyWord name="GetCurrentAddress" />
+        <KeyWord name="GetDlgItem" />
+        <KeyWord name="GetDLLVersion" />
+        <KeyWord name="GetDLLVersionLocal" />
+        <KeyWord name="GetErrorLevel" />
+        <KeyWord name="GetFileTime" />
+        <KeyWord name="GetFileTimeLocal" />
+        <KeyWord name="GetFirstRemovable::GetAll" />
+        <KeyWord name="GetFirstRemovable::GetFirst" />
+        <KeyWord name="GetFullPathName" />
+        <KeyWord name="GetFullPathName /SHORT" />
+        <KeyWord name="GetFunctionAddress" />
+        <KeyWord name="GetInstDirError" />
+        <KeyWord name="GetLabelAddress" />
+        <KeyWord name="GetTempFileName" />
+        <KeyWord name="GetVersion::WindowsName" />
+        <KeyWord name="GetVersion::WindowsPlatformArchitecture" />
+        <KeyWord name="GetVersion::WindowsPlatformId" />
+        <KeyWord name="GetVersion::WindowsServerName" />
+        <KeyWord name="GetVersion::WindowsServicePack" />
+        <KeyWord name="GetVersion::WindowsServicePackBuild" />
+        <KeyWord name="GetVersion::WindowsServicePackMajor" />
+        <KeyWord name="GetVersion::WindowsServicePackMinor" />
+        <KeyWord name="GetVersion::WindowsType" />
+        <KeyWord name="GetVersion::WindowsVersion" />
+        <KeyWord name="Goto" />
+        <KeyWord name="HandleFileDragDrop::MakeDropWindow" />
+        <KeyWord name="HandleFileDragDrop::NOP" />
+        <KeyWord name="Header\nsis-r.bmp" />
+        <KeyWord name="Header\nsis.bmp" />
+        <KeyWord name="Header\orange-nsis.bmp" />
+        <KeyWord name="Header\orange-r-nsis.bmp" />
+        <KeyWord name="Header\orange-r.bmp" />
+        <KeyWord name="Header\orange-uninstall-nsis.bmp" />
+        <KeyWord name="Header\orange-uninstall-r-nsis.bmp" />
+        <KeyWord name="Header\orange-uninstall-r.bmp" />
+        <KeyWord name="Header\orange-uninstall.bmp" />
+        <KeyWord name="Header\orange.bmp" />
+        <KeyWord name="Header\win.bmp" />
+        <KeyWord name="HelpButton::end" />
+        <KeyWord name="HelpButton::show" />
+        <KeyWord name="HIDDEN or FILE_ATTRIBUTE_HIDDEN" />
+        <KeyWord name="HideWindow" />
+        <KeyWord name="HKCC or HKEY_CURRENT_CONFIG" />
+        <KeyWord name="HKCR or HKEY_CLASSES_ROOT" />
+        <KeyWord name="HKCR32" />
+        <KeyWord name="HKCR64" />
+        <KeyWord name="HKCU or HKEY_CURRENT_USER" />
+        <KeyWord name="HKCU32" />
+        <KeyWord name="HKCU64" />
+        <KeyWord name="HKDD or HKEY_DYN_DATA" />
+        <KeyWord name="HKLM or HKEY_LOCAL_MACHINE" />
+        <KeyWord name="HKLM32" />
+        <KeyWord name="HKLM64" />
+        <KeyWord name="HKPD or HKEY_PERFORMANCE_DATA" />
+        <KeyWord name="HKU or HKEY_USERS" />
+        <KeyWord name="HwInfo::GetCpuNameAndSpeed" />
+        <KeyWord name="HwInfo::GetCpuSpeed" />
+        <KeyWord name="HwInfo::GetSystemMemory" />
+        <KeyWord name="HwInfo::GetVideoCardMemory" />
+        <KeyWord name="HwInfo::GetVideoCardName" />
+        <KeyWord name="Icon" />
+        <KeyWord name="Icon:arrow-install.ico" />
+        <KeyWord name="Icon:arrow2-install.ico" />
+        <KeyWord name="Icon:box-install.ico" />
+        <KeyWord name="Icon:classic-install.ico" />
+        <KeyWord name="Icon:llama-blue.ico" />
+        <KeyWord name="Icon:llama-grey.ico" />
+        <KeyWord name="Icon:modern-install-blue-full.ico" />
+        <KeyWord name="Icon:modern-install-blue.ico" />
+        <KeyWord name="Icon:modern-install-colorful.ico" />
+        <KeyWord name="Icon:modern-install-full.ico" />
+        <KeyWord name="Icon:modern-install.ico" />
+        <KeyWord name="Icon:nsis1-install.ico" />
+        <KeyWord name="Icon:orange-install-nsis.ico" />
+        <KeyWord name="Icon:orange-install.ico" />
+        <KeyWord name="Icon:pixel-install.ico" />
+        <KeyWord name="Icon:win-install.ico" />
+        <KeyWord name="ICONEXCLAMATION" />
+        <KeyWord name="ICONINFORMATION" />
+        <KeyWord name="ICONQUESTION" />
+        <KeyWord name="Icons\arrow-install.ico" />
+        <KeyWord name="Icons\arrow-uninstall.ico" />
+        <KeyWord name="Icons\arrow2-install.ico" />
+        <KeyWord name="Icons\arrow2-uninstall.ico" />
+        <KeyWord name="Icons\box-install.ico" />
+        <KeyWord name="Icons\box-uninstall.ico" />
+        <KeyWord name="Icons\classic-install.ico" />
+        <KeyWord name="Icons\classic-uninstall.ico" />
+        <KeyWord name="Icons\llama-blue.ico" />
+        <KeyWord name="Icons\llama-grey.ico" />
+        <KeyWord name="Icons\modern-install-blue-full.ico" />
+        <KeyWord name="Icons\modern-install-blue.ico" />
+        <KeyWord name="Icons\modern-install-colorful.ico" />
+        <KeyWord name="Icons\modern-install-full.ico" />
+        <KeyWord name="Icons\modern-install.ico" />
+        <KeyWord name="Icons\modern-uninstall-blue-full.ico" />
+        <KeyWord name="Icons\modern-uninstall-blue.ico" />
+        <KeyWord name="Icons\modern-uninstall-colorful.ico" />
+        <KeyWord name="Icons\modern-uninstall-full.ico" />
+        <KeyWord name="Icons\modern-uninstall.ico" />
+        <KeyWord name="Icons\nsis1-install.ico" />
+        <KeyWord name="Icons\nsis1-uninstall.ico" />
+        <KeyWord name="Icons\orange-install-nsis.ico" />
+        <KeyWord name="Icons\orange-install.ico" />
+        <KeyWord name="Icons\orange-uninstall-nsis.ico" />
+        <KeyWord name="Icons\orange-uninstall.ico" />
+        <KeyWord name="Icons\pixel-install.ico" />
+        <KeyWord name="Icons\pixel-uninstall.ico" />
+        <KeyWord name="Icons\win-install.ico" />
+        <KeyWord name="Icons\win-uninstall.ico" />
+        <KeyWord name="ICONSTOP" />
+        <KeyWord name="IDABORT" />
+        <KeyWord name="IDCANCEL" />
+        <KeyWord name="IDIGNORE" />
+        <KeyWord name="IDNO" />
+        <KeyWord name="IDOK" />
+        <KeyWord name="IDRETRY" />
+        <KeyWord name="IDYES" />
+        <KeyWord name="IEFunctions::CloseBrowser" />
+        <KeyWord name="IEFunctions::OpenBrowser" />
+        <KeyWord name="IEFunctions::ReleaseBrowser" />
+        <KeyWord name="IEFunctions::ShowBar" />
+        <KeyWord name="IEFunctions::SurfTo" />
+        <KeyWord name="IfAbort" />
+        <KeyWord name="IfErrors" />
+        <KeyWord name="IfFileExists" />
+        <KeyWord name="IfRebootFlag" />
+        <KeyWord name="IfSilent" />
+        <KeyWord name="InetBgDL::Get" />
+        <KeyWord name="InetBgDL::Get /RESET" />
+        <KeyWord name="InetBgDL::GetStats" />
+        <KeyWord name="Inetc::get" />
+        <KeyWord name="Inetc::get [/options]" />
+        <KeyWord name="Inetc::head" />
+        <KeyWord name="Inetc::head [/options]" />
+        <KeyWord name="Inetc::post" />
+        <KeyWord name="Inetc::post [/options]" />
+        <KeyWord name="Inetc::put" />
+        <KeyWord name="Inetc::put [/options]" />
+        <KeyWord name="InetLoad::load" />
+        <KeyWord name="InetLoad::load [/options]" />
+        <KeyWord name="IniGetSectionNames" />
+        <KeyWord name="IniGetSectionNames_StopEnum" />
+        <KeyWord name="InitPluginsDir" />
+        <KeyWord name="InstallButtonText" />
+        <KeyWord name="InstallColors" />
+        <KeyWord name="InstallColors /windows" />
+        <KeyWord name="InstallDir" />
+        <KeyWord name="InstallDirRegKey" />
+        <KeyWord name="InstallOptions::initDialog" />
+        <KeyWord name="InstallOptions::initDialog /NOUNLOAD" />
+        <KeyWord name="InstallOptions::show" />
+        <KeyWord name="InstallOptionsEx::initDialog" />
+        <KeyWord name="InstallOptionsEx::initDialog /NOUNLOAD" />
+        <KeyWord name="InstallOptionsEx::show" />
+        <KeyWord name="InstDrv::CountDevices" />
+        <KeyWord name="InstDrv::CountDevices /NOUNLOAD" />
+        <KeyWord name="InstDrv::CreateDevice" />
+        <KeyWord name="InstDrv::CreateDevice /NOUNLOAD" />
+        <KeyWord name="InstDrv::DeleteOemInfFiles" />
+        <KeyWord name="InstDrv::DeleteOemInfFiles /NOUNLOAD" />
+        <KeyWord name="InstDrv::InitDriverSetup" />
+        <KeyWord name="InstDrv::InitDriverSetup /NOUNLOAD" />
+        <KeyWord name="InstDrv::InstallDriver" />
+        <KeyWord name="InstDrv::InstallDriver /NOUNLOAD" />
+        <KeyWord name="InstDrv::RemoveAllDevices" />
+        <KeyWord name="InstDrv::RemoveAllDevices /NOUNLOAD" />
+        <KeyWord name="InstDrv::StartSystemService" />
+        <KeyWord name="InstDrv::StartSystemService /NOUNLOAD" />
+        <KeyWord name="InstDrv::StopSystemService" />
+        <KeyWord name="InstDrv::StopSystemService /NOUNLOAD" />
+        <KeyWord name="InstProgressFlags colored" />
+        <KeyWord name="InstProgressFlags smooth" />
+        <KeyWord name="InstType" />
+        <KeyWord name="InstTypeGetText" />
+        <KeyWord name="InstTypeSetText" />
+        <KeyWord name="Int64Cmp" />
+        <KeyWord name="Int64CmpU" />
+        <KeyWord name="Int64Fmt" />
+        <KeyWord name="IntCmp" />
+        <KeyWord name="IntCmpU" />
+        <KeyWord name="Internet::GetLocalHostIP" />
+        <KeyWord name="Internet::GetLocalHostName" />
+        <KeyWord name="Internet::GetUrlCode" />
+        <KeyWord name="IntFmt" />
+        <KeyWord name="IntOp" />
+        <KeyWord name="IntPtrCmp" />
+        <KeyWord name="IntPtrCmpU" />
+        <KeyWord name="IntPtrOp" />
+        <KeyWord name="InvokeShellVerb::DoIt" />
+        <KeyWord name="IP::get_ip" />
+        <KeyWord name="IpConfig::GetAllNetworkAdaptersIDs" />
+        <KeyWord name="IpConfig::GetAllNetworkAdaptersIDsCB" />
+        <KeyWord name="IpConfig::GetDNSSuffixSearchList" />
+        <KeyWord name="IpConfig::GetEnabledNetworkAdaptersIDs" />
+        <KeyWord name="IpConfig::GetEnabledNetworkAdaptersIDsCB" />
+        <KeyWord name="IpConfig::GetHostName" />
+        <KeyWord name="IpConfig::GetNetworkAdapterConnectionID" />
+        <KeyWord name="IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDefaultIPGateways" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDefaultIPGatewaysCB" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDescription" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDHCPLeaseExpires" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDHCPLeaseObtained" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDHCPServer" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDNSServers" />
+        <KeyWord name="IpConfig::GetNetworkAdapterDNSServersCB" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIDFromDescription" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIDFromIPAddress" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIDFromMACAddress" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIPAddresses" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIPAddressesCB" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIPSubNets" />
+        <KeyWord name="IpConfig::GetNetworkAdapterIPSubNetsCB" />
+        <KeyWord name="IpConfig::GetNetworkAdapterMACAddress" />
+        <KeyWord name="IpConfig::GetNetworkAdapterPrimaryWINSServer" />
+        <KeyWord name="IpConfig::GetNetworkAdapterSecondaryWINSServer" />
+        <KeyWord name="IpConfig::GetNetworkAdapterType" />
+        <KeyWord name="IpConfig::GetNodeType" />
+        <KeyWord name="IpConfig::GetPrimaryDNSSuffix" />
+        <KeyWord name="IpConfig::IsIPRoutingEnabled" />
+        <KeyWord name="IpConfig::IsNetworkAdapterAutoSense" />
+        <KeyWord name="IpConfig::IsNetworkAdapterDHCPEnabled" />
+        <KeyWord name="IpConfig::IsWINSProxyEnabled" />
+        <KeyWord name="IsWindow" />
+        <KeyWord name="KillProc::FindProcesses" />
+        <KeyWord name="KillProc::KillProcesses" />
+        <KeyWord name="KillProcDLL::KillProc" />
+        <KeyWord name="LangDLL::LangDialog" />
+        <KeyWord name="LangString" />
+        <KeyWord name="lcid:Afrikaans" />
+        <KeyWord name="lcid:Albanian" />
+        <KeyWord name="lcid:Arabic" />
+        <KeyWord name="lcid:Basque" />
+        <KeyWord name="lcid:Belarusian" />
+        <KeyWord name="lcid:Bosnian" />
+        <KeyWord name="lcid:Brazilian" />
+        <KeyWord name="lcid:Breton" />
+        <KeyWord name="lcid:Bulgarian" />
+        <KeyWord name="lcid:Catalan" />
+        <KeyWord name="lcid:Croatian" />
+        <KeyWord name="lcid:Czech" />
+        <KeyWord name="lcid:Danish" />
+        <KeyWord name="lcid:Dutch" />
+        <KeyWord name="lcid:English" />
+        <KeyWord name="lcid:Esperanto" />
+        <KeyWord name="lcid:Estonian" />
+        <KeyWord name="lcid:Farsi" />
+        <KeyWord name="lcid:Finnish" />
+        <KeyWord name="lcid:French" />
+        <KeyWord name="lcid:Galician" />
+        <KeyWord name="lcid:Georgian" />
+        <KeyWord name="lcid:German" />
+        <KeyWord name="lcid:Greek" />
+        <KeyWord name="lcid:Hebrew" />
+        <KeyWord name="lcid:Hungarian" />
+        <KeyWord name="lcid:Icelandic" />
+        <KeyWord name="lcid:Indonesian" />
+        <KeyWord name="lcid:Irish" />
+        <KeyWord name="lcid:Italian" />
+        <KeyWord name="lcid:Japanese" />
+        <KeyWord name="lcid:Korean" />
+        <KeyWord name="lcid:Kurdish" />
+        <KeyWord name="lcid:Latvian" />
+        <KeyWord name="lcid:Lithuanian" />
+        <KeyWord name="lcid:Luxembourgish" />
+        <KeyWord name="lcid:Macedonian" />
+        <KeyWord name="lcid:Malay" />
+        <KeyWord name="lcid:Mongolian" />
+        <KeyWord name="lcid:Norwegian" />
+        <KeyWord name="lcid:NorwegianNynorsk" />
+        <KeyWord name="lcid:Pashto" />
+        <KeyWord name="lcid:Polish" />
+        <KeyWord name="lcid:Portuguese" />
+        <KeyWord name="lcid:PortugueseBR" />
+        <KeyWord name="lcid:Romanian" />
+        <KeyWord name="lcid:Russian" />
+        <KeyWord name="lcid:ScotsGaelic" />
+        <KeyWord name="lcid:Serbian" />
+        <KeyWord name="lcid:SerbianLatin" />
+        <KeyWord name="lcid:SimpChinese" />
+        <KeyWord name="lcid:Slovak" />
+        <KeyWord name="lcid:Slovenian" />
+        <KeyWord name="lcid:Spanish" />
+        <KeyWord name="lcid:SpanishInternational" />
+        <KeyWord name="lcid:Swedish" />
+        <KeyWord name="lcid:Thai" />
+        <KeyWord name="lcid:TradChinese" />
+        <KeyWord name="lcid:Turkish" />
+        <KeyWord name="lcid:Ukrainian" />
+        <KeyWord name="lcid:Uzbek" />
+        <KeyWord name="lcid:Welsh" />
+        <KeyWord name="LEFT_ALT" />
+        <KeyWord name="LEFT_CTRL" />
+        <KeyWord name="LEFT_SHIFT" />
+        <KeyWord name="LicenseBkColor" />
+        <KeyWord name="LicenseBkColor /gray (default)" />
+        <KeyWord name="LicenseBkColor /windows" />
+        <KeyWord name="LicenseData" />
+        <KeyWord name="LicenseData rtf" />
+        <KeyWord name="LicenseData txt" />
+        <KeyWord name="LicenseForceSelection checkbox" />
+        <KeyWord name="LicenseForceSelection off (default)" />
+        <KeyWord name="LicenseForceSelection radiobuttons" />
+        <KeyWord name="LicenseLangString" />
+        <KeyWord name="LicenseLangString rtf" />
+        <KeyWord name="LicenseLangString txt" />
+        <KeyWord name="LicenseText" />
+        <KeyWord name="Linker::link" />
+        <KeyWord name="Linker::lvlink" />
+        <KeyWord name="List.Add" />
+        <KeyWord name="List.All" />
+        <KeyWord name="List.AllRev" />
+        <KeyWord name="List.Append" />
+        <KeyWord name="List.Clear" />
+        <KeyWord name="List.Concat" />
+        <KeyWord name="List.Copy" />
+        <KeyWord name="List.Count" />
+        <KeyWord name="List.Create" />
+        <KeyWord name="List.Debug" />
+        <KeyWord name="List.Delete" />
+        <KeyWord name="List.Destroy" />
+        <KeyWord name="List.Dim" />
+        <KeyWord name="List.Exch" />
+        <KeyWord name="List.First" />
+        <KeyWord name="List.Get" />
+        <KeyWord name="List.Index" />
+        <KeyWord name="List.Insert" />
+        <KeyWord name="List.Last" />
+        <KeyWord name="List.Load" />
+        <KeyWord name="List.Move" />
+        <KeyWord name="List.Pop" />
+        <KeyWord name="List.Reverse" />
+        <KeyWord name="List.Save" />
+        <KeyWord name="List.Set" />
+        <KeyWord name="List.Sort" />
+        <KeyWord name="List.Unload" />
+        <KeyWord name="liteFirewall::AddRule" />
+        <KeyWord name="liteFirewall::RemoveRule" />
+        <KeyWord name="LoadLanguageFile" />
+        <KeyWord name="Locate.nsh" />
+        <KeyWord name="Locate::Close" />
+        <KeyWord name="Locate::Find" />
+        <KeyWord name="Locate::GetSize" />
+        <KeyWord name="Locate::Open" />
+        <KeyWord name="Locate::RMDirEmpty" />
+        <KeyWord name="Locate::Unload" />
+        <KeyWord name="LockedList::AddApplications" />
+        <KeyWord name="LockedList::AddCaption" />
+        <KeyWord name="LockedList::AddClass" />
+        <KeyWord name="LockedList::AddCustom" />
+        <KeyWord name="LockedList::AddCustom /icon" />
+        <KeyWord name="LockedList::AddFile" />
+        <KeyWord name="LockedList::AddFolder" />
+        <KeyWord name="LockedList::AddModule" />
+        <KeyWord name="LockedList::Dialog" />
+        <KeyWord name="LockedList::EnumProcesses" />
+        <KeyWord name="LockedList::FindProcess" />
+        <KeyWord name="LockedList::FindProcess /yesno" />
+        <KeyWord name="LockedList::InitDialog" />
+        <KeyWord name="LockedList::IsFileLocked" />
+        <KeyWord name="LockedList::Show" />
+        <KeyWord name="LockedList::SilentPercentComplete" />
+        <KeyWord name="LockedList::SilentWait" />
+        <KeyWord name="LockedList::SilentWait /time" />
+        <KeyWord name="LockWindow" />
+        <KeyWord name="LockWindow off" />
+        <KeyWord name="LockWindow on" />
+        <KeyWord name="LogEx::AddFile" />
+        <KeyWord name="LogEx::AddFile [/options]" />
+        <KeyWord name="LogEx::Close" />
+        <KeyWord name="LogEx::Init" />
+        <KeyWord name="LogEx::Init bTruncateFile" />
+        <KeyWord name="LogEx::Write" />
+        <KeyWord name="LogEx::Write [/options]" />
+        <KeyWord name="LogSet" />
+        <KeyWord name="LogSet off" />
+        <KeyWord name="LogSet on" />
+        <KeyWord name="LogText" />
+        <KeyWord name="ManifestDPIAware" />
+        <KeyWord name="ManifestDPIAware false" />
+        <KeyWord name="ManifestDPIAware notset" />
+        <KeyWord name="ManifestDPIAware true" />
+        <KeyWord name="ManifestSupportedOS" />
+        <KeyWord name="ManifestSupportedOS all" />
+        <KeyWord name="ManifestSupportedOS none" />
+        <KeyWord name="ManifestSupportedOS Win10" />
+        <KeyWord name="ManifestSupportedOS Win7" />
+        <KeyWord name="ManifestSupportedOS Win8" />
+        <KeyWord name="ManifestSupportedOS WinVista" />
+        <KeyWord name="Map.Clear" />
+        <KeyWord name="Map.Create" />
+        <KeyWord name="Map.Destroy" />
+        <KeyWord name="Map.Get" />
+        <KeyWord name="Map.Unset" />
+        <KeyWord name="Marquee::start" />
+        <KeyWord name="Marquee::stop" />
+        <KeyWord name="Math::Script" />
+        <KeyWord name="MB_ABORTRETRYIGNORE" />
+        <KeyWord name="MB_DEFBUTTON1" />
+        <KeyWord name="MB_DEFBUTTON2" />
+        <KeyWord name="MB_DEFBUTTON3" />
+        <KeyWord name="MB_DEFBUTTON4" />
+        <KeyWord name="MB_ICONEXCLAMATION" />
+        <KeyWord name="MB_ICONINFORMATION" />
+        <KeyWord name="MB_ICONQUESTION" />
+        <KeyWord name="MB_ICONSTOP" />
+        <KeyWord name="MB_OK" />
+        <KeyWord name="MB_OKCANCEL" />
+        <KeyWord name="MB_RETRYCANCEL" />
+        <KeyWord name="MB_RIGHT" />
+        <KeyWord name="MB_RTLREADING" />
+        <KeyWord name="MB_SETFOREGROUND" />
+        <KeyWord name="MB_TOPMOST" />
+        <KeyWord name="MB_USERICON" />
+        <KeyWord name="MB_YESNO" />
+        <KeyWord name="MB_YESNOCANCEL" />
+        <KeyWord name="md5dll::GetMD5File" />
+        <KeyWord name="md5dll::GetMD5Random" />
+        <KeyWord name="md5dll::GetMD5String" />
+        <KeyWord name="MessageBox" />
+        <KeyWord name="MessageBox MB_ABORTRETRYIGNORE" />
+        <KeyWord name="MessageBox MB_RETRYCANCEL" />
+        <KeyWord name="MessageBox MB_YESNO" />
+        <KeyWord name="MessageBox MB_YESNOCANCEL" />
+        <KeyWord name="MessageBox OK" />
+        <KeyWord name="MessageBox OKCANCEL" />
+        <KeyWord name="metadl:download" />
+        <KeyWord name="metadl:download  [/options]" />
+        <KeyWord name="MiscButtonText" />
+        <KeyWord name="MoreInfo::GetComments" />
+        <KeyWord name="MoreInfo::GetCompanyName" />
+        <KeyWord name="MoreInfo::GetFileDescription" />
+        <KeyWord name="MoreInfo::GetFileVersion" />
+        <KeyWord name="MoreInfo::GetLegalCopyright" />
+        <KeyWord name="MoreInfo::GetLegalTrademarks" />
+        <KeyWord name="MoreInfo::GetOriginalFileName" />
+        <KeyWord name="MoreInfo::GetOSUserinterfaceLanguage" />
+        <KeyWord name="MoreInfo::GetPrivateBuild" />
+        <KeyWord name="MoreInfo::GetProductName" />
+        <KeyWord name="MoreInfo::GetProductVersion" />
+        <KeyWord name="MoreInfo::GetSpecialBuild" />
+        <KeyWord name="MoreInfo::GetUserDefined" />
+        <KeyWord name="MSIBanner::Destroy /NOUNLOAD" />
+        <KeyWord name="MSIBanner::Move" />
+        <KeyWord name="MSIBanner::Move /NOUNLOAD" />
+        <KeyWord name="MSIBanner::Pos" />
+        <KeyWord name="MSIBanner::Pos /NOUNLOAD" />
+        <KeyWord name="MSIBanner::Reset" />
+        <KeyWord name="MSIBanner::Reset /NOUNLOAD" />
+        <KeyWord name="MSIBanner::Show" />
+        <KeyWord name="MSIBanner::Show /NOUNLOAD" />
+        <KeyWord name="MSIBanner::Update" />
+        <KeyWord name="MSIBanner::Update /NOUNLOAD" />
+        <KeyWord name="MSSQL_OLEDB::SQL_Execute" />
+        <KeyWord name="MSSQL_OLEDB::SQL_ExecuteScript" />
+        <KeyWord name="MSSQL_OLEDB::SQL_GetError" />
+        <KeyWord name="MSSQL_OLEDB::SQL_GetRow" />
+        <KeyWord name="MSSQL_OLEDB::SQL_Logon" />
+        <KeyWord name="MSSQL_OLEDB::SQL_Logout" />
+        <KeyWord name="MUIEx.nsh" />
+        <KeyWord name="Name" />
+        <KeyWord name="Name &amp;&amp;" />
+        <KeyWord name="Name &amp;&amp; +Caption" />
+        <KeyWord name="Name &amp;&amp; +Caption +OutFile" />
+        <KeyWord name="Name &amp;&amp; +OutFile" />
+        <KeyWord name="Name +Caption" />
+        <KeyWord name="Name +Caption +OutFile" />
+        <KeyWord name="Name +OutFile" />
+        <KeyWord name="name2ip.nsh" />
+        <KeyWord name="name2ip::FindCloseIP" />
+        <KeyWord name="name2ip::FindFirstIP" />
+        <KeyWord name="name2ip::FindNextIP" />
+        <KeyWord name="NewAdvSplash::hwnd" />
+        <KeyWord name="NewAdvSplash::play" />
+        <KeyWord name="NewAdvSplash::show" />
+        <KeyWord name="NewAdvSplash::show /NOUNLOAD" />
+        <KeyWord name="NewAdvSplash::stop" />
+        <KeyWord name="Nmwdll::nmwMakensis" />
+        <KeyWord name="Nop" />
+        <KeyWord name="NORMAL or FILE_ATTRIBUTE_NORMAL" />
+        <KeyWord name="NotifyIcon::Icon" />
+        <KeyWord name="nsArray.nsh" />
+        <KeyWord name="nsArray::Clear" />
+        <KeyWord name="nsArray::Get" />
+        <KeyWord name="nsArray::Get /at" />
+        <KeyWord name="nsArray::Get /next" />
+        <KeyWord name="nsArray::Get /prev" />
+        <KeyWord name="nsArray::Get /reset" />
+        <KeyWord name="nsArray::Join" />
+        <KeyWord name="nsArray::Join /noempty" />
+        <KeyWord name="nsArray::Length" />
+        <KeyWord name="nsArray::Remove" />
+        <KeyWord name="nsArray::RemoveList" />
+        <KeyWord name="nsArray::Set" />
+        <KeyWord name="nsArray::Set /at" />
+        <KeyWord name="nsArray::Set /key" />
+        <KeyWord name="nsArray::SetList" />
+        <KeyWord name="nsArray::Sort" />
+        <KeyWord name="nsArray::Split" />
+        <KeyWord name="nsArray::Split /ignorecase" />
+        <KeyWord name="nsArray::Split /noempty" />
+        <KeyWord name="nsArray::Split /noempty /ignorecase" />
+        <KeyWord name="nsArray_Copy" />
+        <KeyWord name="nsArray_CopyKeys" />
+        <KeyWord name="nsArray_ToString" />
+        <KeyWord name="nsDialogs::Create" />
+        <KeyWord name="nsDialogs::CreateControl" />
+        <KeyWord name="nsDialogs::GetUserData" />
+        <KeyWord name="nsDialogs::KillTimer" />
+        <KeyWord name="nsDialogs::OnBack" />
+        <KeyWord name="nsDialogs::OnChange" />
+        <KeyWord name="nsDialogs::OnClick" />
+        <KeyWord name="nsDialogs::OnNotify" />
+        <KeyWord name="nsDialogs::SelectFileDialog" />
+        <KeyWord name="nsDialogs::SelectFolderDialog" />
+        <KeyWord name="nsDialogs::SetRTL" />
+        <KeyWord name="nsDialogs::SetUserData" />
+        <KeyWord name="nsDialogs::Show" />
+        <KeyWord name="nsExec::Exec" />
+        <KeyWord name="nsExec::Exec /OEM" />
+        <KeyWord name="nsExec::Exec /TIMEOUT" />
+        <KeyWord name="nsExec::ExecToLog" />
+        <KeyWord name="nsExec::ExecToLog /OEM" />
+        <KeyWord name="nsExec::ExecToLog /TIMEOUT" />
+        <KeyWord name="nsExec::ExecToStack" />
+        <KeyWord name="nsExec::ExecToStack /OEM" />
+        <KeyWord name="nsExec::ExecToStack /TIMEOUT" />
+        <KeyWord name="NsExpr.nsh" />
+        <KeyWord name="nsFlash::Destroy" />
+        <KeyWord name="nsFlash::IsInstalled" />
+        <KeyWord name="nsFlash::Load" />
+        <KeyWord name="nsFlash::Load /replace" />
+        <KeyWord name="nsFlash::Window" />
+        <KeyWord name="nsFlash::Window /size" />
+        <KeyWord name="Nsis7z::Extract" />
+        <KeyWord name="Nsis7z::ExtractWithCallback" />
+        <KeyWord name="Nsis7z::ExtractWithDetails" />
+        <KeyWord name="NSIS_SkinCrafter_Plugin::destroy" />
+        <KeyWord name="NSIS_SkinCrafter_Plugin::skin" />
+        <KeyWord name="NSIS_SkinCrafter_Plugin::skin [file]" />
+        <KeyWord name="NsisCrypt::Base64Decode" />
+        <KeyWord name="NsisCrypt::DecryptSymmetric" />
+        <KeyWord name="NsisCrypt::EncryptSymmetric" />
+        <KeyWord name="NsisCrypt::Hash" />
+        <KeyWord name="NsisDDE::Execute" />
+        <KeyWord name="NsisDirEx::AddInstFile" />
+        <KeyWord name="NsisDirEx::GetUncompressedSize" />
+        <KeyWord name="NsisDirEx::Init" />
+        <KeyWord name="NsisDirEx::Install" />
+        <KeyWord name="NSISdl::download" />
+        <KeyWord name="NSISdl::download /TIMEOUT" />
+        <KeyWord name="Nsisdt::currentdate" />
+        <KeyWord name="NsisFile::BinToHex" />
+        <KeyWord name="NsisFile::FileFindBytes" />
+        <KeyWord name="NsisFile::FileReadBytes" />
+        <KeyWord name="NsisFile::FileTruncate" />
+        <KeyWord name="NsisFile::HexToBin" />
+        <KeyWord name="NsisFirewall::AddAuthorizedApplication" />
+        <KeyWord name="NsisFirewall::RemoveAuthorizedApplication" />
+        <KeyWord name="NsisIIS::CreateAppPool" />
+        <KeyWord name="NsisIIS::CreateVDir" />
+        <KeyWord name="NsisIIS::CreateWebSite" />
+        <KeyWord name="NsisIIS::DeleteAppPool" />
+        <KeyWord name="NsisIIS::DeleteVDir" />
+        <KeyWord name="NsisIIS::DeleteWebSite" />
+        <KeyWord name="NsisIIS::GetAppPool" />
+        <KeyWord name="NsisIIS::GetIIsInfo" />
+        <KeyWord name="NsisIIS::GetVDir" />
+        <KeyWord name="NsisIIS::GetWebSite" />
+        <KeyWord name="NsisIIS::ListAppPools" />
+        <KeyWord name="NsisIIS::ListVDirs" />
+        <KeyWord name="NsisIIS::ListWebSites" />
+        <KeyWord name="NsisIIS::Pause" />
+        <KeyWord name="NsisIIS::Resume" />
+        <KeyWord name="NsisIIS::Start" />
+        <KeyWord name="NsisIIS::Stop" />
+        <KeyWord name="NSISList.nsh" />
+        <KeyWord name="Nsislog::log" />
+        <KeyWord name="NsisMultiMon::CenterInstallerOnMonitor" />
+        <KeyWord name="NsisMultiMon::GetActiveMonitorCount" />
+        <KeyWord name="NsisMultiMon::GetAllMonitorCount" />
+        <KeyWord name="NsisMultiMon::GetMonitorName" />
+        <KeyWord name="NsisMultiMon::GetMonitorRect" />
+        <KeyWord name="NsisMultiMon::GetVirtualDesktopRect" />
+        <KeyWord name="NsisMultiMon::GetWorkArea" />
+        <KeyWord name="NsisMultiMon::IsPointOnMonitor" />
+        <KeyWord name="Nsisos::osversion" />
+        <KeyWord name="NSISpcre.nsh" />
+        <KeyWord name="NsisSlideshow::show" />
+        <KeyWord name="NsisSlideshow::show [/options]" />
+        <KeyWord name="NsisSlideshow::stop" />
+        <KeyWord name="NsisStartMenu::RegenerateFolder" />
+        <KeyWord name="Nsisunz::Unzip" />
+        <KeyWord name="Nsisunz::UnzipToLog" />
+        <KeyWord name="Nsisunz::UnzipToStack" />
+        <KeyWord name="NsisUrlLib::IterateChunk" />
+        <KeyWord name="NsisUrlLib::IterateLine" />
+        <KeyWord name="NsisUrlLib::UrlOpen" />
+        <KeyWord name="nsisXML.nsh" />
+        <KeyWord name="NsisXML::appendChild" />
+        <KeyWord name="NsisXML::create" />
+        <KeyWord name="NsisXML::createElement" />
+        <KeyWord name="NsisXML::createProcessingInstruction" />
+        <KeyWord name="NsisXML::getAttribute" />
+        <KeyWord name="NsisXML::getText" />
+        <KeyWord name="NsisXML::insertBefore" />
+        <KeyWord name="NsisXML::load" />
+        <KeyWord name="NsisXML::loadAndValidate" />
+        <KeyWord name="NsisXML::parentNode" />
+        <KeyWord name="NsisXML::release" />
+        <KeyWord name="NsisXML::removeChild" />
+        <KeyWord name="NsisXML::save" />
+        <KeyWord name="NsisXML::select" />
+        <KeyWord name="NsisXML::setAttribute" />
+        <KeyWord name="NsisXML::setText" />
+        <KeyWord name="nsJSON::Delete" />
+        <KeyWord name="nsJSON::Get" />
+        <KeyWord name="nsJSON::Get /count" />
+        <KeyWord name="nsJSON::Get /exists" />
+        <KeyWord name="nsJSON::Get /isempty" />
+        <KeyWord name="nsJSON::Get /key" />
+        <KeyWord name="nsJSON::Get /noexpand" />
+        <KeyWord name="nsJSON::Get /type" />
+        <KeyWord name="nsJSON::Serialize" />
+        <KeyWord name="nsJSON::Serialize /file" />
+        <KeyWord name="nsJSON::Serialize /file /unicode" />
+        <KeyWord name="nsJSON::Serialize /format /file" />
+        <KeyWord name="nsJSON::Serialize /format /file /unicode" />
+        <KeyWord name="nsJSON::Serialize format" />
+        <KeyWord name="nsJSON::Set /file" />
+        <KeyWord name="nsJSON::Set /unicode" />
+        <KeyWord name="nsJSON::Set /value" />
+        <KeyWord name="nsKeyHook.nsh" />
+        <KeyWord name="NSKH_OnChar" />
+        <KeyWord name="NSKH_OnKeyDown" />
+        <KeyWord name="NSKH_OnKeyUp" />
+        <KeyWord name="NSKH_OnPaste" />
+        <KeyWord name="NSKH_OnPostChar" />
+        <KeyWord name="NSKH_OnPostKeyDown" />
+        <KeyWord name="NSKH_OnPostKeyUp" />
+        <KeyWord name="NSKH_OnPostPaste" />
+        <KeyWord name="nsmci::GetErrorString" />
+        <KeyWord name="nsmci::GetFirstCDROMDrive" />
+        <KeyWord name="nsmci::SendString" />
+        <KeyWord name="nsODBC::AddDSN" />
+        <KeyWord name="nsODBC::AddSysDSN" />
+        <KeyWord name="nsODBC::ConfDSN" />
+        <KeyWord name="nsODBC::ConfSysDSN" />
+        <KeyWord name="nsODBC::RemoveDefDSN" />
+        <KeyWord name="nsODBC::RemoveDSN" />
+        <KeyWord name="nsODBC::RemoveSysDSN" />
+        <KeyWord name="nsPerl::exec" />
+        <KeyWord name="nsProcess.nsh" />
+        <KeyWord name="nsProcess::FindProcess" />
+        <KeyWord name="nsProcess::KillProcess" />
+        <KeyWord name="nsProcess::Unload" />
+        <KeyWord name="nsPython::eval" />
+        <KeyWord name="nsPython::evalFin" />
+        <KeyWord name="nsPython::exec" />
+        <KeyWord name="nsPython::execFile" />
+        <KeyWord name="nsPython::execFileFin" />
+        <KeyWord name="nsPython::execFin" />
+        <KeyWord name="nsPython::Finalize" />
+        <KeyWord name="nsPython::Init" />
+        <KeyWord name="nsRandom::GetRandom" />
+        <KeyWord name="nsResize.nsh" />
+        <KeyWord name="nsResize::Add" />
+        <KeyWord name="nsResize::GetPos" />
+        <KeyWord name="nsResize::GetPosPx" />
+        <KeyWord name="nsResize::GetSize" />
+        <KeyWord name="nsResize::GetSizePx" />
+        <KeyWord name="nsResize::Set" />
+        <KeyWord name="nsResize::SetRTL" />
+        <KeyWord name="nsResize::Top" />
+        <KeyWord name="nsRestartExplorer::nsRestartExplorer" />
+        <KeyWord name="nsRestartExplorer::nsRestartExplorer quit" />
+        <KeyWord name="nsRestartExplorer::nsRestartExplorer restart" />
+        <KeyWord name="nsRestartExplorer::nsRestartExplorer start" />
+        <KeyWord name="nsRichEdit::AddPrintButton" />
+        <KeyWord name="nsRichEdit::Load" />
+        <KeyWord name="nsRichEdit::Print" />
+        <KeyWord name="nsSCM::Install" />
+        <KeyWord name="nsSCM::Install /NOUNLOAD" />
+        <KeyWord name="nsSCM::QueryStatus" />
+        <KeyWord name="nsSCM::QueryStatus /NOUNLOAD" />
+        <KeyWord name="nsSCM::Remove" />
+        <KeyWord name="nsSCM::Remove /NOUNLOAD" />
+        <KeyWord name="nsSCM::Start" />
+        <KeyWord name="nsSCM::Start /NOUNLOAD" />
+        <KeyWord name="nsSCM::Stop" />
+        <KeyWord name="nsSCM::Stop /NOUNLOAD" />
+        <KeyWord name="nsScreenshot::Grab" />
+        <KeyWord name="nsScreenshot::Grab_FullScreen" />
+        <KeyWord name="nsThread.nsh" />
+        <KeyWord name="nsUnzip::Extract" />
+        <KeyWord name="nsUnzip::Extract [/options]" />
+        <KeyWord name="nsUnzip::GetPassword" />
+        <KeyWord name="nsVersionInfo::getFixedFileVersion" />
+        <KeyWord name="nsVersionInfo::getFixedProductVersion" />
+        <KeyWord name="nsVersionInfo::getLibVersion" />
+        <KeyWord name="nsVersionInfo::getStringFileInfo" />
+        <KeyWord name="nsVersionInfo::setFixedFileVersion" />
+        <KeyWord name="nsVersionInfo::setFixedProductVersion" />
+        <KeyWord name="nsVersionInfo::setStringFileInfo" />
+        <KeyWord name="nsWeb::IsInet" />
+        <KeyWord name="nsWeb::ShowHTMLInPage" />
+        <KeyWord name="nsWeb::ShowWebInPage" />
+        <KeyWord name="nsWeb::ShowWebInPopUp" />
+        <KeyWord name="nsXML::endDocument" />
+        <KeyWord name="nsXML::init" />
+        <KeyWord name="nsXML::initCOM" />
+        <KeyWord name="nsXML::insertElemVal" />
+        <KeyWord name="nsXML::startDocument" />
+        <KeyWord name="nsXML::uninitCOM" />
+        <KeyWord name="nsXML::write" />
+        <KeyWord name="nxs::Destroy" />
+        <KeyWord name="nxs::getWindow" />
+        <KeyWord name="nxs::getWindow /NOUNLOAD" />
+        <KeyWord name="nxs::HasUserAborted" />
+        <KeyWord name="nxs::HasUserAborted /NOUNLOAD" />
+        <KeyWord name="nxs::Show" />
+        <KeyWord name="nxs::Show /NOUNLOAD" />
+        <KeyWord name="nxs::Update" />
+        <KeyWord name="nxs::Update /NOUNLOAD" />
+        <KeyWord name="Nzipdll::nzip" />
+        <KeyWord name="Nzwdll::nzwUnzip" />
+        <KeyWord name="OFFLINE or FILE_ATTRIBUTE_OFFLINE" />
+        <KeyWord name="OLEDB.nsh" />
+        <KeyWord name="OutFile" />
+        <KeyWord name="Page" />
+        <KeyWord name="Page /ENABLECANCEL" />
+        <KeyWord name="Page components" />
+        <KeyWord name="Page custom" />
+        <KeyWord name="Page custom /ENABLECANCEL" />
+        <KeyWord name="Page directory" />
+        <KeyWord name="Page instfiles" />
+        <KeyWord name="Page license" />
+        <KeyWord name="Page uninstConfirm" />
+        <KeyWord name="PageCallbacks" />
+        <KeyWord name="PageEx" />
+        <KeyWord name="PageEx components" />
+        <KeyWord name="PageEx custom" />
+        <KeyWord name="PageEx directory" />
+        <KeyWord name="PageEx instfiles" />
+        <KeyWord name="PageEx license" />
+        <KeyWord name="PageEx uninstConfirm" />
+        <KeyWord name="PageExEnd" />
+        <KeyWord name="PassDialog::Dialog" />
+        <KeyWord name="PassDialog::InitDialog" />
+        <KeyWord name="PEDllCharacteristics" />
+        <KeyWord name="PESubsysVer" />
+        <KeyWord name="PixelShader::GetPixelShaderVersion" />
+        <KeyWord name="Pop" />
+        <KeyWord name="PowerShellExec" />
+        <KeyWord name="Processes::FindDevice" />
+        <KeyWord name="Processes::FindProcess" />
+        <KeyWord name="Processes::KillProcess" />
+        <KeyWord name="ProxySettings::GetConnectionCount" />
+        <KeyWord name="ProxySettings::GetConnectionName" />
+        <KeyWord name="ProxySettings::GetConnectionProxy" />
+        <KeyWord name="ProxySettings::SetConnectionProxy" />
+        <KeyWord name="ProxySettings::SetConnectionProxyByProtocol" />
+        <KeyWord name="Push" />
+        <KeyWord name="Push $var" />
+        <KeyWord name="Pwgen::GeneratePassword" />
+        <KeyWord name="Quit" />
+        <KeyWord name="ReadEnvStr" />
+        <KeyWord name="ReadINIStr" />
+        <KeyWord name="READONLY or FILE_ATTRIBUTE_READONLY" />
+        <KeyWord name="ReadRegDWORD" />
+        <KeyWord name="ReadRegStr" />
+        <KeyWord name="Reboot" />
+        <KeyWord name="RECaptureMatches" />
+        <KeyWord name="RECheckPattern" />
+        <KeyWord name="REClearAllOptions" />
+        <KeyWord name="REClearOption" />
+        <KeyWord name="REFind" />
+        <KeyWord name="REFindClose" />
+        <KeyWord name="REFindNext" />
+        <KeyWord name="RegBin::append" />
+        <KeyWord name="RegBin::init" />
+        <KeyWord name="RegBin::write" />
+        <KeyWord name="RegBin::writeRegBin" />
+        <KeyWord name="RegDLL" />
+        <KeyWord name="REGetOption" />
+        <KeyWord name="Registry.nsh" />
+        <KeyWord name="Registry::Close" />
+        <KeyWord name="Registry::CopyKey" />
+        <KeyWord name="Registry::CopyValue" />
+        <KeyWord name="Registry::CreateKey" />
+        <KeyWord name="Registry::DeleteKey" />
+        <KeyWord name="Registry::DeleteKeyEmpty" />
+        <KeyWord name="Registry::DeleteValue" />
+        <KeyWord name="Registry::Find" />
+        <KeyWord name="Registry::HexToStr" />
+        <KeyWord name="Registry::KeyExists" />
+        <KeyWord name="Registry::MoveKey" />
+        <KeyWord name="Registry::MoveValue" />
+        <KeyWord name="Registry::Open" />
+        <KeyWord name="Registry::Read" />
+        <KeyWord name="Registry::ReadExtra" />
+        <KeyWord name="Registry::RestoreKey" />
+        <KeyWord name="Registry::SaveKey" />
+        <KeyWord name="Registry::StrToHex" />
+        <KeyWord name="Registry::Unload" />
+        <KeyWord name="Registry::Write" />
+        <KeyWord name="Registry::WriteExtra" />
+        <KeyWord name="REMatches" />
+        <KeyWord name="Rename" />
+        <KeyWord name="Rename /REBOOTOK" />
+        <KeyWord name="RequestExecutionLevel" />
+        <KeyWord name="RequestExecutionLevel admin  (default)" />
+        <KeyWord name="RequestExecutionLevel highest" />
+        <KeyWord name="RequestExecutionLevel none" />
+        <KeyWord name="RequestExecutionLevel user" />
+        <KeyWord name="REQuoteMeta" />
+        <KeyWord name="REReplace" />
+        <KeyWord name="ReserveFile" />
+        <KeyWord name="ReserveFile /nonfatal" />
+        <KeyWord name="ReserveFile /nonfatal /r" />
+        <KeyWord name="RESetOption" />
+        <KeyWord name="Return" />
+        <KeyWord name="RIGHT" />
+        <KeyWord name="RIGHT_ALT" />
+        <KeyWord name="RIGHT_CTRL" />
+        <KeyWord name="RIGHT_SHIFT" />
+        <KeyWord name="RMDir" />
+        <KeyWord name="RMDir /r /REBOOTOK" />
+        <KeyWord name="RMDir /REBOOTOK" />
+        <KeyWord name="RTLREADING" />
+        <KeyWord name="SAFER::Exec" />
+        <KeyWord name="SAFER::SupportsSAFER" />
+        <KeyWord name="scaffold:Basic Script" />
+        <KeyWord name="scaffold:Basic Script (2 Sections)" />
+        <KeyWord name="scaffold:Basic Script (2 Sections, onInit)" />
+        <KeyWord name="scaffold:Basic Script (3 Sections)" />
+        <KeyWord name="scaffold:Basic Script (3 Sections, onInit)" />
+        <KeyWord name="scaffold:Basic Script (4 Sections)" />
+        <KeyWord name="scaffold:Basic Script (4 Sections, onInit)" />
+        <KeyWord name="scaffold:Basic Script (onInit)" />
+        <KeyWord name="scaffold:InstallOptions" />
+        <KeyWord name="scaffold:Library v2" />
+        <KeyWord name="scaffold:Library v3" />
+        <KeyWord name="scaffold:Minimal Script" />
+        <KeyWord name="scaffold:ModernUI" />
+        <KeyWord name="scaffold:ModernUI (2 Sections)" />
+        <KeyWord name="scaffold:ModernUI (2 Sections, onInit)" />
+        <KeyWord name="scaffold:ModernUI (3 Sections)" />
+        <KeyWord name="scaffold:ModernUI (3 Sections, onInit)" />
+        <KeyWord name="scaffold:ModernUI (4 Sections)" />
+        <KeyWord name="scaffold:ModernUI (4 Sections, onInit)" />
+        <KeyWord name="scaffold:ModernUI (onInit)" />
+        <KeyWord name="scaffold:nsDialogs" />
+        <KeyWord name="scaffold:nsDialogs (2 Sections)" />
+        <KeyWord name="scaffold:nsDialogs (3 Sections)" />
+        <KeyWord name="scaffold:nsDialogs (4 Sections)" />
+        <KeyWord name="scaffold:nsDialogs ModernUI" />
+        <KeyWord name="scaffold:nsDialogs ModernUI (2 Sections)" />
+        <KeyWord name="scaffold:nsDialogs ModernUI (3 Sections)" />
+        <KeyWord name="scaffold:nsDialogs ModernUI (4 Sections)" />
+        <KeyWord name="scaffold:Translate MUI" />
+        <KeyWord name="scaffold:Translate MUI (French)" />
+        <KeyWord name="scaffold:Translate MUI (Spanish)" />
+        <KeyWord name="ScrollLicense::Set" />
+        <KeyWord name="ScrollLicense::Unload" />
+        <KeyWord name="SearchPath" />
+        <KeyWord name="Section" />
+        <KeyWord name="Section Uninstall" />
+        <KeyWord name="SectionEnd" />
+        <KeyWord name="SectionGetFlags" />
+        <KeyWord name="SectionGetInstTypes" />
+        <KeyWord name="SectionGetSize" />
+        <KeyWord name="SectionGetText" />
+        <KeyWord name="SectionGroup" />
+        <KeyWord name="SectionGroupEnd" />
+        <KeyWord name="SectionIn" />
+        <KeyWord name="SectionSetFlags" />
+        <KeyWord name="SectionSetInstTypes" />
+        <KeyWord name="SectionSetSize" />
+        <KeyWord name="SectionSetText" />
+        <KeyWord name="SelfDel::del" />
+        <KeyWord name="SendMessage" />
+        <KeyWord name="Services::GetServiceNameFromDisplayName" />
+        <KeyWord name="Services::GrantLogonAsAService" />
+        <KeyWord name="Services::HasLogonAsAService" />
+        <KeyWord name="Services::IsProcessUserAdministrator" />
+        <KeyWord name="Services::IsServiceInstalled" />
+        <KeyWord name="Services::IsServiceRunning" />
+        <KeyWord name="Services::RemoveLogonAsAService" />
+        <KeyWord name="Services::SendServiceCommand" />
+        <KeyWord name="SetAutoClose" />
+        <KeyWord name="SetAutoClose false" />
+        <KeyWord name="SetAutoClose true" />
+        <KeyWord name="SetBrandingImage" />
+        <KeyWord name="SetBrandingImage /RESIZETOFIT" />
+        <KeyWord name="SetCompress" />
+        <KeyWord name="SetCompress auto (default)" />
+        <KeyWord name="SetCompress force" />
+        <KeyWord name="SetCompress off" />
+        <KeyWord name="SetCompressor" />
+        <KeyWord name="SetCompressor /FINAL" />
+        <KeyWord name="SetCompressor /FINAL /SOLID" />
+        <KeyWord name="SetCompressor /SOLID" />
+        <KeyWord name="SetCompressorDictSize" />
+        <KeyWord name="SetCtlColors" />
+        <KeyWord name="SetCtlColors /BRANDING" />
+        <KeyWord name="SetCurInstType" />
+        <KeyWord name="SetDatablockOptimize" />
+        <KeyWord name="SetDatablockOptimize off" />
+        <KeyWord name="SetDatablockOptimize on" />
+        <KeyWord name="SetDateSave" />
+        <KeyWord name="SetDateSave off" />
+        <KeyWord name="SetDateSave on (default)" />
+        <KeyWord name="SetDetailsPrint" />
+        <KeyWord name="SetDetailsPrint both" />
+        <KeyWord name="SetDetailsPrint lastused" />
+        <KeyWord name="SetDetailsPrint listonly" />
+        <KeyWord name="SetDetailsPrint none" />
+        <KeyWord name="SetDetailsPrint textonly" />
+        <KeyWord name="SetDetailsView" />
+        <KeyWord name="SetDetailsView hide" />
+        <KeyWord name="SetDetailsView show" />
+        <KeyWord name="SetErrorLevel" />
+        <KeyWord name="SetErrors" />
+        <KeyWord name="SetFileAttributes" />
+        <KeyWord name="SetFont" />
+        <KeyWord name="SetFont /LANG" />
+        <KeyWord name="SETFOREGROUND" />
+        <KeyWord name="SetOutPath" />
+        <KeyWord name="SetOverwrite" />
+        <KeyWord name="SetOverwrite ifdiff" />
+        <KeyWord name="SetOverwrite ifnewer" />
+        <KeyWord name="SetOverwrite lastused" />
+        <KeyWord name="SetOverwrite off" />
+        <KeyWord name="SetOverwrite on (default)" />
+        <KeyWord name="SetOverwrite try" />
+        <KeyWord name="SetRebootFlag" />
+        <KeyWord name="SetRebootFlag false" />
+        <KeyWord name="SetRebootFlag true" />
+        <KeyWord name="SetRegView" />
+        <KeyWord name="SetRegView 32" />
+        <KeyWord name="SetRegView 64" />
+        <KeyWord name="SetRegView lastused" />
+        <KeyWord name="SetShellVarContext" />
+        <KeyWord name="SetShellVarContext all" />
+        <KeyWord name="SetShellVarContext current" />
+        <KeyWord name="SetSilent" />
+        <KeyWord name="SetSilent normal" />
+        <KeyWord name="SetSilent silent" />
+        <KeyWord name="SFhelper::checkFile" />
+        <KeyWord name="SHCTX or SHELL_CONTEXT" />
+        <KeyWord name="ShellExecAsUser" />
+        <KeyWord name="ShellExecAsUser open" />
+        <KeyWord name="ShellExecAsUser print" />
+        <KeyWord name="ShellLink::GetShortCutArgs" />
+        <KeyWord name="ShellLink::GetShortCutDescription" />
+        <KeyWord name="ShellLink::GetShortCutHotkey" />
+        <KeyWord name="ShellLink::GetShortCutIconIndex" />
+        <KeyWord name="ShellLink::GetShortCutIconLocation" />
+        <KeyWord name="ShellLink::GetShortCutShowMode" />
+        <KeyWord name="ShellLink::GetShortCutTarget" />
+        <KeyWord name="ShellLink::GetShortCutWorkingDirectory" />
+        <KeyWord name="ShellLink::SetRunAsAdministrator" />
+        <KeyWord name="ShellLink::SetShortCutArgs" />
+        <KeyWord name="ShellLink::SetShortCutDescription" />
+        <KeyWord name="ShellLink::SetShortCutHotkey" />
+        <KeyWord name="ShellLink::SetShortCutIconIndex" />
+        <KeyWord name="ShellLink::SetShortCutIconLocation" />
+        <KeyWord name="ShellLink::SetShortCutShowMode" />
+        <KeyWord name="ShellLink::SetShortCutTarget" />
+        <KeyWord name="ShellLink::SetShortCutWorkingDirectory" />
+        <KeyWord name="ShowInstDetails" />
+        <KeyWord name="ShowInstDetails hide (default)" />
+        <KeyWord name="ShowInstDetails nevershow" />
+        <KeyWord name="ShowInstDetails show" />
+        <KeyWord name="ShowUninstDetails" />
+        <KeyWord name="ShowUninstDetails hide (default)" />
+        <KeyWord name="ShowUninstDetails nevershow" />
+        <KeyWord name="ShowUninstDetails show" />
+        <KeyWord name="ShowWindow" />
+        <KeyWord name="ShutDown::LogOff" />
+        <KeyWord name="ShutDown::PowerOff" />
+        <KeyWord name="ShutDown::Reboot" />
+        <KeyWord name="ShutDown::ShutDown" />
+        <KeyWord name="ShutdownAllow::Allow" />
+        <KeyWord name="ShutdownAllow::Unload" />
+        <KeyWord name="SilentInstall" />
+        <KeyWord name="SilentInstall normal (default)" />
+        <KeyWord name="SilentInstall silent" />
+        <KeyWord name="SilentInstall silentlog" />
+        <KeyWord name="SilentUnInstall" />
+        <KeyWord name="SilentUnInstall normal (default)" />
+        <KeyWord name="SilentUnInstall silent" />
+        <KeyWord name="SilentUnInstall silentlog" />
+        <KeyWord name="SimpleBg::SetBg" />
+        <KeyWord name="SimpleFC::AddApplication" />
+        <KeyWord name="SimpleFC::AddPort" />
+        <KeyWord name="SimpleFC::AdvExistsRule" />
+        <KeyWord name="SimpleFC::AdvRemoveRule" />
+        <KeyWord name="SimpleFC::AllowDisallowExceptionsNotAllowed" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpInboundEchoRequest" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpInboundMaskRequest" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpInboundRouterRequest" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpInboundTimestampRequest" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpOutboundPacketTooBig" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpOutboundParameterProblem" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpOutboundSourceQuench" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpOutboundTimeExceeded" />
+        <KeyWord name="SimpleFC::AllowDisallowIcmpRedirect" />
+        <KeyWord name="SimpleFC::AreExceptionsNotAllowed" />
+        <KeyWord name="SimpleFC::AreNotificationsEnabled" />
+        <KeyWord name="SimpleFC::EnableDisableApplication" />
+        <KeyWord name="SimpleFC::EnableDisableFirewall" />
+        <KeyWord name="SimpleFC::EnableDisableNotifications" />
+        <KeyWord name="SimpleFC::EnableDisablePort" />
+        <KeyWord name="SimpleFC::IsApplicationAdded" />
+        <KeyWord name="SimpleFC::IsFirewallEnabled" />
+        <KeyWord name="SimpleFC::IsFirewallServiceRunning" />
+        <KeyWord name="SimpleFC::IsPortAdded" />
+        <KeyWord name="SimpleFC::IsPortEnabled" />
+        <KeyWord name="SimpleFC::RemoveApplication" />
+        <KeyWord name="SimpleFC::RemovePort" />
+        <KeyWord name="SimpleFC::RestoreDefaults" />
+        <KeyWord name="SimpleFC::StartStopFirewallService" />
+        <KeyWord name="SimpleSC::ContinueService" />
+        <KeyWord name="SimpleSC::ExistsService" />
+        <KeyWord name="SimpleSC::GetErrorMessage" />
+        <KeyWord name="SimpleSC::GetServiceBinaryPath" />
+        <KeyWord name="SimpleSC::GetServiceDescription" />
+        <KeyWord name="SimpleSC::GetServiceDisplayName" />
+        <KeyWord name="SimpleSC::GetServiceFailure" />
+        <KeyWord name="SimpleSC::GetServiceFailureFlag" />
+        <KeyWord name="SimpleSC::GetServiceLogon" />
+        <KeyWord name="SimpleSC::GetServiceName" />
+        <KeyWord name="SimpleSC::GetServiceStartType" />
+        <KeyWord name="SimpleSC::GetServiceStatus" />
+        <KeyWord name="SimpleSC::GrantServiceLogonPrivilege" />
+        <KeyWord name="SimpleSC::InstallService" />
+        <KeyWord name="SimpleSC::PauseService" />
+        <KeyWord name="SimpleSC::RemoveService" />
+        <KeyWord name="SimpleSC::RemoveServiceLogonPrivilege" />
+        <KeyWord name="SimpleSC::RestartService" />
+        <KeyWord name="SimpleSC::ServiceIsPaused" />
+        <KeyWord name="SimpleSC::ServiceIsRunning" />
+        <KeyWord name="SimpleSC::ServiceIsStopped" />
+        <KeyWord name="SimpleSC::SetServiceBinaryPath" />
+        <KeyWord name="SimpleSC::SetServiceDelayedAutoStartInfo" />
+        <KeyWord name="SimpleSC::SetServiceDescription" />
+        <KeyWord name="SimpleSC::SetServiceFailure" />
+        <KeyWord name="SimpleSC::SetServiceFailureFlag" />
+        <KeyWord name="SimpleSC::SetServiceStartType" />
+        <KeyWord name="SimpleSC::StopService" />
+        <KeyWord name="SkinnedButton::skinit" />
+        <KeyWord name="SkinnedButton::skinit 0xRRGGBB" />
+        <KeyWord name="SkinnedControls::skinit" />
+        <KeyWord name="SkinnedControls::Unload" />
+        <KeyWord name="Sleep" />
+        <KeyWord name="SpaceTexts" />
+        <KeyWord name="SpiderBanner::Destroy" />
+        <KeyWord name="SpiderBanner::Show" />
+        <KeyWord name="SpiderBanner::Show /MODERN" />
+        <KeyWord name="SpiderBanner::ShowPBOnly" />
+        <KeyWord name="Splash::show" />
+        <KeyWord name="Stack.nsh" />
+        <KeyWord name="Stack::Debug" />
+        <KeyWord name="Stack::dll_clear" />
+        <KeyWord name="Stack::dll_create" />
+        <KeyWord name="Stack::dll_delete" />
+        <KeyWord name="Stack::dll_delete_range" />
+        <KeyWord name="Stack::dll_destroy" />
+        <KeyWord name="Stack::dll_exchange" />
+        <KeyWord name="Stack::dll_insert" />
+        <KeyWord name="Stack::dll_move" />
+        <KeyWord name="Stack::dll_move_range" />
+        <KeyWord name="Stack::dll_push_sort" />
+        <KeyWord name="Stack::dll_push_sort_int" />
+        <KeyWord name="Stack::dll_read" />
+        <KeyWord name="Stack::dll_reverse_range" />
+        <KeyWord name="Stack::dll_size" />
+        <KeyWord name="Stack::dll_sort_all" />
+        <KeyWord name="Stack::dll_sort_all_int" />
+        <KeyWord name="Stack::dll_write" />
+        <KeyWord name="Stack::ns_clear" />
+        <KeyWord name="Stack::ns_pop_front" />
+        <KeyWord name="Stack::ns_push_back" />
+        <KeyWord name="Stack::ns_push_front" />
+        <KeyWord name="Stack::ns_read" />
+        <KeyWord name="Stack::ns_size" />
+        <KeyWord name="Stack::ns_write" />
+        <KeyWord name="Stack::Unload" />
+        <KeyWord name="StartMenu::Init" />
+        <KeyWord name="StartMenu::Select" />
+        <KeyWord name="StdUtils.ExecShellAsUser" />
+        <KeyWord name="StdUtils.ExecShellWaitEx" />
+        <KeyWord name="StdUtils.FormatStr" />
+        <KeyWord name="StdUtils.FormatStr2" />
+        <KeyWord name="StdUtils.FormatStr3" />
+        <KeyWord name="StdUtils.GetAllParameter" />
+        <KeyWord name="StdUtils.GetDays" />
+        <KeyWord name="StdUtils.GetHours" />
+        <KeyWord name="StdUtils.GetLibVersion" />
+        <KeyWord name="StdUtils.GetMinutes" />
+        <KeyWord name="StdUtils.GetParameter" />
+        <KeyWord name="StdUtils.GetRealOSVersion" />
+        <KeyWord name="StdUtils.InvokeShellVerb" />
+        <KeyWord name="StdUtils.nsh" />
+        <KeyWord name="StdUtils.Rand" />
+        <KeyWord name="StdUtils.RandList" />
+        <KeyWord name="StdUtils.RandMax" />
+        <KeyWord name="StdUtils.RandMinMax" />
+        <KeyWord name="StdUtils.RevStr" />
+        <KeyWord name="StdUtils.ScanStr" />
+        <KeyWord name="StdUtils.ScanStr2" />
+        <KeyWord name="StdUtils.ScanStr3" />
+        <KeyWord name="StdUtils.SetVerbose" />
+        <KeyWord name="StdUtils.SHFileCopy" />
+        <KeyWord name="StdUtils.SHFileMove" />
+        <KeyWord name="StdUtils.Time" />
+        <KeyWord name="StdUtils.TrimStr" />
+        <KeyWord name="StdUtils.TrimStrLeft" />
+        <KeyWord name="StdUtils.TrimStrRight" />
+        <KeyWord name="StdUtils.WaitForProcEx" />
+        <KeyWord name="StrCase" />
+        <KeyWord name="StrClb" />
+        <KeyWord name="StrCmp" />
+        <KeyWord name="StrCmpS" />
+        <KeyWord name="StrCpy" />
+        <KeyWord name="StrIOToNSIS" />
+        <KeyWord name="StrLen" />
+        <KeyWord name="StrLoc" />
+        <KeyWord name="StrNSISToIO" />
+        <KeyWord name="StrRep" />
+        <KeyWord name="StrSort" />
+        <KeyWord name="StrStr" />
+        <KeyWord name="StrStrAdv" />
+        <KeyWord name="StrTok" />
+        <KeyWord name="StrTrimNewLines" />
+        <KeyWord name="SubCaption" />
+        <KeyWord name="SysRestore::FinishRestorePoint" />
+        <KeyWord name="SysRestore::RemoveRestorePoint" />
+        <KeyWord name="SysRestore::StartInstallPoint" />
+        <KeyWord name="SysRestore::StartUninstallPoint" />
+        <KeyWord name="SYSTEM or FILE_ATTRIBUTE_SYSTEM" />
+        <KeyWord name="System::Alloc" />
+        <KeyWord name="System::Call" />
+        <KeyWord name="System::Copy" />
+        <KeyWord name="System::Free" />
+        <KeyWord name="System::Get" />
+        <KeyWord name="TAPIhelp::GetModemID" />
+        <KeyWord name="TAPIhelp::GetModemName" />
+        <KeyWord name="TCP::CheckPort" />
+        <KeyWord name="TEMPORARY or FILE_ATTRIBUTE_TEMPORARY" />
+        <KeyWord name="TextReplace.nsh" />
+        <KeyWord name="TextReplace::FillReadBuffer" />
+        <KeyWord name="TextReplace::FindInFile" />
+        <KeyWord name="TextReplace::ReplaceInFile" />
+        <KeyWord name="TextReplace::Unload" />
+        <KeyWord name="Thread_Create" />
+        <KeyWord name="Thread_Join" />
+        <KeyWord name="Thread_JoinFor" />
+        <KeyWord name="ThreadTimer::Start" />
+        <KeyWord name="ThreadTimer::Stop" />
+        <KeyWord name="Time.nsh" />
+        <KeyWord name="Time::GetFileTime" />
+        <KeyWord name="Time::GetFileTimeUTC" />
+        <KeyWord name="Time::GetLocalTimeUTC" />
+        <KeyWord name="Time::MathTime" />
+        <KeyWord name="Time::SetFileTime" />
+        <KeyWord name="Time::SetFileTimeUTC" />
+        <KeyWord name="Time::SetLocalTime" />
+        <KeyWord name="Time::SetLocalTimeUTC" />
+        <KeyWord name="Time::TimeString" />
+        <KeyWord name="Time::Unload" />
+        <KeyWord name="Timeout::ExecTimeout" />
+        <KeyWord name="titprog::Start" />
+        <KeyWord name="ToggleInstFiles::Set" />
+        <KeyWord name="ToggleInstFiles::Unload" />
+        <KeyWord name="ToolTips::Classic" />
+        <KeyWord name="ToolTips::Modern" />
+        <KeyWord name="TOPMOST" />
+        <KeyWord name="UAC.nsh" />
+        <KeyWord name="UAC_AsUser_Call" />
+        <KeyWord name="UAC_AsUser_ExecShell" />
+        <KeyWord name="UAC_AsUser_GetGlobal" />
+        <KeyWord name="UAC_AsUser_GetGlobalVar" />
+        <KeyWord name="UAC_AsUser_GetSection" />
+        <KeyWord name="UAC_GetIntegrityLevel" />
+        <KeyWord name="UAC_IsAdmin" />
+        <KeyWord name="UAC_IsInnerInstance" />
+        <KeyWord name="UAC_PageElevation_OnGuiInit" />
+        <KeyWord name="UAC_PageElevation_OnInit" />
+        <KeyWord name="UAC_RunElevated" />
+        <KeyWord name="UIs\default.exe" />
+        <KeyWord name="UIs\modern.exe" />
+        <KeyWord name="UIs\modern_nodesc.exe" />
+        <KeyWord name="UIs\modern_smalldesc.exe" />
+        <KeyWord name="UIs\sdbarker_tiny.exe" />
+        <KeyWord name="UMUI.nsh" />
+        <KeyWord name="UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI" />
+        <KeyWord name="UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI" />
+        <KeyWord name="UMUI_BG" />
+        <KeyWord name="UMUI_BG_Destroy" />
+        <KeyWord name="UMUI_BOTTOMIMAGE_BMP" />
+        <KeyWord name="UMUI_BRANDINGTEXTBACKCOLOR" />
+        <KeyWord name="UMUI_BRANDINGTEXTFRONTCOLOR" />
+        <KeyWord name="UMUI_CUSTOM_SKIN" />
+        <KeyWord name="UMUI_HEADERIMAGE_BMP" />
+        <KeyWord name="UMUI_LEFTIMAGE_BMP" />
+        <KeyWord name="UMUI_NO_BOTTOMIMAGE" />
+        <KeyWord name="UMUI_PAGE_ABORT" />
+        <KeyWord name="UMUI_PAGE_ADDITIONALTASKS" />
+        <KeyWord name="UMUI_PAGE_ALTERNATIVESTARTMENU" />
+        <KeyWord name="UMUI_PAGE_CONFIRM" />
+        <KeyWord name="UMUI_PAGE_FILEDISKREQUEST" />
+        <KeyWord name="UMUI_PAGE_INFORMATION" />
+        <KeyWord name="UMUI_PAGE_MAINTENANCE" />
+        <KeyWord name="UMUI_PAGE_MULTILANGUAGE" />
+        <KeyWord name="UMUI_PAGE_SERIALNUMBER" />
+        <KeyWord name="UMUI_PAGE_SETUPTYPE" />
+        <KeyWord name="UMUI_PAGE_UPDATE" />
+        <KeyWord name="UMUI_SKIN" />
+        <KeyWord name="UMUI_TEXT_LIGHTCOLOR" />
+        <KeyWord name="UMUI_UI" />
+        <KeyWord name="UMUI_UI_COMPONENTSPAGE_NODESC" />
+        <KeyWord name="UMUI_UI_COMPONENTSPAGE_SMALLDESC" />
+        <KeyWord name="UMUI_UNBOTTOMIMAGE_BMP" />
+        <KeyWord name="UMUI_UNHEADERIMAGE_BMP" />
+        <KeyWord name="UMUI_UNLEFTIMAGE_BMP" />
+        <KeyWord name="UMUI_UNPAGE_ABORT" />
+        <KeyWord name="UMUI_UNPAGE_ADDITIONALTASKS" />
+        <KeyWord name="UMUI_UNPAGE_CONFIRM" />
+        <KeyWord name="UMUI_UNPAGE_FILEDISKREQUEST" />
+        <KeyWord name="UMUI_UNPAGE_INFORMATION" />
+        <KeyWord name="UMUI_UNPAGE_MULTILANGUAGE" />
+        <KeyWord name="UMUI_UNPAGE_SERIALNUMBER" />
+        <KeyWord name="UMUI_UNPAGE_SETUPTYPE" />
+        <KeyWord name="UMUI_UNWELCOMEFINISHABORTPAGE_INI" />
+        <KeyWord name="UMUI_USE_ALTERNATE_PAGE" />
+        <KeyWord name="UMUI_USE_BG" />
+        <KeyWord name="UMUI_USE_CUSTOMBG" />
+        <KeyWord name="UMUI_USE_UNALTERNATE_PAGE" />
+        <KeyWord name="UMUI_WELCOMEFINISHABORTPAGE_INI" />
+        <KeyWord name="un.Function" />
+        <KeyWord name="unbuttonEnabled" />
+        <KeyWord name="unbuttonText" />
+        <KeyWord name="unbuttonVisible" />
+        <KeyWord name="Unicode" />
+        <KeyWord name="Unicode false" />
+        <KeyWord name="Unicode true" />
+        <KeyWord name="Unicode::FileAnsi2Unicode" />
+        <KeyWord name="Unicode::FileUnicode2Ansi" />
+        <KeyWord name="Unicode::FileUnicode2UTF8" />
+        <KeyWord name="Unicode::UnicodeType" />
+        <KeyWord name="UnicodePathTest::UnicodePathTest" />
+        <KeyWord name="UninstallButtonText" />
+        <KeyWord name="UninstallCaption" />
+        <KeyWord name="UninstallIcon" />
+        <KeyWord name="UninstallIcon:arrow-uninstall.ico" />
+        <KeyWord name="UninstallIcon:arrow2-uninstall.ico" />
+        <KeyWord name="UninstallIcon:box-uninstall.ico" />
+        <KeyWord name="UninstallIcon:classic-uninstall.ico" />
+        <KeyWord name="UninstallIcon:llama-blue.ico" />
+        <KeyWord name="UninstallIcon:llama-grey.ico" />
+        <KeyWord name="UninstallIcon:modern-uninstall-blue-full.ico" />
+        <KeyWord name="UninstallIcon:modern-uninstall-blue.ico" />
+        <KeyWord name="UninstallIcon:modern-uninstall-colorful.ico" />
+        <KeyWord name="UninstallIcon:modern-uninstall-full.ico" />
+        <KeyWord name="UninstallIcon:modern-uninstall.ico" />
+        <KeyWord name="UninstallIcon:nsis1-uninstall.ico" />
+        <KeyWord name="UninstallIcon:orange-uninstall-nsis.ico" />
+        <KeyWord name="UninstallIcon:orange-uninstall.ico" />
+        <KeyWord name="UninstallIcon:pixel-uninstall.ico" />
+        <KeyWord name="UninstallIcon:win-uninstall.ico" />
+        <KeyWord name="UninstallSubCaption" />
+        <KeyWord name="UninstallText" />
+        <KeyWord name="UninstPage" />
+        <KeyWord name="UninstPage /ENABLECANCEL" />
+        <KeyWord name="UninstPage components" />
+        <KeyWord name="UninstPage custom" />
+        <KeyWord name="UninstPage custom /ENABLECANCEL" />
+        <KeyWord name="UninstPage directory" />
+        <KeyWord name="UninstPage instfiles" />
+        <KeyWord name="UninstPage license" />
+        <KeyWord name="UninstPage uninstConfirm" />
+        <KeyWord name="UnRegDLL" />
+        <KeyWord name="UnTGZ::extract" />
+        <KeyWord name="UnTGZ::extractFile" />
+        <KeyWord name="UnTGZ::extractV" />
+        <KeyWord name="USERICON" />
+        <KeyWord name="UserInfo::GetAccountType" />
+        <KeyWord name="UserInfo::GetName" />
+        <KeyWord name="UserInfo::GetOriginalAccountType" />
+        <KeyWord name="UserMgr::AddPrivilege" />
+        <KeyWord name="UserMgr::AddToGroup" />
+        <KeyWord name="UserMgr::BuiltAccountEnv" />
+        <KeyWord name="UserMgr::ChangeUserPassword" />
+        <KeyWord name="UserMgr::CreateAccount" />
+        <KeyWord name="UserMgr::CreateAccountEx" />
+        <KeyWord name="UserMgr::CreateGroup" />
+        <KeyWord name="UserMgr::DeleteAccount" />
+        <KeyWord name="UserMgr::DeleteGroup" />
+        <KeyWord name="UserMgr::GetCurrentDomain" />
+        <KeyWord name="UserMgr::GetCurrentUserName" />
+        <KeyWord name="UserMgr::GetLocalizedStdAccountName" />
+        <KeyWord name="UserMgr::GetSIDFromUserName" />
+        <KeyWord name="UserMgr::GetUserInfo" />
+        <KeyWord name="UserMgr::GetUserNameFromSID" />
+        <KeyWord name="UserMgr::HasPrivilege" />
+        <KeyWord name="UserMgr::IsMemberOfGroup" />
+        <KeyWord name="UserMgr::RegUnLoadUserHive" />
+        <KeyWord name="UserMgr::RemoveFromGroup" />
+        <KeyWord name="UserMgr::RemovePrivilege" />
+        <KeyWord name="UserMgr::SetRegKeyAccess" />
+        <KeyWord name="UserMgr::SetUserInfo" />
+        <KeyWord name="Var" />
+        <KeyWord name="Var /GLOBAL" />
+        <KeyWord name="Version::GetWindowsVersion" />
+        <KeyWord name="Version::IsWindows2000" />
+        <KeyWord name="Version::IsWindows2003" />
+        <KeyWord name="Version::IsWindows7" />
+        <KeyWord name="Version::IsWindows8" />
+        <KeyWord name="Version::IsWindows95" />
+        <KeyWord name="Version::IsWindows98" />
+        <KeyWord name="Version::IsWindowsME" />
+        <KeyWord name="Version::IsWindowsNT351" />
+        <KeyWord name="Version::IsWindowsNT40" />
+        <KeyWord name="Version::IsWindowsPlatformNT" />
+        <KeyWord name="Version::IsWindowsServer2008" />
+        <KeyWord name="Version::IsWindowsServer2008R2" />
+        <KeyWord name="Version::IsWindowsServer2012" />
+        <KeyWord name="Version::IsWindowsVista" />
+        <KeyWord name="Version::IsWindowsXP" />
+        <KeyWord name="Version::IsWindowsXPx64" />
+        <KeyWord name="VIAddVersionKey" />
+        <KeyWord name="VIAddVersionKey /LANG Comments" />
+        <KeyWord name="VIAddVersionKey /LANG CompanyName" />
+        <KeyWord name="VIAddVersionKey /LANG FileVersion" />
+        <KeyWord name="VIAddVersionKey /LANG LegalCopyright" />
+        <KeyWord name="VIAddVersionKey /LANG LegalTrademarks" />
+        <KeyWord name="VIAddVersionKey /LANG ProductName" />
+        <KeyWord name="VIAddVersionKey Comments" />
+        <KeyWord name="VIAddVersionKey CompanyName" />
+        <KeyWord name="VIAddVersionKey FileDescription" />
+        <KeyWord name="VIAddVersionKey FileVersion" />
+        <KeyWord name="VIAddVersionKey LegalCopyright" />
+        <KeyWord name="VIAddVersionKey LegalTrademarks" />
+        <KeyWord name="VIAddVersionKey ProductName" />
+        <KeyWord name="VIFileVersion" />
+        <KeyWord name="VIProductVersion" />
+        <KeyWord name="vpatch::vpatchfile" />
+        <KeyWord name="w7tbp::Start" />
+        <KeyWord name="WimImage::AddDir" />
+        <KeyWord name="WimImage::AppendDir" />
+        <KeyWord name="WimImage::Extract" />
+        <KeyWord name="WindowIcon" />
+        <KeyWord name="WindowIcon off" />
+        <KeyWord name="WindowIcon on" />
+        <KeyWord name="WinShell::SetLnkAUMI" />
+        <KeyWord name="WinShell::UninstAppUserModelId" />
+        <KeyWord name="WinShell::UninstShortcut" />
+        <KeyWord name="Wizard\arrow.bmp" />
+        <KeyWord name="Wizard\llama.bmp" />
+        <KeyWord name="Wizard\nsis.bmp" />
+        <KeyWord name="Wizard\nullsoft.bmp" />
+        <KeyWord name="Wizard\orange-nsis.bmp" />
+        <KeyWord name="Wizard\orange-uninstall-nsis.bmp" />
+        <KeyWord name="Wizard\orange-uninstall.bmp" />
+        <KeyWord name="Wizard\orange.bmp" />
+        <KeyWord name="Wizard\win.bmp" />
+        <KeyWord name="WmiInspector::AntiVirus" />
+        <KeyWord name="WmiInspector::CPU" />
+        <KeyWord name="WmiInspector::FireWall" />
+        <KeyWord name="WmiInspector::FullOS" />
+        <KeyWord name="WmiInspector::FullSQLVersion" />
+        <KeyWord name="WmiInspector::OS" />
+        <KeyWord name="WmiInspector::OSVersion" />
+        <KeyWord name="WmiInspector::Request" />
+        <KeyWord name="WmiInspector::Resolution" />
+        <KeyWord name="WmiInspector::ShortUserName" />
+        <KeyWord name="WmiInspector::SQLVersion" />
+        <KeyWord name="WmiInspector::UserName" />
+        <KeyWord name="WmiInspector::UserSID" />
+        <KeyWord name="WriteINIStr" />
+        <KeyWord name="WriteRegBin" />
+        <KeyWord name="WriteRegDWORD" />
+        <KeyWord name="WriteRegExpandStr" />
+        <KeyWord name="WriteRegMultiStr" />
+        <KeyWord name="WriteRegNone" />
+        <KeyWord name="WriteRegStr" />
+        <KeyWord name="WriteUninstaller" />
+        <KeyWord name="XiMoL.nsh" />
+        <KeyWord name="XiMoL_GetAttributeName" />
+        <KeyWord name="XiMoL_GetAttributeValue" />
+        <KeyWord name="XiMoL_GetContent" />
+        <KeyWord name="XiMoL_GetElement" />
+        <KeyWord name="XiMoL_GetElementFromPath" />
+        <KeyWord name="XiMoL_GetElementName" />
+        <KeyWord name="XiMoL_GetErrorMessage" />
+        <KeyWord name="XiMoL_GetLastCall" />
+        <KeyWord name="XiMoL_GetNextElement" />
+        <KeyWord name="XiMoL_GetNumberOfAttributes" />
+        <KeyWord name="XiMoL_GetNumberOfElements" />
+        <KeyWord name="XiMoL_GetTag" />
+        <KeyWord name="XiMoL_IfPathExists" />
+        <KeyWord name="XiMoL_ReadXmlFile" />
+        <KeyWord name="XiMoL_ResetErrorGotoLabel" />
+        <KeyWord name="XiMoL_SetErrorGotoLabel" />
+        <KeyWord name="XML.nsh" />
+        <KeyWord name="xml::CloneNode" />
+        <KeyWord name="xml::Coordinate" />
+        <KeyWord name="xml::CreateNode" />
+        <KeyWord name="xml::CreateText" />
+        <KeyWord name="xml::CurrentAttribute" />
+        <KeyWord name="xml::DeclarationEncoding" />
+        <KeyWord name="xml::DeclarationStandalone" />
+        <KeyWord name="xml::DeclarationVersion" />
+        <KeyWord name="xml::ElementPath" />
+        <KeyWord name="xml::FindCloseElement" />
+        <KeyWord name="xml::FindNextElement" />
+        <KeyWord name="xml::FirstAttribute" />
+        <KeyWord name="xml::FirstChild" />
+        <KeyWord name="xml::FirstChildElement" />
+        <KeyWord name="xml::FreeNode" />
+        <KeyWord name="xml::GetAttribute" />
+        <KeyWord name="xml::GetNodeValue" />
+        <KeyWord name="xml::GetText" />
+        <KeyWord name="xml::GotoHandle" />
+        <KeyWord name="xml::GotoPath" />
+        <KeyWord name="xml::InsertAfterNode" />
+        <KeyWord name="xml::InsertBeforeNode" />
+        <KeyWord name="xml::InsertEndChild" />
+        <KeyWord name="xml::IsCDATA" />
+        <KeyWord name="xml::LastAttribute" />
+        <KeyWord name="xml::LastChild" />
+        <KeyWord name="xml::LoadFile" />
+        <KeyWord name="xml::NextAttribute" />
+        <KeyWord name="xml::NextSibling" />
+        <KeyWord name="xml::NextSiblingElement" />
+        <KeyWord name="xml::NoChildren" />
+        <KeyWord name="xml::NodeHandle" />
+        <KeyWord name="xml::NodeType" />
+        <KeyWord name="xml::Parent" />
+        <KeyWord name="xml::PreviousAttribute" />
+        <KeyWord name="xml::PreviousSibling" />
+        <KeyWord name="xml::RemoveAllChild" />
+        <KeyWord name="xml::RemoveAttribute" />
+        <KeyWord name="xml::RemoveNode" />
+        <KeyWord name="xml::ReplaceNode" />
+        <KeyWord name="xml::RootElement" />
+        <KeyWord name="xml::SaveFile" />
+        <KeyWord name="xml::SetAttribute" />
+        <KeyWord name="xml::SetAttributeName" />
+        <KeyWord name="xml::SetAttributeValue" />
+        <KeyWord name="xml::SetCDATA" />
+        <KeyWord name="xml::SetCondenseWhiteSpace" />
+        <KeyWord name="xml::SetEncoding" />
+        <KeyWord name="xml::SetNodeValue" />
+        <KeyWord name="xml::SetText" />
+        <KeyWord name="xml::Unload" />
+        <KeyWord name="xml::XPathAttribute" />
+        <KeyWord name="xml::XPathNode" />
+        <KeyWord name="xml::XPathString" />
+        <KeyWord name="XPStyle" />
+        <KeyWord name="XPStyle off (default)" />
+        <KeyWord name="XPStyle on" />
+        <KeyWord name="xtInfoPlugin::CompareVersion" />
+        <KeyWord name="xtInfoPlugin::GetDotNetFrameworkId" />
+        <KeyWord name="xtInfoPlugin::GetDotNetFrameworkVersion" />
+        <KeyWord name="xtInfoPlugin::GetInstaller" />
+        <KeyWord name="xtInfoPlugin::GetInstallerFileName" />
+        <KeyWord name="xtInfoPlugin::GetInstallerFullPath" />
+        <KeyWord name="xtInfoPlugin::GetInternetExplorerId" />
+        <KeyWord name="xtInfoPlugin::GetInternetExplorerVersion" />
+        <KeyWord name="xtInfoPlugin::GetLanguage" />
+        <KeyWord name="xtInfoPlugin::GetMDACId" />
+        <KeyWord name="xtInfoPlugin::GetMDACVersion" />
+        <KeyWord name="xtInfoPlugin::GetOLEDBId" />
+        <KeyWord name="xtInfoPlugin::GetOLEDBVersion" />
+        <KeyWord name="xtInfoPlugin::GetWindowsId" />
+        <KeyWord name="xtInfoPlugin::GetWindowsServicePackId" />
+        <KeyWord name="xtInfoPlugin::GetWindowsVersion" />
+        <KeyWord name="xtInfoPlugin::IsAdministrator" />
+        <KeyWord name="xtInfoPlugin::IsDotNetFrameworkInstalled" />
+        <KeyWord name="xtInfoPlugin::IsWindows2000" />
+        <KeyWord name="xtInfoPlugin::IsWindows2003" />
+        <KeyWord name="xtInfoPlugin::IsWindows95" />
+        <KeyWord name="xtInfoPlugin::IsWindows98" />
+        <KeyWord name="xtInfoPlugin::IsWindowsME" />
+        <KeyWord name="xtInfoPlugin::IsWindowsNT3" />
+        <KeyWord name="xtInfoPlugin::IsWindowsNT4" />
+        <KeyWord name="xtInfoPlugin::IsWindowsXP" />
+        <KeyWord name="ZipDLL.nsh" />
+        <KeyWord name="ZipDLL::extractall" />
+        <KeyWord name="ZipDLL::extractfile" />
+    </AutoComplete>
+</NotepadPlus>

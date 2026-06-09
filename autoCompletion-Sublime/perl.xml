@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="perl">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="BAIL_OUT" func="yes">
+            <Overload retVal="" descr="Test::More::BAIL_OUT">
+                <Param name="$why" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="can_ok" func="yes">
+            <Overload retVal="" descr="Test::More::can_ok">
+                <Param name="$module" />
+                <Param name="@methods" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cmp_ok" func="yes">
+            <Overload retVal="" descr="Test::More::cmp_ok">
+                <Param name="$got" />
+                <Param name="'comparison_operator'" />
+                <Param name="$expected" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="diag" func="yes">
+            <Overload retVal="" descr="Test::More::diag">
+                <Param name='"$diagnosis"' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="done_testing" func="yes">
+            <Overload retVal="" descr="Test::More::done_testing">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is" func="yes">
+            <Overload retVal="" descr="Test::More::is">
+                <Param name="$got" />
+                <Param name="$expected" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="is_deeply" func="yes">
+            <Overload retVal="" descr="Test::More::is_deeply">
+                <Param name="$got_complex_structure" />
+                <Param name="$expected_complex_structure" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isa_ok" func="yes">
+            <Overload retVal="" descr="Test::More::isa_ok">
+                <Param name="$object" />
+                <Param name="$class" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="isnt" func="yes">
+            <Overload retVal="" descr="Test::More::isnt">
+                <Param name="$got" />
+                <Param name="$expected" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="like" func="yes">
+            <Overload retVal="" descr="Test::More::like">
+                <Param name="$got" />
+                <Param name="qr/expected/" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ok" func="yes">
+            <Overload retVal="" descr="Test::More::ok">
+                <Param name="$got eq $expected" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="testclass" />
+        <KeyWord name="testmethod" />
+        <KeyWord name="unlike" func="yes">
+            <Overload retVal="" descr="Test::More::unlike">
+                <Param name="$got" />
+                <Param name="qr/expected/" />
+                <Param name="'test_name'" />
+            </Overload>
+        </KeyWord>
+    </AutoComplete>
+</NotepadPlus>

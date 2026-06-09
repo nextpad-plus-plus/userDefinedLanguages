@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <UserLang name="MUMPS" ext="int" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Keywords1">do else for i if</Keywords>
+            <Keywords name="Keywords2">c close e else g goto h halt hang i if j jo k kill l lock m merge n new o open q quit r read reak s set tcommit tro trollback ts tstart u use v view w write x xecute zk zkill zn znspace ztrap zw zwrite zzdump zzwrite</Keywords>
+            <Keywords name="Keywords3"></Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5">ec ecode es estack et etrap h halt horolog i io j jo k key namespace p principal q quit roles s st stack storage sy system t test this throwobj tl tlevel username x y z za zc zchild ze zeof zeos zerror zhorolog zi zio zj zjo zm zmode zn zname znspace zo zorder zp zparent zpi zpos zr zreference zs zstorage zt ztimestamp ztimezone ztrap zts ztz zv zversion</Keywords>
+            <Keywords name="Keywords6">ascii c case char classmethod classname compile d data decimal double e extract f factor find fn fnumber g get i in increment inumber isobject isvaliddouble isvalidnum itcount itfind itlogic j justify l ld length lf lfs lg li list listbuild listdata listfind listfromstring listget listlength listnext listsame listtostring listupdate listvalid ll locate ls lts lu lv match method n na name nc nconvert next normalize now num number o order p parameter piece prefetchoff prefetchon property q ql qlength qsubscript query r random re replace reverse s sc sconvert select seq sequence sortbegin sortend sq st stack t text tr translate v view wa wascii wc wchar we wextract wf wfind wiswide wl wlength wre wreverse xecute zarccos zarcsin zarctan zbitcount zbitfind zbitget zbitlen zbitnot zbitor zbitset zbitstr zbitxor zboolean zc zconvert zcos zcot zcrc zcsc zcvt zcyc zda zdascii zdate zdateh zdatetime zdatetimeh zdc zdchar zdh zdt zdth zexp zf zh zhex zincrement ziswide zla zlascii zlc zlchar zln zlog zname znext zorder zp zposition zpower zprevious zqa zqascii zqc zqchar zse zsearch zsec zseek zsin zsort zsqr zstrip zt ztan zth ztime ztimeh zversion zwa zwascii zwbpack zwbunpack zwc zwchar zwidth zwpack zwunpack zzenkaku</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="00FF00" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00FF00" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8040" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FFFF00" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="00FF80" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF80FF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="80C0FF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FFC000" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="C0C0C0" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="C0C0C0" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FFFFFF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8000" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF8000" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

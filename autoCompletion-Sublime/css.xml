@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="css">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="alb" />
+        <KeyWord name="alh" />
+        <KeyWord name="alv" />
+        <KeyWord name="cen" />
+        <KeyWord name="cf" />
+        <KeyWord name="cg" />
+        <KeyWord name="col" />
+        <KeyWord name="cw" />
+        <KeyWord name="edit" />
+        <KeyWord name="iar" />
+        <KeyWord name="iborderradius" />
+        <KeyWord name="iclearfix" />
+        <KeyWord name="iffm" />
+        <KeyWord name="iffn" />
+        <KeyWord name="iffyg" />
+        <KeyWord name="iffym" />
+        <KeyWord name="ifz" />
+        <KeyWord name="imultilineellipsis" />
+        <KeyWord name="ipc" />
+        <KeyWord name="isp" />
+        <KeyWord name="itransform" />
+        <KeyWord name="itransition" />
+        <KeyWord name="maxscreen" />
+        <KeyWord name="minscreen" />
+        <KeyWord name="sh" />
+        <KeyWord name="span" />
+        <KeyWord name="stack" />
+        <KeyWord name="uncen" />
+        <KeyWord name="uns" />
+        <KeyWord name="unstack" />
+    </AutoComplete>
+</NotepadPlus>

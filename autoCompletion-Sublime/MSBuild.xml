@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="MSBuild">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="&lt;" />
+        <KeyWord name="&gt;" />
+        <KeyWord name="c" />
+    </AutoComplete>
+</NotepadPlus>

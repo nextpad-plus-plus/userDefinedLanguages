@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="Apex">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="//" />
+        <KeyWord name="addMess" />
+        <KeyWord name="ApexPage" />
+        <KeyWord name="asse" />
+        <KeyWord name="assert" />
+        <KeyWord name="assne" />
+        <KeyWord name="Batch" />
+        <KeyWord name="class" />
+        <KeyWord name="classHeader" />
+        <KeyWord name="const" />
+        <KeyWord name="datasaveresult" />
+        <KeyWord name="debug" />
+        <KeyWord name="debugerr" />
+        <KeyWord name="dynSoql" />
+        <KeyWord name="else" />
+        <KeyWord name="elseif" func="yes">
+            <Overload retVal="" descr="Else If clause">
+                <Param name="Condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="for" func="yes">
+            <Overload retVal="" descr="Weave Apex ForLoop">
+                <Param name="SObject obj : sObjList" />
+            </Overload>
+            <Overload retVal="" descr="Traditional FOR loop">
+                <Param name="Integer i = 0; i &lt; sObjectList.size(); i++" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="foreeach" func="yes">
+            <Overload retVal="" descr="Iterator-based FOR loop">
+                <Param name="sObject sObj: sObjList" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="forMapKeys" func="yes">
+            <Overload retVal="" descr="Weave For Loop for Map Keys">
+                <Param name="String key:$Map.keySet()" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="forMapValues" func="yes">
+            <Overload retVal="" descr="Weave Loop in Map on Values">
+                <Param name="String key:$Map.keySet()" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="forQuery" func="yes">
+            <Overload retVal="" descr="Weave For Loop with SOQL query">
+                <Param name="sObject obj : [SELECT fields FROM sObject WHERE condition]" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="getParameter" />
+        <KeyWord name="if" func="yes">
+            <Overload retVal="" descr="Simple IF Condition">
+                <Param name="condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ifelse" func="yes">
+            <Overload retVal="" descr="Simple IF ELSE Condition">
+                <Param name="condition" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ifIsBlank" func="yes">
+            <Overload retVal="" descr="IF Condition with String isBlank">
+                <Param name="String.isBlank(str)" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ifIsNotBlank" func="yes">
+            <Overload retVal="" descr="IF Condition with String isNotBlank">
+                <Param name="String.isNotBlank(str)" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="interface" />
+        <KeyWord name="isBlank" />
+        <KeyWord name="isNotBlank" />
+        <KeyWord name="jsonDeserialize" />
+        <KeyWord name="jsonDeserializeStrict" />
+        <KeyWord name="jsonDeserializeUntyped" />
+        <KeyWord name="jsonSerialize" />
+        <KeyWord name="List" />
+        <KeyWord name="Map" />
+        <KeyWord name="methodHeader" />
+        <KeyWord name="newArr" />
+        <KeyWord name="newList" />
+        <KeyWord name="newMap" />
+        <KeyWord name="newObj" />
+        <KeyWord name="newSet" />
+        <KeyWord name="pm" />
+        <KeyWord name="prop" />
+        <KeyWord name="psm" />
+        <KeyWord name="Queue" />
+        <KeyWord name="Remote Insert" />
+        <KeyWord name="Rest" />
+        <KeyWord name="Set" />
+        <KeyWord name="Singleton" />
+        <KeyWord name="SOQL" />
+        <KeyWord name="soql" />
+        <KeyWord name="SOQLDynamic" />
+        <KeyWord name="soqlList" />
+        <KeyWord name="soqlMap" />
+        <KeyWord name="sp" />
+        <KeyWord name="testClass" />
+        <KeyWord name="throw" />
+        <KeyWord name="Trigger" />
+        <KeyWord name="TriggerHandler" />
+        <KeyWord name="trycatch" />
+        <KeyWord name="trycatchSavepoint" />
+        <KeyWord name="while" func="yes">
+            <Overload retVal="" descr="While Loop">
+                <Param name="Condition" />
+            </Overload>
+        </KeyWord>
+    </AutoComplete>
+</NotepadPlus>

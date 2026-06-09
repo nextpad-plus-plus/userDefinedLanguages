@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="TSL">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="combine" />
+        <KeyWord name="count" />
+        <KeyWord name="find" />
+        <KeyWord name="for" />
+        <KeyWord name="in" />
+        <KeyWord name="rev" />
+        <KeyWord name="reverse" />
+        <KeyWord name="run" />
+        <KeyWord name="select" />
+        <KeyWord name="sort" />
+        <KeyWord name="take" />
+        <KeyWord name="unique" />
+    </AutoComplete>
+</NotepadPlus>

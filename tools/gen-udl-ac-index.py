@@ -10,10 +10,13 @@ a flat list of per-language entries with a 1:N autoComplete[] array.
 Run from anywhere:  python3 tools/gen-udl-ac-index.py
 Writes:             <repo>/udl-ac-index.json
 """
-import json, os, sys, hashlib, datetime
+import json, os, sys, hashlib, datetime, glob, re
 import xml.etree.ElementTree as ET
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root (tools/..)
+
+def sanitize_id(s):
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", s).strip("_") or "x"
 
 def sha256_and_size(abspath):
     h = hashlib.sha256()
@@ -52,6 +55,55 @@ def userlang_name(udl_rel):
     except Exception:
         return None
     return None
+
+def append_sublime_entries(langs):
+    """Scan UDLs-Sublime/ + autoCompletion-Sublime/ → source:'sublime' entries.
+    A Sublime UDL gets an entry (with its matching AC attached); an AC with no
+    Sublime UDL of the same language becomes an AC-only entry (it targets a
+    built-in or community language)."""
+    udl_by_lang = {}
+    for f in sorted(glob.glob(os.path.join(REPO, "UDLs-Sublime", "*.xml"))):
+        rel = os.path.relpath(f, REPO)
+        try:
+            ul = ET.parse(f).getroot().find("UserLang")
+            name = ul.get("name") if ul is not None else None
+        except Exception:
+            name = None
+        if name:
+            udl_by_lang.setdefault(name.lower(), (name, rel))
+    ac_by_lang = {}
+    for f in sorted(glob.glob(os.path.join(REPO, "autoCompletion-Sublime", "*.xml"))):
+        rel = os.path.relpath(f, REPO)
+        lang = os.path.splitext(os.path.basename(f))[0]
+        ac_by_lang.setdefault(lang.lower(), (lang, rel))
+
+    used_ac, added = set(), 0
+    for lc, (name, rel) in sorted(udl_by_lang.items()):
+        ac_list = []
+        if lc in ac_by_lang:
+            a = file_asset(ac_by_lang[lc][1])
+            if a:
+                a.update({"author": "", "source": "sublime"}); ac_list.append(a); used_ac.add(lc)
+        langs.append({
+            "id": "sublime_" + sanitize_id(name), "language": name, "displayName": name,
+            "source": "sublime", "author": "", "description": "Imported from Sublime Text (best-effort UDL).",
+            "version": "", "udl": file_asset(rel), "autoComplete": ac_list,
+            "sample": None, "functionList": None,
+        }); added += 1
+    for lc, (lang, rel) in sorted(ac_by_lang.items()):
+        if lc in used_ac:
+            continue
+        a = file_asset(rel)
+        if not a:
+            continue
+        a.update({"author": "", "source": "sublime"})
+        langs.append({
+            "id": "sublime_ac_" + sanitize_id(lang), "language": lang, "displayName": lang,
+            "source": "sublime", "author": "", "description": "Autocompletion imported from Sublime Text.",
+            "version": "", "udl": None, "autoComplete": [a],
+            "sample": None, "functionList": None,
+        }); added += 1
+    return added
 
 def main():
     src = json.load(open(os.path.join(REPO, "udl-list.json"), encoding="utf-8"))
@@ -127,6 +179,8 @@ def main():
             "functionList": fl,
         })
 
+    n_sublime = append_sublime_entries(langs)
+
     langs.sort(key=lambda x: (x["language"].lower(), x["id"].lower()))
     index = {
         "name": "nextpad-udl-ac-index",
@@ -142,8 +196,9 @@ def main():
 
     with_udl = sum(1 for l in langs if l["udl"])
     with_ac  = sum(1 for l in langs if l["autoComplete"])
+    n_sub = sum(1 for l in langs if l["source"] == "sublime")
     print(f"wrote {out}")
-    print(f"  {len(langs)} languages | {with_udl} with UDL | {with_ac} with AC | {len(warnings)} warnings")
+    print(f"  {len(langs)} languages | {with_udl} with UDL | {with_ac} with AC | {n_sub} sublime | {len(warnings)} warnings")
     for w in warnings[:15]:
         print("  ! " + w)
     if len(warnings) > 15:

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="Sass">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="$border-box-sizing" />
+        <KeyWord name="$column" />
+        <KeyWord name="$default-feature" />
+        <KeyWord name="$default-layout-direction" />
+        <KeyWord name="$disable-warnings" />
+        <KeyWord name="$grid-columns" />
+        <KeyWord name="$gutter" />
+        <KeyWord name="$max-width" />
+        <KeyWord name="$visual-grid" />
+        <KeyWord name="$visual-grid-color" />
+        <KeyWord name="$visual-grid-index" />
+        <KeyWord name="$visual-grid-opacity" />
+        <KeyWord name="align-content" />
+        <KeyWord name="align-items" />
+        <KeyWord name="align-self" />
+        <KeyWord name="all-buttons" />
+        <KeyWord name="all-buttons-active" />
+        <KeyWord name="all-buttons-focus-hover" />
+        <KeyWord name="all-text-inputs" />
+        <KeyWord name="all-text-inputs-focus" />
+        <KeyWord name="all-text-inputs-hover" />
+        <KeyWord name="animation" />
+        <KeyWord name="animation-delay" />
+        <KeyWord name="animation-direction" />
+        <KeyWord name="animation-duration" />
+        <KeyWord name="animation-fill-mode" />
+        <KeyWord name="animation-iteration-count" />
+        <KeyWord name="animation-name" />
+        <KeyWord name="animation-play-state" />
+        <KeyWord name="animation-timing-function" />
+        <KeyWord name="appearance" />
+        <KeyWord name="backface-visibility" />
+        <KeyWord name="background" />
+        <KeyWord name="background-image" />
+        <KeyWord name="border-bottom-radius" />
+        <KeyWord name="border-color" />
+        <KeyWord name="border-image" />
+        <KeyWord name="border-left-radius" />
+        <KeyWord name="border-right-radius" />
+        <KeyWord name="border-style" />
+        <KeyWord name="border-top-radius" />
+        <KeyWord name="border-width" />
+        <KeyWord name="box" />
+        <KeyWord name="box-align" />
+        <KeyWord name="box-direction" />
+        <KeyWord name="box-flex" />
+        <KeyWord name="box-flex-group" />
+        <KeyWord name="box-lines" />
+        <KeyWord name="box-ordinal-group" />
+        <KeyWord name="box-orient" />
+        <KeyWord name="box-pack" />
+        <KeyWord name="box-sizing" />
+        <KeyWord name="calc" />
+        <KeyWord name="clearfix" />
+        <KeyWord name="column-count" />
+        <KeyWord name="column-fill" />
+        <KeyWord name="column-gap" />
+        <KeyWord name="column-rule" />
+        <KeyWord name="column-rule-color" />
+        <KeyWord name="column-rule-style" />
+        <KeyWord name="column-rule-width" />
+        <KeyWord name="column-span" />
+        <KeyWord name="column-width" />
+        <KeyWord name="columns" />
+        <KeyWord name="compact" func="yes">
+            <Overload retVal="">
+                <Param name="$name-1, $name-2, $name-3, $name-4, $name-5, $name-6, $name-7, $name-8, $name-9, $name-10" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="direction-context" />
+        <KeyWord name="directional-property" />
+        <KeyWord name="display" />
+        <KeyWord name="display-box" />
+        <KeyWord name="display-context" />
+        <KeyWord name="ellipsis" />
+        <KeyWord name="fg-column" />
+        <KeyWord name="fg-gutter" />
+        <KeyWord name="fg-max-columns" />
+        <KeyWord name="fill-parent" />
+        <KeyWord name="filter" />
+        <KeyWord name="flex" />
+        <KeyWord name="flex-basis" />
+        <KeyWord name="flex-direction" />
+        <KeyWord name="flex-flow" />
+        <KeyWord name="flex-grow" />
+        <KeyWord name="flex-gutter" func="yes">
+            <Overload retVal="">
+                <Param name="4" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="flex-shrink" />
+        <KeyWord name="flex-wrap" />
+        <KeyWord name="font-face" />
+        <KeyWord name="font-feature-settings" />
+        <KeyWord name="georgia" />
+        <KeyWord name="gw-column" />
+        <KeyWord name="gw-gutter" />
+        <KeyWord name="helvetica" />
+        <KeyWord name="hide-text" />
+        <KeyWord name="hidpi" />
+        <KeyWord name="hyphens" />
+        <KeyWord name="image-rendering" />
+        <KeyWord name="justify-content" />
+        <KeyWord name="keyframes" />
+        <KeyWord name="linear-gradient" />
+        <KeyWord name="lucida-grande" />
+        <KeyWord name="margin" />
+        <KeyWord name="media-query" />
+        <KeyWord name="modular-scale" func="yes">
+            <Overload retVal="">
+                <Param name="14px" />
+                <Param name="1" />
+                <Param name="1.618" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="modular-scale-abs" func="yes">
+            <Overload retVal="">
+                <Param name="modular-scale( 14px, 1, 1.618 )" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="modular-scale-ceil" func="yes">
+            <Overload retVal="">
+                <Param name="modular-scale( 14px, 1, 1.618 )" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="modular-scale-floor" func="yes">
+            <Overload retVal="">
+                <Param name="modular-scale( 14px, 1, 1.618 )" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="monospace" />
+        <KeyWord name="omega" />
+        <KeyWord name="order" />
+        <KeyWord name="outer-container" />
+        <KeyWord name="pad" />
+        <KeyWord name="padding" />
+        <KeyWord name="perspective" />
+        <KeyWord name="perspective-origin" />
+        <KeyWord name="pixels-to-ems" func="yes">
+            <Overload retVal="">
+                <Param name="12" />
+                <Param name="24" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="pixels-to-rems" func="yes">
+            <Overload retVal="">
+                <Param name="12" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="placeholder" />
+        <KeyWord name="position" />
+        <KeyWord name="prefix-for-microsoft" />
+        <KeyWord name="prefix-for-mozilla" />
+        <KeyWord name="prefix-for-opera" />
+        <KeyWord name="prefix-for-spec" />
+        <KeyWord name="prefix-for-webkit" />
+        <KeyWord name="prefixer" />
+        <KeyWord name="radial-gradient" />
+        <KeyWord name="retina" />
+        <KeyWord name="row" />
+        <KeyWord name="selection" />
+        <KeyWord name="shade" func="yes">
+            <Overload retVal="">
+                <Param name="blue" />
+                <Param name="60%" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="shift" />
+        <KeyWord name="shift-in-context" />
+        <KeyWord name="size" />
+        <KeyWord name="span-columns" />
+        <KeyWord name="strip-units" func="yes">
+            <Overload retVal="">
+                <Param name="12px" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="text-decoration" />
+        <KeyWord name="text-decoration-color" />
+        <KeyWord name="text-decoration-line" />
+        <KeyWord name="text-decoration-style" />
+        <KeyWord name="tint" func="yes">
+            <Overload retVal="">
+                <Param name="red" />
+                <Param name="40%" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="transform" />
+        <KeyWord name="transform-origin" />
+        <KeyWord name="transform-style" />
+        <KeyWord name="transition" />
+        <KeyWord name="transition-delay" />
+        <KeyWord name="transition-duration" />
+        <KeyWord name="transition-property" />
+        <KeyWord name="transition-timing-function" />
+        <KeyWord name="triangle" />
+        <KeyWord name="unpack" func="yes">
+            <Overload retVal="">
+                <Param name="1em 2em" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="user-select" />
+        <KeyWord name="verdana" />
+        <KeyWord name="word-wrap" />
+    </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <AutoComplete language="coffeescript">
+        <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar="" />
+        <KeyWord name="_after" />
+        <KeyWord name="_bind" />
+        <KeyWord name="_bindAll" />
+        <KeyWord name="_chain" />
+        <KeyWord name="_clone" />
+        <KeyWord name="_compact" />
+        <KeyWord name="_compose" />
+        <KeyWord name="_contains" />
+        <KeyWord name="_countBy" />
+        <KeyWord name="_debounce" />
+        <KeyWord name="_defaults" />
+        <KeyWord name="_defer" />
+        <KeyWord name="_delay" />
+        <KeyWord name="_difference" />
+        <KeyWord name="_each" />
+        <KeyWord name="_escape" />
+        <KeyWord name="_every" />
+        <KeyWord name="_extend" />
+        <KeyWord name="_filter" />
+        <KeyWord name="_find" />
+        <KeyWord name="_findWhere" />
+        <KeyWord name="_first" />
+        <KeyWord name="_flatten" />
+        <KeyWord name="_functions" />
+        <KeyWord name="_groupBy" />
+        <KeyWord name="_has" />
+        <KeyWord name="_identity" />
+        <KeyWord name="_immediate" />
+        <KeyWord name="_indexBy" />
+        <KeyWord name="_indexOf" />
+        <KeyWord name="_initial" />
+        <KeyWord name="_intersection" />
+        <KeyWord name="_invert" />
+        <KeyWord name="_invoke" />
+        <KeyWord name="_isArguments" />
+        <KeyWord name="_isArray" />
+        <KeyWord name="_isBoolean" />
+        <KeyWord name="_isDate" />
+        <KeyWord name="_isElement" />
+        <KeyWord name="_isEmpty" />
+        <KeyWord name="_isEqual" />
+        <KeyWord name="_isFinite" />
+        <KeyWord name="_isFunction" />
+        <KeyWord name="_isNaN" />
+        <KeyWord name="_isNull" />
+        <KeyWord name="_isNumber" />
+        <KeyWord name="_isObject" />
+        <KeyWord name="_isRegExp" />
+        <KeyWord name="_isString" />
+        <KeyWord name="_isUndefined" />
+        <KeyWord name="_keys" />
+        <KeyWord name="_last" />
+        <KeyWord name="_lastIndexOf" />
+        <KeyWord name="_map" />
+        <KeyWord name="_max" />
+        <KeyWord name="_memoize" />
+        <KeyWord name="_min" />
+        <KeyWord name="_mixin" />
+        <KeyWord name="_noConflict" func="yes">
+            <Overload retVal="" descr="Underscore.js noConflict">
+            </Overload>
+        </KeyWord>
+        <KeyWord name="_object" />
+        <KeyWord name="_omit" />
+        <KeyWord name="_once" />
+        <KeyWord name="_pairs" />
+        <KeyWord name="_partial" />
+        <KeyWord name="_pick" />
+        <KeyWord name="_pluck" />
+        <KeyWord name="_random" />
+        <KeyWord name="_range" />
+        <KeyWord name="_reduce" />
+        <KeyWord name="_reduceRight" />
+        <KeyWord name="_reject" />
+        <KeyWord name="_rest" />
+        <KeyWord name="_result" />
+        <KeyWord name="_sample" />
+        <KeyWord name="_shuffle" />
+        <KeyWord name="_size" />
+        <KeyWord name="_some" />
+        <KeyWord name="_sortBy" />
+        <KeyWord name="_sortedIndex" />
+        <KeyWord name="_tap" />
+        <KeyWord name="_template" />
+        <KeyWord name="_throttle" />
+        <KeyWord name="_times" />
+        <KeyWord name="_toArray" />
+        <KeyWord name="_unescape" />
+        <KeyWord name="_union" />
+        <KeyWord name="_uniq" />
+        <KeyWord name="_uniqueId" />
+        <KeyWord name="_value" func="yes">
+            <Overload retVal="" descr="Underscore.js value">
+                <Param name="object" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="_values" />
+        <KeyWord name="_where" />
+        <KeyWord name="_without" />
+        <KeyWord name="_wrap" />
+        <KeyWord name="_zip" />
+    </AutoComplete>
+</NotepadPlus>

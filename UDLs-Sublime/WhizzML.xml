@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <UserLang name="WhizzML" ext="whizzml" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Delimiters">00" 01\ 02" 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Keywords1">catch cond handle if iterate let loop raise reak recur try</Keywords>
+            <Keywords name="Keywords2">list map str</Keywords>
+            <Keywords name="Keywords3"></Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5">false true</Keywords>
+            <Keywords name="Keywords6">abort abs acos and append apply asin assoc assoc-in atan categorical-field ceil chi-squared-test compare-objects concat cons contains contains-string cos cosh count create create-and-wait create-and-wait-anomaly create-and-wait-anomalyscore create-and-wait-association create-and-wait-associationset create-and-wait-batchanomalyscore create-and-wait-batchcentroid create-and-wait-batchprediction create-and-wait-batchprojection create-and-wait-batchtopicdistribution create-and-wait-centroid create-and-wait-cluster create-and-wait-composite create-and-wait-configuration create-and-wait-correlation create-and-wait-dataset create-and-wait-deepnet create-and-wait-ensemble create-and-wait-evaluation create-and-wait-execution create-and-wait-forecast create-and-wait-fusion create-and-wait-library create-and-wait-logisticregression create-and-wait-model create-and-wait-optiml create-and-wait-pca create-and-wait-prediction create-and-wait-project create-and-wait-projection create-and-wait-sample create-and-wait-script create-and-wait-source create-and-wait-statisticaltest create-and-wait-timeseries create-and-wait-topicdistribution create-and-wait-topicmodel create-anomaly create-anomalyscore create-association create-associationset create-batchanomalyscore create-batchcentroid create-batchprediction create-batchprojection create-batchtopicdistribution create-centroid create-cluster create-composite create-configuration create-correlation create-dataset create-dataset-split create-deepnet create-ensemble create-evaluation create-execution create-forecast create-fusion create-library create-logisticregression create-model create-optiml create-pca create-prediction create-project create-projection create-random-dataset-split create-rng create-sample create-script create-source create-statisticaltest create-timeseries create-topicdistribution create-topicmodel created-resources current-time dataset-choose-objective-id dataset-get-objective-id datetime-field define delete dissoc dissoc-in div drop empty even every exp fetch field field-categories field-distribution field-items field-optypes field-terms filter find-field flatline flatline-listify flatline-splice flatline-str flatline-str-splice floor for gamma get get-in handle head identity insert integer items-field iterate join json-str keys lambda last levenshtein list list-anomalies list-anomalyscores list-associations list-associationsets list-batchanomalyscores list-batchcentroids list-batchpredictions list-batchprojections list-batchtopicdistributions list-centroids list-clusters list-composites list-configurations list-correlations list-datasets list-deepnets list-ensembles list-evaluations list-executions list-forecasts list-fusions list-libraries list-logisticregressions list-models list-optimls list-pcas list-predictions list-projections list-projects list-samples list-scripts list-sources list-statisticaltests list-timeseries list-topicdistributions list-topicmodels ln log log-debug log-error log-info log-level log-progress log-warn log10 log2 logged-progress make-map map matches max max-key md5 mean member merge min min-key negative nil not nth number numeric-field odd oolean or parse-resource-id positive pow ppr-str pr-str pretty-whizzml procedure prog raise rand rand-int rand-range range re-quote real reduce regexp rem repeat repeatedly replace replace-first replace-first-string replace-string resource-done resource-fields resource-id resource-ids resource-type resource-workflow resources reverse round row-distance row-distance-squared scriptify select-keys set-log-level set-rng-seed sha1 sha256 sin sinh smacdown--actual smacdown--aggregate-predictions smacdown--candidates smacdown--do-iteration smacdown--evaluate smacdown--expected smacdown--get-id smacdown--make-ensemble smacdown--p-improvement smacdown--predictions smacdown--project smacdown--schedule smacdown--trees-in-ensemble smacdown-optimize some sort sort-by-key sqrt stdev str string subs tail take tan tanh text-field to-degrees to-radians update update-and-wait utlast values variance version version-major version-micro version-minor wait wait-forever when with-time-log zero</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="00FF00" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00FF00" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8040" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FFFF00" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="00FF80" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF80FF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="80C0FF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FFC000" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="C0C0C0" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="C0C0C0" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FFFFFF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8000" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF8000" bgColor="2E2E2E" colorStyle="1" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
