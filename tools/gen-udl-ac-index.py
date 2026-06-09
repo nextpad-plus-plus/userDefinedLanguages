@@ -33,6 +33,28 @@ def file_asset(rel):
     digest, size = sha256_and_size(ap)
     return {"file": rel.replace(os.sep, "/"), "sha256": digest, "bytes": size}
 
+def ac_entry_count(rel):
+    """Number of <KeyWord> entries in an AC file (0 on failure)."""
+    try:
+        n = 0
+        for _ev, el in ET.iterparse(os.path.join(REPO, rel), events=("start",)):
+            if el.tag.split("}")[-1] == "KeyWord":
+                n += 1
+        return n
+    except Exception:
+        return 0
+
+def ac_asset(rel, source, author=""):
+    """An AC asset dict {file, sha256, bytes, entries, source[, author]} or None."""
+    a = file_asset(rel)
+    if not a:
+        return None
+    a["entries"] = ac_entry_count(rel)
+    a["source"] = source
+    if author:
+        a["author"] = author
+    return a
+
 def find_in_dir(folder, stem):
     """Resolve '<folder>/<stem>.xml' case-insensitively; return repo-relative path or None."""
     exact = os.path.join(folder, stem + ".xml")
@@ -56,12 +78,17 @@ def userlang_name(udl_rel):
         return None
     return None
 
-def append_sublime_entries(langs):
-    """Scan UDLs-Sublime/ + autoCompletion-Sublime/ → source:'sublime' entries.
-    A Sublime UDL gets an entry (with its matching AC attached); an AC with no
-    Sublime UDL of the same language becomes an AC-only entry (it targets a
-    built-in or community language)."""
-    udl_by_lang = {}
+def merge_sublime(langs):
+    """Unify by language: merge Sublime AC/UDL into the existing (Notepad++)
+    entry of the same language so a language aggregates ALL its AC sources on one
+    row. A Sublime UDL for a language Notepad++ already covers is dropped (the
+    Notepad++ UDL wins) but its AC is still added. Sublime-only languages become
+    new entries."""
+    by_lang = {}
+    for e in langs:                                          # Notepad++ entries first → they win the UDL
+        by_lang.setdefault(e["language"].lower(), e)
+
+    udl_subl = {}
     for f in sorted(glob.glob(os.path.join(REPO, "UDLs-Sublime", "*.xml"))):
         rel = os.path.relpath(f, REPO)
         try:
@@ -70,40 +97,82 @@ def append_sublime_entries(langs):
         except Exception:
             name = None
         if name:
-            udl_by_lang.setdefault(name.lower(), (name, rel))
-    ac_by_lang = {}
+            udl_subl.setdefault(name.lower(), (name, rel))
+    ac_subl = {}
     for f in sorted(glob.glob(os.path.join(REPO, "autoCompletion-Sublime", "*.xml"))):
         rel = os.path.relpath(f, REPO)
         lang = os.path.splitext(os.path.basename(f))[0]
-        ac_by_lang.setdefault(lang.lower(), (lang, rel))
+        ac_subl.setdefault(lang.lower(), (lang, rel))
 
-    used_ac, added = set(), 0
-    for lc, (name, rel) in sorted(udl_by_lang.items()):
-        ac_list = []
-        if lc in ac_by_lang:
-            a = file_asset(ac_by_lang[lc][1])
-            if a:
-                a.update({"author": "", "source": "sublime"}); ac_list.append(a); used_ac.add(lc)
-        langs.append({
-            "id": "sublime_" + sanitize_id(name), "language": name, "displayName": name,
-            "source": "sublime", "author": "", "description": "Imported from Sublime Text (best-effort UDL).",
-            "version": "", "udl": file_asset(rel), "autoComplete": ac_list,
-            "sample": None, "functionList": None,
-        }); added += 1
-    for lc, (lang, rel) in sorted(ac_by_lang.items()):
-        if lc in used_ac:
+    handled_ac, new_langs = set(), 0
+    for lc, (name, rel) in sorted(udl_subl.items()):
+        sub_ac = ac_asset(ac_subl[lc][1], "sublime") if lc in ac_subl else None
+        if lc in by_lang:                                   # language already exists → add Sublime AC, drop dup UDL
+            if sub_ac:
+                by_lang[lc]["autoComplete"].append(sub_ac); handled_ac.add(lc)
+        else:                                               # new Sublime-only language
+            entry = {
+                "id": "sublime_" + sanitize_id(name), "language": name, "displayName": name,
+                "source": "sublime", "author": "", "description": "Imported from Sublime Text (best-effort UDL).",
+                "version": "", "udl": file_asset(rel),
+                "autoComplete": [sub_ac] if sub_ac else [], "sample": None, "functionList": None,
+            }
+            if sub_ac:
+                handled_ac.add(lc)
+            langs.append(entry); by_lang[lc] = entry; new_langs += 1
+    for lc, (lang, rel) in sorted(ac_subl.items()):
+        if lc in handled_ac:
             continue
-        a = file_asset(rel)
+        a = ac_asset(rel, "sublime")
         if not a:
             continue
-        a.update({"author": "", "source": "sublime"})
-        langs.append({
-            "id": "sublime_ac_" + sanitize_id(lang), "language": lang, "displayName": lang,
-            "source": "sublime", "author": "", "description": "Autocompletion imported from Sublime Text.",
-            "version": "", "udl": None, "autoComplete": [a],
-            "sample": None, "functionList": None,
-        }); added += 1
-    return added
+        if lc in by_lang:                                   # enhance a Notepad++/built-in language
+            by_lang[lc]["autoComplete"].append(a)
+        else:                                               # AC-only entry (e.g. built-in language)
+            langs.append({
+                "id": "sublime_ac_" + sanitize_id(lang), "language": lang, "displayName": lang,
+                "source": "sublime", "author": "", "description": "Autocompletion imported from Sublime Text.",
+                "version": "", "udl": None, "autoComplete": [a], "sample": None, "functionList": None,
+            })
+            new_langs += 1
+    return new_langs
+
+STOCK_LANG = {"javascript": "javascript.js", "coffee": "coffeescript", "baanc": "baanc"}
+STOCK_CAPTION = {
+    "actionscript": "ActionScript", "autoit": "AutoIt", "baanc": "BaanC", "batch": "Batch",
+    "c": "C", "cmake": "CMake", "cobol": "COBOL", "coffeescript": "CoffeeScript", "cpp": "C++",
+    "cs": "C#", "css": "CSS", "gdscript": "GDScript", "go": "Go", "html": "HTML", "java": "Java",
+    "javascript.js": "JavaScript", "lisp": "Lisp", "lua": "Lua", "nsis": "NSIS", "perl": "Perl",
+    "php": "PHP", "powershell": "PowerShell", "python": "Python", "raku": "Raku",
+    "rc": "Resource file", "rust": "Rust", "sas": "SAS", "sql": "SQL", "tex": "TeX",
+    "typescript": "TypeScript", "vb": "Visual Basic", "vhdl": "VHDL", "xml": "XML",
+}
+
+def add_stock_acs(langs):
+    """Augment EXISTING entries with the bundled stock built-in AC as a
+    builtin:true 'notepad++' source (so e.g. java shows Notepad++ + Sublime).
+    Never creates rows for built-ins that have nothing installable."""
+    by_lang = {}
+    for e in langs:
+        by_lang.setdefault(e["language"].lower(), e)
+    n = 0
+    for f in sorted(glob.glob(os.path.join(REPO, "autoCompletion-stock", "*.xml"))):
+        stem = os.path.splitext(os.path.basename(f))[0]
+        lc = STOCK_LANG.get(stem.lower(), stem.lower()).lower()
+        if lc not in by_lang:
+            continue                                        # nothing installable for this built-in → skip
+        a = ac_asset(os.path.relpath(f, REPO), "notepad++")
+        if not a:
+            continue
+        a["builtin"] = True                                 # bundled → shown but not downloaded on install
+        e = by_lang[lc]
+        e["autoComplete"].insert(0, a)                      # Notepad++ base first
+        if not e["udl"]:                                    # a built-in language row
+            e["source"] = "notepad++"
+            if lc in STOCK_CAPTION:
+                e["displayName"] = STOCK_CAPTION[lc]
+        n += 1
+    return n
 
 def main():
     src = json.load(open(os.path.join(REPO, "udl-list.json"), encoding="utf-8"))
@@ -138,16 +207,13 @@ def main():
             acv = idname                         # 'true' → same stem as the UDL id
         if isinstance(acv, str) and acv:
             if acv.startswith("http"):
-                ac_list.append({"url": acv,
-                                "author": e.get("autoCompletionAuthor", ""),
-                                "source": "community"})
+                ac_list.append({"url": acv, "source": "notepad++"})
             else:
                 ac_rel = find_in_dir("autoCompletion", acv)
                 if ac_rel:
-                    asset = file_asset(ac_rel)
-                    asset.update({"author": e.get("autoCompletionAuthor", ""),
-                                  "source": "community"})
-                    ac_list.append(asset)
+                    asset = ac_asset(ac_rel, "notepad++")
+                    if asset:
+                        ac_list.append(asset)
                 else:
                     warnings.append(f"{idname}: autoCompletion '{acv}' has no file")
 
@@ -169,7 +235,7 @@ def main():
             "id":          idname,
             "language":    language,
             "displayName": display,
-            "source":      "community",
+            "source":      "notepad++",
             "author":      e.get("author", ""),
             "description": e.get("description", ""),
             "version":     e.get("version", ""),
@@ -179,7 +245,8 @@ def main():
             "functionList": fl,
         })
 
-    n_sublime = append_sublime_entries(langs)
+    merge_sublime(langs)
+    add_stock_acs(langs)
 
     langs.sort(key=lambda x: (x["language"].lower(), x["id"].lower()))
     index = {
